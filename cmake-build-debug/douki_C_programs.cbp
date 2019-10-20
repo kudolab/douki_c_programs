@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_C_programs/umasig"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -64,6 +66,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_C_programs/umasig"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -82,15 +86,6 @@
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/2chplay2.c">
-			<Option target="douki_C_programs"/>
-		</Unit>
-		<Unit filename="/Users/tetsu/dev/douki_C_programs/FC_deviation.c">
-			<Option target="douki_C_programs"/>
-		</Unit>
-		<Unit filename="/Users/tetsu/dev/douki_C_programs/FC_deviation_alter.c">
-			<Option target="douki_C_programs"/>
-		</Unit>
-		<Unit filename="/Users/tetsu/dev/douki_C_programs/FFT_ho.c">
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/FileLib_osx.c">
@@ -150,10 +145,19 @@
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/fatchdb.c">
 			<Option target="douki_C_programs"/>
 		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/fc_deviation.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/fc_deviation_alter.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/fff.c">
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/fft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/fft_ho.c">
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/fftout2.c">
@@ -241,6 +245,42 @@
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/timeconvo.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/c_vector.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/complex.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/conv.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/fft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/fftfilt.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/plot.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/random.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/speech.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/umasig.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/utils.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/vector.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/window.c">
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/zeropad_anyfile.c">

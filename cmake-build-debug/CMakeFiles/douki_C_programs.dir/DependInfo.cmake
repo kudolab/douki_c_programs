@@ -6,9 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/tetsu/dev/douki_C_programs/2chplay.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/2chplay.c.o"
   "/Users/tetsu/dev/douki_C_programs/2chplay2.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/2chplay2.c.o"
-  "/Users/tetsu/dev/douki_C_programs/FC_deviation.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/FC_deviation.c.o"
-  "/Users/tetsu/dev/douki_C_programs/FC_deviation_alter.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.o"
-  "/Users/tetsu/dev/douki_C_programs/FFT_ho.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/FFT_ho.c.o"
   "/Users/tetsu/dev/douki_C_programs/FileLib_osx.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/FileLib_osx.c.o"
   "/Users/tetsu/dev/douki_C_programs/IMPmcode.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/IMPmcode.c.o"
   "/Users/tetsu/dev/douki_C_programs/LE_1.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/LE_1.c.o"
@@ -28,8 +25,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/tetsu/dev/douki_C_programs/equ_schroeder4.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.o"
   "/Users/tetsu/dev/douki_C_programs/equ_schroeder5.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.o"
   "/Users/tetsu/dev/douki_C_programs/fatchdb.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/fatchdb.c.o"
+  "/Users/tetsu/dev/douki_C_programs/fc_deviation.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/fc_deviation.c.o"
+  "/Users/tetsu/dev/douki_C_programs/fc_deviation_alter.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.o"
   "/Users/tetsu/dev/douki_C_programs/fff.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/fff.c.o"
   "/Users/tetsu/dev/douki_C_programs/fft.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/fft.c.o"
+  "/Users/tetsu/dev/douki_C_programs/fft_ho.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/fft_ho.c.o"
   "/Users/tetsu/dev/douki_C_programs/fftout2.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/fftout2.c.o"
   "/Users/tetsu/dev/douki_C_programs/fftout3.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/fftout3.c.o"
   "/Users/tetsu/dev/douki_C_programs/fftout4.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/fftout4.c.o"
@@ -59,12 +59,24 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/tetsu/dev/douki_C_programs/sepach.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/sepach.c.o"
   "/Users/tetsu/dev/douki_C_programs/sinwave.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/sinwave.c.o"
   "/Users/tetsu/dev/douki_C_programs/timeconvo.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/timeconvo.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/c_vector.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/c_vector.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/complex.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/complex.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/conv.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/conv.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/fft.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/fft.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/fftfilt.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/plot.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/plot.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/random.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/random.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/speech.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/speech.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/utils.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/utils.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/vector.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/vector.c.o"
+  "/Users/tetsu/dev/douki_C_programs/umasig/window.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/umasig/window.c.o"
   "/Users/tetsu/dev/douki_C_programs/zeropad_anyfile.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../umasig"
   )
 
 # Targets to which this target links.

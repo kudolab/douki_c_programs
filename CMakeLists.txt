@@ -1,9 +1,23 @@
 cmake_minimum_required(VERSION 3.14)
-project(douki_C_programs C)
+project(douki_C_programs)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(umasig)
 
 add_executable(douki_C_programs
+        umasig/c_vector.c
+        umasig/complex.c
+        umasig/conv.c
+        umasig/fft.c
+        umasig/fftfilt.c
+        umasig/plot.c
+        umasig/random.c
+        umasig/speech.c
+        umasig/umasig.h
+        umasig/utils.c
+        umasig/vector.c
+        umasig/window.c
         2chplay.c
         2chplay2.c
         biascut.c
@@ -19,11 +33,11 @@ add_executable(douki_C_programs
         equ_schroeder4.c
         equ_schroeder5.c
         fatchdb.c
-        FC_deviation.c
-        FC_deviation_alter.c
+        fc_deviation.c
+        fc_deviation_alter.c
         fff.c
         fft.c
-        FFT_ho.c
+        fft_ho.c
         fftout2.c
         fftout3.c
         fftout4.c

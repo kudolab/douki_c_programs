@@ -177,87 +177,6 @@ douki_C_programs/fast:
 	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/2chplay2.c.s
 .PHONY : 2chplay2.c.s
 
-FC_deviation.o: FC_deviation.c.o
-
-.PHONY : FC_deviation.o
-
-# target to build an object file
-FC_deviation.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FC_deviation.c.o
-.PHONY : FC_deviation.c.o
-
-FC_deviation.i: FC_deviation.c.i
-
-.PHONY : FC_deviation.i
-
-# target to preprocess a source file
-FC_deviation.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FC_deviation.c.i
-.PHONY : FC_deviation.c.i
-
-FC_deviation.s: FC_deviation.c.s
-
-.PHONY : FC_deviation.s
-
-# target to generate assembly for a file
-FC_deviation.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FC_deviation.c.s
-.PHONY : FC_deviation.c.s
-
-FC_deviation_alter.o: FC_deviation_alter.c.o
-
-.PHONY : FC_deviation_alter.o
-
-# target to build an object file
-FC_deviation_alter.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.o
-.PHONY : FC_deviation_alter.c.o
-
-FC_deviation_alter.i: FC_deviation_alter.c.i
-
-.PHONY : FC_deviation_alter.i
-
-# target to preprocess a source file
-FC_deviation_alter.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.i
-.PHONY : FC_deviation_alter.c.i
-
-FC_deviation_alter.s: FC_deviation_alter.c.s
-
-.PHONY : FC_deviation_alter.s
-
-# target to generate assembly for a file
-FC_deviation_alter.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.s
-.PHONY : FC_deviation_alter.c.s
-
-FFT_ho.o: FFT_ho.c.o
-
-.PHONY : FFT_ho.o
-
-# target to build an object file
-FFT_ho.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FFT_ho.c.o
-.PHONY : FFT_ho.c.o
-
-FFT_ho.i: FFT_ho.c.i
-
-.PHONY : FFT_ho.i
-
-# target to preprocess a source file
-FFT_ho.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FFT_ho.c.i
-.PHONY : FFT_ho.c.i
-
-FFT_ho.s: FFT_ho.c.s
-
-.PHONY : FFT_ho.s
-
-# target to generate assembly for a file
-FFT_ho.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FFT_ho.c.s
-.PHONY : FFT_ho.c.s
-
 FileLib_osx.o: FileLib_osx.c.o
 
 .PHONY : FileLib_osx.o
@@ -771,6 +690,60 @@ fatchdb.c.s:
 	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fatchdb.c.s
 .PHONY : fatchdb.c.s
 
+fc_deviation.o: fc_deviation.c.o
+
+.PHONY : fc_deviation.o
+
+# target to build an object file
+fc_deviation.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation.c.o
+.PHONY : fc_deviation.c.o
+
+fc_deviation.i: fc_deviation.c.i
+
+.PHONY : fc_deviation.i
+
+# target to preprocess a source file
+fc_deviation.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation.c.i
+.PHONY : fc_deviation.c.i
+
+fc_deviation.s: fc_deviation.c.s
+
+.PHONY : fc_deviation.s
+
+# target to generate assembly for a file
+fc_deviation.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation.c.s
+.PHONY : fc_deviation.c.s
+
+fc_deviation_alter.o: fc_deviation_alter.c.o
+
+.PHONY : fc_deviation_alter.o
+
+# target to build an object file
+fc_deviation_alter.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.o
+.PHONY : fc_deviation_alter.c.o
+
+fc_deviation_alter.i: fc_deviation_alter.c.i
+
+.PHONY : fc_deviation_alter.i
+
+# target to preprocess a source file
+fc_deviation_alter.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.i
+.PHONY : fc_deviation_alter.c.i
+
+fc_deviation_alter.s: fc_deviation_alter.c.s
+
+.PHONY : fc_deviation_alter.s
+
+# target to generate assembly for a file
+fc_deviation_alter.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.s
+.PHONY : fc_deviation_alter.c.s
+
 fff.o: fff.c.o
 
 .PHONY : fff.o
@@ -824,6 +797,33 @@ fft.s: fft.c.s
 fft.c.s:
 	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft.c.s
 .PHONY : fft.c.s
+
+fft_ho.o: fft_ho.c.o
+
+.PHONY : fft_ho.o
+
+# target to build an object file
+fft_ho.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft_ho.c.o
+.PHONY : fft_ho.c.o
+
+fft_ho.i: fft_ho.c.i
+
+.PHONY : fft_ho.i
+
+# target to preprocess a source file
+fft_ho.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft_ho.c.i
+.PHONY : fft_ho.c.i
+
+fft_ho.s: fft_ho.c.s
+
+.PHONY : fft_ho.s
+
+# target to generate assembly for a file
+fft_ho.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft_ho.c.s
+.PHONY : fft_ho.c.s
 
 fftout2.o: fftout2.c.o
 
@@ -1608,6 +1608,303 @@ timeconvo.c.s:
 	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/timeconvo.c.s
 .PHONY : timeconvo.c.s
 
+umasig/c_vector.o: umasig/c_vector.c.o
+
+.PHONY : umasig/c_vector.o
+
+# target to build an object file
+umasig/c_vector.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/c_vector.c.o
+.PHONY : umasig/c_vector.c.o
+
+umasig/c_vector.i: umasig/c_vector.c.i
+
+.PHONY : umasig/c_vector.i
+
+# target to preprocess a source file
+umasig/c_vector.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/c_vector.c.i
+.PHONY : umasig/c_vector.c.i
+
+umasig/c_vector.s: umasig/c_vector.c.s
+
+.PHONY : umasig/c_vector.s
+
+# target to generate assembly for a file
+umasig/c_vector.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/c_vector.c.s
+.PHONY : umasig/c_vector.c.s
+
+umasig/complex.o: umasig/complex.c.o
+
+.PHONY : umasig/complex.o
+
+# target to build an object file
+umasig/complex.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/complex.c.o
+.PHONY : umasig/complex.c.o
+
+umasig/complex.i: umasig/complex.c.i
+
+.PHONY : umasig/complex.i
+
+# target to preprocess a source file
+umasig/complex.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/complex.c.i
+.PHONY : umasig/complex.c.i
+
+umasig/complex.s: umasig/complex.c.s
+
+.PHONY : umasig/complex.s
+
+# target to generate assembly for a file
+umasig/complex.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/complex.c.s
+.PHONY : umasig/complex.c.s
+
+umasig/conv.o: umasig/conv.c.o
+
+.PHONY : umasig/conv.o
+
+# target to build an object file
+umasig/conv.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/conv.c.o
+.PHONY : umasig/conv.c.o
+
+umasig/conv.i: umasig/conv.c.i
+
+.PHONY : umasig/conv.i
+
+# target to preprocess a source file
+umasig/conv.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/conv.c.i
+.PHONY : umasig/conv.c.i
+
+umasig/conv.s: umasig/conv.c.s
+
+.PHONY : umasig/conv.s
+
+# target to generate assembly for a file
+umasig/conv.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/conv.c.s
+.PHONY : umasig/conv.c.s
+
+umasig/fft.o: umasig/fft.c.o
+
+.PHONY : umasig/fft.o
+
+# target to build an object file
+umasig/fft.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fft.c.o
+.PHONY : umasig/fft.c.o
+
+umasig/fft.i: umasig/fft.c.i
+
+.PHONY : umasig/fft.i
+
+# target to preprocess a source file
+umasig/fft.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fft.c.i
+.PHONY : umasig/fft.c.i
+
+umasig/fft.s: umasig/fft.c.s
+
+.PHONY : umasig/fft.s
+
+# target to generate assembly for a file
+umasig/fft.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fft.c.s
+.PHONY : umasig/fft.c.s
+
+umasig/fftfilt.o: umasig/fftfilt.c.o
+
+.PHONY : umasig/fftfilt.o
+
+# target to build an object file
+umasig/fftfilt.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.o
+.PHONY : umasig/fftfilt.c.o
+
+umasig/fftfilt.i: umasig/fftfilt.c.i
+
+.PHONY : umasig/fftfilt.i
+
+# target to preprocess a source file
+umasig/fftfilt.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.i
+.PHONY : umasig/fftfilt.c.i
+
+umasig/fftfilt.s: umasig/fftfilt.c.s
+
+.PHONY : umasig/fftfilt.s
+
+# target to generate assembly for a file
+umasig/fftfilt.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.s
+.PHONY : umasig/fftfilt.c.s
+
+umasig/plot.o: umasig/plot.c.o
+
+.PHONY : umasig/plot.o
+
+# target to build an object file
+umasig/plot.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/plot.c.o
+.PHONY : umasig/plot.c.o
+
+umasig/plot.i: umasig/plot.c.i
+
+.PHONY : umasig/plot.i
+
+# target to preprocess a source file
+umasig/plot.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/plot.c.i
+.PHONY : umasig/plot.c.i
+
+umasig/plot.s: umasig/plot.c.s
+
+.PHONY : umasig/plot.s
+
+# target to generate assembly for a file
+umasig/plot.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/plot.c.s
+.PHONY : umasig/plot.c.s
+
+umasig/random.o: umasig/random.c.o
+
+.PHONY : umasig/random.o
+
+# target to build an object file
+umasig/random.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/random.c.o
+.PHONY : umasig/random.c.o
+
+umasig/random.i: umasig/random.c.i
+
+.PHONY : umasig/random.i
+
+# target to preprocess a source file
+umasig/random.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/random.c.i
+.PHONY : umasig/random.c.i
+
+umasig/random.s: umasig/random.c.s
+
+.PHONY : umasig/random.s
+
+# target to generate assembly for a file
+umasig/random.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/random.c.s
+.PHONY : umasig/random.c.s
+
+umasig/speech.o: umasig/speech.c.o
+
+.PHONY : umasig/speech.o
+
+# target to build an object file
+umasig/speech.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/speech.c.o
+.PHONY : umasig/speech.c.o
+
+umasig/speech.i: umasig/speech.c.i
+
+.PHONY : umasig/speech.i
+
+# target to preprocess a source file
+umasig/speech.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/speech.c.i
+.PHONY : umasig/speech.c.i
+
+umasig/speech.s: umasig/speech.c.s
+
+.PHONY : umasig/speech.s
+
+# target to generate assembly for a file
+umasig/speech.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/speech.c.s
+.PHONY : umasig/speech.c.s
+
+umasig/utils.o: umasig/utils.c.o
+
+.PHONY : umasig/utils.o
+
+# target to build an object file
+umasig/utils.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/utils.c.o
+.PHONY : umasig/utils.c.o
+
+umasig/utils.i: umasig/utils.c.i
+
+.PHONY : umasig/utils.i
+
+# target to preprocess a source file
+umasig/utils.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/utils.c.i
+.PHONY : umasig/utils.c.i
+
+umasig/utils.s: umasig/utils.c.s
+
+.PHONY : umasig/utils.s
+
+# target to generate assembly for a file
+umasig/utils.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/utils.c.s
+.PHONY : umasig/utils.c.s
+
+umasig/vector.o: umasig/vector.c.o
+
+.PHONY : umasig/vector.o
+
+# target to build an object file
+umasig/vector.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/vector.c.o
+.PHONY : umasig/vector.c.o
+
+umasig/vector.i: umasig/vector.c.i
+
+.PHONY : umasig/vector.i
+
+# target to preprocess a source file
+umasig/vector.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/vector.c.i
+.PHONY : umasig/vector.c.i
+
+umasig/vector.s: umasig/vector.c.s
+
+.PHONY : umasig/vector.s
+
+# target to generate assembly for a file
+umasig/vector.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/vector.c.s
+.PHONY : umasig/vector.c.s
+
+umasig/window.o: umasig/window.c.o
+
+.PHONY : umasig/window.o
+
+# target to build an object file
+umasig/window.c.o:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/window.c.o
+.PHONY : umasig/window.c.o
+
+umasig/window.i: umasig/window.c.i
+
+.PHONY : umasig/window.i
+
+# target to preprocess a source file
+umasig/window.c.i:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/window.c.i
+.PHONY : umasig/window.c.i
+
+umasig/window.s: umasig/window.c.s
+
+.PHONY : umasig/window.s
+
+# target to generate assembly for a file
+umasig/window.c.s:
+	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/window.c.s
+.PHONY : umasig/window.c.s
+
 zeropad_anyfile.o: zeropad_anyfile.c.o
 
 .PHONY : zeropad_anyfile.o
@@ -1650,15 +1947,6 @@ help:
 	@echo "... 2chplay2.o"
 	@echo "... 2chplay2.i"
 	@echo "... 2chplay2.s"
-	@echo "... FC_deviation.o"
-	@echo "... FC_deviation.i"
-	@echo "... FC_deviation.s"
-	@echo "... FC_deviation_alter.o"
-	@echo "... FC_deviation_alter.i"
-	@echo "... FC_deviation_alter.s"
-	@echo "... FFT_ho.o"
-	@echo "... FFT_ho.i"
-	@echo "... FFT_ho.s"
 	@echo "... FileLib_osx.o"
 	@echo "... FileLib_osx.i"
 	@echo "... FileLib_osx.s"
@@ -1716,12 +2004,21 @@ help:
 	@echo "... fatchdb.o"
 	@echo "... fatchdb.i"
 	@echo "... fatchdb.s"
+	@echo "... fc_deviation.o"
+	@echo "... fc_deviation.i"
+	@echo "... fc_deviation.s"
+	@echo "... fc_deviation_alter.o"
+	@echo "... fc_deviation_alter.i"
+	@echo "... fc_deviation_alter.s"
 	@echo "... fff.o"
 	@echo "... fff.i"
 	@echo "... fff.s"
 	@echo "... fft.o"
 	@echo "... fft.i"
 	@echo "... fft.s"
+	@echo "... fft_ho.o"
+	@echo "... fft_ho.i"
+	@echo "... fft_ho.s"
 	@echo "... fftout2.o"
 	@echo "... fftout2.i"
 	@echo "... fftout2.s"
@@ -1809,6 +2106,39 @@ help:
 	@echo "... timeconvo.o"
 	@echo "... timeconvo.i"
 	@echo "... timeconvo.s"
+	@echo "... umasig/c_vector.o"
+	@echo "... umasig/c_vector.i"
+	@echo "... umasig/c_vector.s"
+	@echo "... umasig/complex.o"
+	@echo "... umasig/complex.i"
+	@echo "... umasig/complex.s"
+	@echo "... umasig/conv.o"
+	@echo "... umasig/conv.i"
+	@echo "... umasig/conv.s"
+	@echo "... umasig/fft.o"
+	@echo "... umasig/fft.i"
+	@echo "... umasig/fft.s"
+	@echo "... umasig/fftfilt.o"
+	@echo "... umasig/fftfilt.i"
+	@echo "... umasig/fftfilt.s"
+	@echo "... umasig/plot.o"
+	@echo "... umasig/plot.i"
+	@echo "... umasig/plot.s"
+	@echo "... umasig/random.o"
+	@echo "... umasig/random.i"
+	@echo "... umasig/random.s"
+	@echo "... umasig/speech.o"
+	@echo "... umasig/speech.i"
+	@echo "... umasig/speech.s"
+	@echo "... umasig/utils.o"
+	@echo "... umasig/utils.i"
+	@echo "... umasig/utils.s"
+	@echo "... umasig/vector.o"
+	@echo "... umasig/vector.i"
+	@echo "... umasig/vector.s"
+	@echo "... umasig/window.o"
+	@echo "... umasig/window.i"
+	@echo "... umasig/window.s"
 	@echo "... zeropad_anyfile.o"
 	@echo "... zeropad_anyfile.i"
 	@echo "... zeropad_anyfile.s"
