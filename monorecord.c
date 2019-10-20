@@ -60,104 +60,106 @@
 
 
 /*******************************************************************/
-int main(int argc,char *argv[])
-{
+int main(int argc, char *argv[]) {
     PaStreamParameters inputParameters, outputParameters;
     PaStream *stream = NULL;
     PaError err;
     int n;
-    
+
     short int *read_buffer;
     double *rec_raw_data;
     FILE *fp;
     unsigned int len;
     char *filename;
     long int record_sample;
-    
-    if (argc!=3){
-        fprintf(stderr,"lack of arguments.\n");
-        fprintf(stderr,"monorecord monaural_audio_file(.DXX) record_sample\n");
+
+    if (argc != 3) {
+        fprintf(stderr, "lack of arguments.\n");
+        fprintf(stderr, "monorecord monaural_audio_file(.DXX) record_sample\n");
         exit(EXIT_FAILURE);
     }
     filename = argv[1];
     record_sample = atoi(argv[2]);
-    
-    fprintf(stderr,"PROGRAM START.\n"); fflush(stdout);
 
-    read_buffer = (short int *)malloc(sizeof(short int)*FRAMES_PER_BUFFER);
-    if ( read_buffer==NULL ) exit(EXIT_FAILURE);
+    fprintf(stderr, "PROGRAM START.\n");
+    fflush(stdout);
 
-    fprintf(stderr,"Writing audio data file:%s.\n",filename);
-    fp = fopen(filename,"wb");
-    if ( fp == NULL ) exit(-1);
+    read_buffer = (short int *) malloc(sizeof(short int) * FRAMES_PER_BUFFER);
+    if (read_buffer == NULL) exit(EXIT_FAILURE);
 
-    
-    fprintf(stderr,"Initializing portaudio...\n"); fflush(stdout);
+    fprintf(stderr, "Writing audio data file:%s.\n", filename);
+    fp = fopen(filename, "wb");
+    if (fp == NULL) exit(-1);
+
+
+    fprintf(stderr, "Initializing portaudio...\n");
+    fflush(stdout);
     err = Pa_Initialize();
-    if( err != paNoError ) goto error;
+    if (err != paNoError) goto error;
 
     inputParameters.device = Pa_GetDefaultInputDevice();
     inputParameters.channelCount = NUM_CHANNELS;
     inputParameters.sampleFormat = PA_SAMPLE_TYPE;
-    inputParameters.suggestedLatency = Pa_GetDeviceInfo( inputParameters.device )->defaultLowInputLatency ;
+    inputParameters.suggestedLatency = Pa_GetDeviceInfo(inputParameters.device)->defaultLowInputLatency;
     inputParameters.hostApiSpecificStreamInfo = NULL;
 
     /* -- setup -- */
-    fprintf(stderr,"Open the portaudio stream\n"); fflush(stdout);
+    fprintf(stderr, "Open the portaudio stream\n");
+    fflush(stdout);
     err = Pa_OpenStream(
-              &stream,
-              &inputParameters,
-              NULL,
-              SAMPLE_RATE,
-              FRAMES_PER_BUFFER,
-              paClipOff,      /* we won't output out of range samples so don't bother clipping them */
-              NULL, /* no callback, use blocking API */
-              NULL ); /* no callback, so no callback userData */
-    if( err != paNoError ) goto error;
+            &stream,
+            &inputParameters,
+            NULL,
+            SAMPLE_RATE,
+            FRAMES_PER_BUFFER,
+            paClipOff,      /* we won't output out of range samples so don't bother clipping them */
+            NULL, /* no callback, use blocking API */
+            NULL); /* no callback, so no callback userData */
+    if (err != paNoError) goto error;
 
 
-    
-    fprintf(stderr,"Start the portaudio stream\n"); fflush(stdout);
-    err = Pa_StartStream( stream );
-    if( err != paNoError ) goto error;
+    fprintf(stderr, "Start the portaudio stream\n");
+    fflush(stdout);
+    err = Pa_StartStream(stream);
+    if (err != paNoError) goto error;
 
 
-    for( n=0; n<(int)(record_sample/FRAMES_PER_BUFFER); n++ ){
-        err = Pa_ReadStream( stream, read_buffer, FRAMES_PER_BUFFER );
-        if( err && CHECK_OVERFLOW ) goto xrun;
-        fwrite(read_buffer,sizeof(short int),FRAMES_PER_BUFFER,fp);
+    for (n = 0; n < (int) (record_sample / FRAMES_PER_BUFFER); n++) {
+        err = Pa_ReadStream(stream, read_buffer, FRAMES_PER_BUFFER);
+        if (err && CHECK_OVERFLOW) goto xrun;
+        fwrite(read_buffer, sizeof(short int), FRAMES_PER_BUFFER, fp);
     }
     fclose(fp);
-    
-    err = Pa_StopStream( stream );
-    if( err != paNoError ) goto error;
-    
+
+    err = Pa_StopStream(stream);
+    if (err != paNoError) goto error;
+
     Pa_Terminate();
     return 0;
 
-xrun:
-    if( stream ) {
-       Pa_AbortStream( stream );
-       Pa_CloseStream( stream );
+    xrun:
+    if (stream) {
+        Pa_AbortStream(stream);
+        Pa_CloseStream(stream);
     }
 
     Pa_Terminate();
-    if( err & paInputOverflow )
-       fprintf( stderr, "Input Overflow.\n" );
-    if( err & paOutputUnderflow )
-       fprintf( stderr, "Output Underflow.\n" );
+    if (err & paInputOverflow)
+        fprintf(stderr, "Input Overflow.\n");
+    if (err & paOutputUnderflow)
+        fprintf(stderr, "Output Underflow.\n");
     return -2;
 
-error:
-    if( stream ) {
-       Pa_AbortStream( stream );
-       Pa_CloseStream( stream );
+    error:
+    if (stream) {
+        Pa_AbortStream(stream);
+        Pa_CloseStream(stream);
     }
 
     Pa_Terminate();
-    fprintf( stderr, "An error occured while using the portaudio stream\n" );
-    fprintf( stderr, "Error number: %d\n", err );
-    fprintf( stderr, "Error message: %s\n", Pa_GetErrorText( err ) );
+    fprintf(stderr, "An error occured while using the portaudio stream\n");
+    fprintf(stderr, "Error number: %d\n", err);
+    fprintf(stderr, "Error message: %s\n", Pa_GetErrorText(err));
     return -1;
 }
 

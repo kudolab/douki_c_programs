@@ -8,19 +8,18 @@
 
 #include "FileLib_osx.c"
 
-int main(int argc,char *argv[])
-{
-  
-  int length;
-  
-  if(argc!=2){
-    fprintf(stderr,"lack of arguments.\n");
-    fprintf(stderr,"this program print the signal length\n");
-    fprintf(stderr,"Usage:print_siglen in\n");
-    exit(EXIT_FAILURE);
-  }
-  
-  length=lenfile(argv[1]);
-  fprintf(stdout,"%d\n",length);
+int main(int argc, char *argv[]) {
+
+    int length;
+
+    if (argc != 2) {
+        fprintf(stderr, "lack of arguments.\n");
+        fprintf(stderr, "this program print the signal length\n");
+        fprintf(stderr, "Usage:print_siglen in\n");
+        exit(EXIT_FAILURE);
+    }
+
+    length = lenfile(argv[1]);
+    fprintf(stdout, "%d\n", length);
 
 }

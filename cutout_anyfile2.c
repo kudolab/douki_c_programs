@@ -13,45 +13,44 @@
 
 #include "FileLib_osx.c"
 
-int main(int argc,char *argv[])
-{
-  
-	FILE *fp_in;
-	FILE *fp_out;
-	FILE *fp_point;
-  int i,j;
-  int length;
-  int st_point;
-  int width;
-  int end_point;
-  double *x;
+int main(int argc, char *argv[]) {
 
-  if(argc!=3){
-    fprintf(stderr,"An argument is insufficient\n");
-    fprintf(stderr,"this program cut out signal\n");
-    fprintf(stderr,"Usage:  cutout in start end out\n");
-    exit(EXIT_FAILURE);
-  }
-  length=lenfile(argv[1]);
+    FILE *fp_in;
+    FILE *fp_out;
+    FILE *fp_point;
+    int i, j;
+    int length;
+    int st_point;
+    int width;
+    int end_point;
+    double *x;
 
-	fp_point=fopen("Cut_START","r");
-	if (fp_point==NULL)
-		exit(EXIT_FAILURE);
-	fscanf(fp_point,"%d\n",&st_point);
-	fclose(fp_point);
+    if (argc != 3) {
+        fprintf(stderr, "An argument is insufficient\n");
+        fprintf(stderr, "this program cut out signal\n");
+        fprintf(stderr, "Usage:  cutout in start end out\n");
+        exit(EXIT_FAILURE);
+    }
+    length = lenfile(argv[1]);
 
-	fp_point=fopen("Cut_END","r");
-	if (fp_point==NULL)
-		exit(EXIT_FAILURE);
-	fscanf(fp_point,"%d\n",&end_point);
-	fclose(fp_point);
+    fp_point = fopen("Cut_START", "r");
+    if (fp_point == NULL)
+        exit(EXIT_FAILURE);
+    fscanf(fp_point, "%d\n", &st_point);
+    fclose(fp_point);
 
-	fprintf(stderr,"st_point...%d\nend_point...%d\n",st_point,end_point);
+    fp_point = fopen("Cut_END", "r");
+    if (fp_point == NULL)
+        exit(EXIT_FAILURE);
+    fscanf(fp_point, "%d\n", &end_point);
+    fclose(fp_point);
 
-  width = end_point-(st_point-1);
-  fprintf(stderr,"signal:%s, length is %d --> %d\n",argv[1],length,width);
-  x=(double *)calloc(length,sizeof(double));
-  AnyFileRead(argv[1],x,length);
-  AnyFileWrite(argv[4],&x[st_point-1],width);
+    fprintf(stderr, "st_point...%d\nend_point...%d\n", st_point, end_point);
+
+    width = end_point - (st_point - 1);
+    fprintf(stderr, "signal:%s, length is %d --> %d\n", argv[1], length, width);
+    x = (double *) calloc(length, sizeof(double));
+    AnyFileRead(argv[1], x, length);
+    AnyFileWrite(argv[4], &x[st_point - 1], width);
 
 }
