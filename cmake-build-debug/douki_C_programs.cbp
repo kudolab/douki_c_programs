@@ -44,6 +44,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play"/>
+					<Add directory="/Users/tetsu/dev/douki_C_programs/umasig"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -64,6 +67,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play"/>
+					<Add directory="/Users/tetsu/dev/douki_C_programs/umasig"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -100,6 +106,1389 @@
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/LE_1.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/0zume_assign.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/0zumeb.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/2culummnCrossCorrelation.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/2pow0zume.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/2pow0zumeb.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ADDA/DA.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ADDA/dsbplay.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ADDA/parrot.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ALSA/capture.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/AR_modeling.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/ATD_check.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/ATD_integration.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/ATD_peakcheck.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/ComplexCal.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/Complex_cntrl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/Double_cntrl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/FFT.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/FileLib_spcux.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/IFFT.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/cal_ATD_onfreq.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/cal_ATD_variation.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ATD/complex.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Conv_Freq.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/CorrCoef.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/CrossCor_Freq.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/CrossCor_Freq_Sqr.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/CrossCorrelation.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/DSB2DDA.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/DSBtowav/init.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/DSBtowav/main.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/DSBtowav/memory_allocation.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/bank_set.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/bank_set.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/coef_set.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/coef_set.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/ho_shd.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/ho_shd.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/ks3902.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/ks3902.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/load_dialog.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/load_dialog.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/main.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/main_window.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/main_window.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/mixsel_setup.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/mixsel_setup.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/mixsel_window.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/mixsel_window.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/rec_window.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/rec_window.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/send_coef.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/send_dialog.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/send_dialog.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/signal_select.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/signal_select.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/ugpib.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/unbias.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/unbias.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Demo_for_Binaural_reproduction/xmixsel.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Dif_freq_amp_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Dif_freq_pha_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/Double_cntrl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/FConv_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/FFT2AMP.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/FFT_ho.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/FFT_ho2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/FileLib_spcux.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/FileLib_spcux2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/IMPmcode.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/InstanFreq_var_frame.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/InverseFil.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/MeanTime.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/PeakCorrSample.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/PeakCrossCorrelation.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/PeakSample.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SD.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDR_for_inpo.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDR_for_inpo_censored.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DAAD/FileLib.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DAAD/d.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DAAD/dasbox.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DAAD/setup.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DAAD/udm.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/apl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/apl1.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/d.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/dasbox.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/diag.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/diag1.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/dminfo.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/setdaio.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/setdas.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/setdas1.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/udm.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/wdaio.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/wdas.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/DASBOX/windas.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Play/Play.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Play/d.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Play/dasbox.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Play/udm.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/DiskRead.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/FileLib.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/ReadAD.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/Sadda.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/Sadda.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/Sadda_part01.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/Sadda_part02.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/Sadda_part03.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/Sadda_part04.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/d.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/dasbox.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/dat2wav.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/Sadda/udm.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup+/Dis_Setup+.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup+/FileLib.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup+/POW.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup+/Set_Level.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup+/aa.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup+/apl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup+/d.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup+/dasbox.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup+/udm.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/DiskRead.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/FileLib.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/Sadda.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/au2wav.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/ch1_daad.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/ch2_daad.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/check.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/d.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/dasbox.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/mtransd.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/sengen1.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/sengen2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_go.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/DiskRead.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/FileLib.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/Play.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/Play.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/ch1_daad.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/ch2_daad.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/check.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/d.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/dasbox.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/mtransd.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/play.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/play.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/sengen1.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/sengen2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/setup_go.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/setup_play/udm.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/SDS/setup/udm.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/C++FileLib.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/FileLib.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/Levinson.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/Mixsel_GPIB.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/Mixsel_GPIB2.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_ECTF.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_HRTF.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_Inverse.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_Irisawa3.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_MIC_init.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_McodeConv.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_McodeN.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_Memory.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_Unbias.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_calc.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_calclate_SLTF.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_compress.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_hosei.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_levinson.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_main.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_make_files.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_makemcode.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_measure.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_measure_select.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_normalize.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_play.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_playback.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_playplay.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_plot.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_select.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_select_SP.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_setup.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_tatami.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/VS_window.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/answer_ck.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/d.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/dasbox.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/dvio.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/test.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VS+48SP/udm.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/fft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/fft.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/filelib_spcux.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/filelib_spcux.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/filelib_spcux_p.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/main.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/mem_alloc.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/mem_alloc.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/utils.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/utils.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/vs_plot.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/VsPlot/vs_plot.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/WAVtoDSB.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/WAVtoDSB2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/WAVtoDSB3.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/WFplot/getcolor.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/WFplot/getcolor.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/WFplot/kubolib.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/WFplot/kubolib.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/WFplot/main.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/X_window_programing/xp0201.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/X_window_programing/xp0202.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/X_window_programing/xp0203.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/access2database.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/access2database2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/access2database3.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/add_ILD_ITD_DDA.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/add_ILD_ITD_DSB.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/add_ILD_ITD_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ahe.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ahe_conv.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/aheahe.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/amp_pha.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/bai0zume.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/beep.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/cal_param.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_IALTD.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_ILD.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_ILD_with_azimuth.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_ITD.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_ITD_with_azimuth.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_ITD_within1msec.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_PDR.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_binauralsum.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_durationtime.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_product_of_peak_and_sigma_of_IACF.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/calc_sigma_of_IACF.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/check_endian.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/check_swing_validity.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/comp2AmpPha.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/comp2Pha.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/comp_exp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/complex_cepstrum.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/complog.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/complog_test.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/cos_window_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/cosine_windowing.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/cosine_windowing_and_zeropadding.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/cross_spec.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/crosscorr.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/cutout.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/cutout_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/database2fft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbInverse/filelib.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbInverse/filelib.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbInverse/inverse.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbInverse/inverse.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbInverse/levinson.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbInverse/levinson.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbInverse/main.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbSort/filelib.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbSort/filelib.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbSort/fractional_delay.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbSort/fractional_delay.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbSort/main.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbSort/sort_wave.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ddbSort/sort_wave.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/delay.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/demo_for_out_of_head_localization.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/demo_for_out_of_head_localization2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/demo_for_out_of_head_localization3.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/demo_for_out_of_head_localization4.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/demo_for_out_of_head_localization5.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/demo_for_out_of_head_localization6.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/demo_for_out_of_head_localization_for_hrir.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/derive_sqr_sum.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/dft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/dftout.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/display_alsa.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/douki.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/dsbplay.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/dsbplay/dsbplay.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/dsbplay/dsbplay_ori.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/dsbplay/minus.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/dsbplay2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/dsp_info.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/durationtime_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/dv.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/extract.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/extract_anynum.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/extract_minimumphase_components.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fadein_fadeout_fourier.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fadein_fadeout_fourier_forMAMA.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fadein_fadeout_root.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fadein_fadeout_sine.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fatchdb.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fatchdb_plus.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fftcomp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fftout.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fftout2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fitting_puretone.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fitting_puretone_error_frame.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/cutout_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/dsbplay.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/fatchdb.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/inversefil.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/joint_sig_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/levinson.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/mono2LR.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/resttime_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/timeconvo.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/forYOSHIDA/unit_energy.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fourier.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/fourier2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/freq_standardDev_variable_widow_width.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/freq_var_frame_variable_widow_width.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/gammln.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/gen_itsp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/gen_tsp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/getenvall.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/groupdelay.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/hanten.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/heikin_freq.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/hello.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/hikisu.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ifft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ifftcomp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/ifftout.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/impres_AR_modeled.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/impres_AR_modeled2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/inv_int.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/inverse.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/inversefil_original.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/inversefil_pre.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/joint_sig_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/kbd_weighted.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/kbd_win.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/leakey.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/levinson.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/lift_window.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/lifter2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/lifting.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/linear_inpo_hrir.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/linear_inpo_hrir_using_ATD.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/make_degraded_SSTF.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/make_degraded_SSTF2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/make_degraded_SSTF3.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/make_histgram.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/make_modeled_hrir.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/make_normalized_histgram.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/make_whitenoise.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/makelifter.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/matsumoto/ComplexCal.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/matsumoto/Complex_cntrl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/matsumoto/Double_cntrl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/matsumoto/FFT.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/matsumoto/FileLib_spcux.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/matsumoto/IFFT.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/matsumoto/TF_cntrl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/matsumoto/cal_IP_SSTF.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/matsumoto/complex.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/meantime_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/minusLiner.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/minus_mksinwave.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/mkcoswave.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/mkgraph_data/main.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/mksinwave.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/modeled_imp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/mono2LR.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/nbai0zume.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/olam_for_demo.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/open_sound_dev.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/overlap_add_time_invariant_hrir.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/overlap_add_time_invariant_hrir2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/overlap_add_with_modified_ham.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/overlap_add_with_modified_ham_circular.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/overlap_add_with_modified_ham_forMAMA.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/overlap_add_with_modified_ham_kai.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/paraport_out/main.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/parrot.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/plusDDA.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/plusDSB.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/plusLiner.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/plus_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/print_siglen.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/print_time_with_peak.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/proc_stl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/qinit.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/random.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/random/main.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/random/rand.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/random/random.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/random/seisei.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/random_kai.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/readDSB.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/readDSB2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/read_stl.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/read_stl_ori.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/remove_ITD_ILD.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/resttime_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/sample_rate_conversion.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/scaling_max_instant_amp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/schroeder_int.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/search_atack_point.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/sorting_level.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/sorting_waveform.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/soundcapture.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/soundcapture2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/soundcaptureandplayback.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/soundcaptureandplayback2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/soundplayback.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/soundplayback2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/adf_sig.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/ave.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/bop.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/centroid.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/co_gradient.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/delay1.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/dotei.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/dsbplay.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/euclid.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/fft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/fir.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/fnmse.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/geterr.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/inverse.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/nlms3.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/obog/AverageTF.cc">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/obog/FileLib_spcux.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/obog/FileLib_spcux.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/obog/fatchdb.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/obog/fatinspect.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/src_from_hori/unbias.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/stft_modified_Ham.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/stft_multi_filters.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/stft_multi_filters_kai.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/substract_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/swing_validity.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/switching_ROOT_cosine.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/switching_ROOT_t.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/switching_optimal_a2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/switching_optimal_a3.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/switching_optimal_a3_overall.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/switching_sstf.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/time2fftamp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/timeconvo.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/timelabel.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/tmp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/unbias.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/unit_energy.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/via_quefrency.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/wined_hanning_x.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/zero_padding.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Proctool/zeropad_anyfile.c">
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/Rev_sup.c">
@@ -241,6 +1630,42 @@
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/timeconvo.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/c_vector.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/complex.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/conv.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/fft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/fftfilt.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/plot.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/random.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/speech.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/umasig.h">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/utils.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/vector.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/umasig/window.c">
 			<Option target="douki_C_programs"/>
 		</Unit>
 		<Unit filename="/Users/tetsu/dev/douki_C_programs/zeropad_anyfile.c">
