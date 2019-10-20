@@ -10,7 +10,7 @@ int main(int argc,char *argv[]){
   char  random_file_name[256];
   FILE  *random_file;
   
-  /* main´Ø¿ô¤Ø¤Î°ú¿ôÅÏ¤· */
+  /* mainé–¢æ•°ã¸ã®å¼•æ•°æ¸¡ã— */
   if(argc!=2){
     fprintf(stderr,"lack of argument!!\n");
     fprintf(stderr,"Usage:\n upper limit of random number\n");

@@ -29,13 +29,13 @@ read_head(FILE *rFILE,int *freq, int *bitno, int *kind, int *pcmsz, int *pcmstar
   
   head = malloc(sizeof(char) * 44);
   
-  /* RIFF¥Á¥ã¥ó¥¯¤Ç¤¢¤ëÀèÆ¬¤«¤é44byte¤À¤±ÆÉ¤ß¹ş¤à */
+  /* RIFFãƒãƒ£ãƒ³ã‚¯ã§ã‚ã‚‹å…ˆé ­ã‹ã‚‰44byteã ã‘èª­ã¿è¾¼ã‚€ */
   if (fread(head, 1, 44, rFILE) != 44) {
     fprintf(stderr, "can't read header. not wav format file.\n");
     exit(EXIT_FAILURE);
   }
   
-  /* WAV¥Õ¥¡¥¤¥ë¤«¤É¤¦¤«¥Á¥§¥Ã¥¯ */
+  /* WAVãƒ•ã‚¡ã‚¤ãƒ«ã‹ã©ã†ã‹ãƒã‚§ãƒƒã‚¯ */
   if (strncmp(head, "RIFF", 4) && strncmp(head + 8, "WAVE", 4)) {
     fprintf(stderr, "not wav file.\n");
     exit(EXIT_FAILURE);
@@ -44,12 +44,12 @@ read_head(FILE *rFILE,int *freq, int *bitno, int *kind, int *pcmsz, int *pcmstar
   n = 12;
 
   while (n < 512) {
-    if (!strncmp(head + n, "fmt ", 4)) { /* fmt¥Á¥ã¥ó¥¯È¯¸« */   
+    if (!strncmp(head + n, "fmt ", 4)) { /* fmtãƒãƒ£ãƒ³ã‚¯ç™ºè¦‹ */   
       fmt = (FMTCHUNK *)(head + n);
       n += 4;
       chnksz = *((unsigned int *)(head + n));
       n += 4;
-      if (chnksz < 16) { /* fmt¥Á¥ã¥ó¥¯¤Î¥Ç¡¼¥¿ÎÌ¤¬ÉÔ½½Ê¬ */
+      if (chnksz < 16) { /* fmtãƒãƒ£ãƒ³ã‚¯ã®ãƒ‡ãƒ¼ã‚¿é‡ãŒä¸ååˆ† */
         fprintf(stderr, "not wav file.\n");
         exit(EXIT_FAILURE);
       }
@@ -92,21 +92,21 @@ main(int argc, char *argv[])
   
   FILE *rFILE,*wFILE_ch1,*wFILE_ch2;
   
-  int ret;                     /* Ìá¤êÃÍ */
-  int freq = 0;                /* ¥µ¥ó¥×¥ê¥ó¥°¼şÇÈ¿ô */
-  int bitno = 0;               /* ¥µ¥ó¥×¥ê¥ó¥°¥Ó¥Ã¥È¿ô */
-  int kind = 0;                /* ¥Ç¡¼¥¿¼ïÊÌ */
-  int pcmsz = 0;               /* PCM¥Ç¡¼¥¿¥µ¥¤¥º */
-  int pcmstart = 44;           /* PCM¥Ç¡¼¥¿ÁêÂĞ³«»Ï°ÌÃÖ */
-  int rdsz;                    /* ÆÉ¤ß¹ş¤ó¤À¥Ç¡¼¥¿¥µ¥¤¥º */
+  int ret;                     /* æˆ»ã‚Šå€¤ */
+  int freq = 0;                /* ã‚µãƒ³ãƒ—ãƒªãƒ³ã‚°å‘¨æ³¢æ•° */
+  int bitno = 0;               /* ã‚µãƒ³ãƒ—ãƒªãƒ³ã‚°ãƒ“ãƒƒãƒˆæ•° */
+  int kind = 0;                /* ãƒ‡ãƒ¼ã‚¿ç¨®åˆ¥ */
+  int pcmsz = 0;               /* PCMãƒ‡ãƒ¼ã‚¿ã‚µã‚¤ã‚º */
+  int pcmstart = 44;           /* PCMãƒ‡ãƒ¼ã‚¿ç›¸å¯¾é–‹å§‹ä½ç½® */
+  int rdsz;                    /* èª­ã¿è¾¼ã‚“ã ãƒ‡ãƒ¼ã‚¿ã‚µã‚¤ã‚º */
   
   int i,j,k,len_441,len_480;
   short int *data,*x_441_ch1,*x_441_ch2,buff_ch1,buff_ch2;
   double *x_480_ch1,*x_480_ch2;
   double t,ahe;
-  int order = 5; /*ÁíÏÂ¤ò¼è¤ësinc¤Î¸Ä¿ô*/
+  int order = 5; /*ç·å’Œã‚’å–ã‚‹sincã®å€‹æ•°*/
   
-  /* ¥Õ¥¡¥¤¥ë¥ª¡¼¥×¥ó */
+  /* ãƒ•ã‚¡ã‚¤ãƒ«ã‚ªãƒ¼ãƒ—ãƒ³ */
   if ((rFILE = fopen(argv[1], "rb")) == NULL) {
     fprintf(stderr, "can't open file.\n");
     exit(EXIT_FAILURE);
@@ -129,7 +129,7 @@ main(int argc, char *argv[])
     exit(EXIT_FAILURE);
   }
   
-  fseek(rFILE, pcmstart, SEEK_SET);   /* ¥Õ¥¡¥¤¥ë¥İ¥¤¥ó¥¿¤ò¥Ç¡¼¥¿¤ÎÀèÆ¬¤Ø */
+  fseek(rFILE, pcmstart, SEEK_SET);   /* ãƒ•ã‚¡ã‚¤ãƒ«ãƒã‚¤ãƒ³ã‚¿ã‚’ãƒ‡ãƒ¼ã‚¿ã®å…ˆé ­ã¸ */
   
   /*
     total_amount_of_data[bytes] = deta_length[samples] * number_of_channels * quantization_level[bytes]
@@ -142,9 +142,9 @@ main(int argc, char *argv[])
 
 
   
-  if ( kind == 1 && bitno == 16 && freq == 48000){ /*¥â¥Î¥é¥ë¤Ç16¥Ó¥Ã¥È*/
+  if ( kind == 1 && bitno == 16 && freq == 48000){ /*ãƒ¢ãƒãƒ©ãƒ«ã§16ãƒ“ãƒƒãƒˆ*/
     
-    data = malloc(pcmsz);/*¥â¥Î¥é¥ë¤Ê¤Î¤Çkind=1*/
+    data = malloc(pcmsz);/*ãƒ¢ãƒãƒ©ãƒ«ãªã®ã§kind=1*/
     fread(data,sizeof(short int),len_480,rFILE);
     x_480_ch1 = (double *)malloc(sizeof(double)*len_480);
     
@@ -163,9 +163,9 @@ main(int argc, char *argv[])
     }
     
   }
-  if ( kind == 2 && bitno == 16 && freq == 48000){ /*¥¹¥Æ¥ì¥ª,ÎÌ»Ò²½16¥Ó¥Ã¥È*/  
+  if ( kind == 2 && bitno == 16 && freq == 48000){ /*ã‚¹ãƒ†ãƒ¬ã‚ª,é‡å­åŒ–16ãƒ“ãƒƒãƒˆ*/  
     
-    data = malloc(pcmsz);/*¥â¥Î¥é¥ë¤Ê¤Î¤Çkind=1*/
+    data = malloc(pcmsz);/*ãƒ¢ãƒãƒ©ãƒ«ãªã®ã§kind=1*/
     fread(data,sizeof(short int),len_480*2,rFILE);
     x_480_ch1 = (double *)malloc(sizeof(double)*len_480);
     x_480_ch2 = (double *)malloc(sizeof(double)*len_480);
@@ -194,9 +194,9 @@ main(int argc, char *argv[])
     }
     
   }
-  if ( kind == 1 && bitno == 16 && freq == 44100){ /*¥â¥Î¥é¥ë,ÎÌ»Ò²½16¥Ó¥Ã¥È*/
+  if ( kind == 1 && bitno == 16 && freq == 44100){ /*ãƒ¢ãƒãƒ©ãƒ«,é‡å­åŒ–16ãƒ“ãƒƒãƒˆ*/
     
-    data = malloc(pcmsz);/*¥â¥Î¥é¥ë¤Ê¤Î¤Çkind=1*/
+    data = malloc(pcmsz);/*ãƒ¢ãƒãƒ©ãƒ«ãªã®ã§kind=1*/
     fread(data,sizeof(short int),len_441,rFILE);
     x_441_ch1=(short int *)malloc(sizeof(short int)*len_441);
     x_480_ch1=(double *)malloc(sizeof(double)*len_480);
@@ -226,9 +226,9 @@ main(int argc, char *argv[])
       fprintf(stderr,"\b\b\b\b\b\b\b\b\b\b");
      }    
   }
-  if ( kind == 2 && bitno == 16 && freq == 44100){ /*¥¹¥Æ¥ì¥ª¤Ç16¥Ó¥Ã¥È*/
+  if ( kind == 2 && bitno == 16 && freq == 44100){ /*ã‚¹ãƒ†ãƒ¬ã‚ªã§16ãƒ“ãƒƒãƒˆ*/
     
-    data = malloc(pcmsz);/*¥¹¥Æ¥ì¥ª¤Ê¤Î¤Çkind=2*/
+    data = malloc(pcmsz);/*ã‚¹ãƒ†ãƒ¬ã‚ªãªã®ã§kind=2*/
     fread(data,sizeof(short int),len_441*2,rFILE);
     
     x_441_ch1=(short int *)malloc(sizeof(short int)*len_441);
