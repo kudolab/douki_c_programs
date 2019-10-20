@@ -5,8 +5,8 @@
 #include<math.h>
 
 #include "FileLib_osx.c"
-#include "/Users/audio/kenkyu/douki/Proctool/fft.c"
-#include "/Users/audio/kenkyu/douki/Proctool/ifft.c"
+#include "Proctool/fft.c"
+#include "Proctool/ifft.c"
 
 void sampling_hold();
 
