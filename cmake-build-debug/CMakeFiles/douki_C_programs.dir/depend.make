@@ -71,13 +71,13 @@ CMakeFiles/douki_C_programs.dir/fff.c.o: ../fff.c
 CMakeFiles/douki_C_programs.dir/fft.c.o: ../fft.c
 
 CMakeFiles/douki_C_programs.dir/fftout2.c.o: ../fftout2.c
-CMakeFiles/douki_C_programs.dir/fftout2.c.o: /usr/local/include/fftw3.h
+CMakeFiles/douki_C_programs.dir/fftout2.c.o: include/fftw3.h
 
 CMakeFiles/douki_C_programs.dir/fftout3.c.o: ../fftout3.c
-CMakeFiles/douki_C_programs.dir/fftout3.c.o: /usr/local/include/fftw3.h
+CMakeFiles/douki_C_programs.dir/fftout3.c.o: include/fftw3.h
 
 CMakeFiles/douki_C_programs.dir/fftout4.c.o: ../fftout4.c
-CMakeFiles/douki_C_programs.dir/fftout4.c.o: /usr/local/include/fftw3.h
+CMakeFiles/douki_C_programs.dir/fftout4.c.o: include/fftw3.h
 
 CMakeFiles/douki_C_programs.dir/find_cutpoint.c.o: ../find_cutpoint.c
 
@@ -95,7 +95,7 @@ CMakeFiles/douki_C_programs.dir/inverse.c.o: ../inverse.c
 CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.o: ../linear_inpo_hrir_using_ATD.c
 
 CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o: ../make_whitenoise.c
-CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o: /usr/local/include/fftw3.h
+CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o: include/fftw3.h
 
 CMakeFiles/douki_C_programs.dir/mono2LR.c.o: ../mono2LR.c
 

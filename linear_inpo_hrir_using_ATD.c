@@ -8,13 +8,13 @@
 #include <math.h>
 
 #include "FileLib_osx.c"
-#include "/Users/audio/kenkyu/douki/umasig/umasig.h"
-#include "/Users/audio/kenkyu/douki/umasig/fft.c"
-#include "/Users/audio/kenkyu/douki/umasig/complex.c"
-#include "/Users/audio/kenkyu/douki/umasig/c_vector.c"
-#include "/Users/audio/kenkyu/douki/umasig/vector.c"
-#include "/Users/audio/kenkyu/douki/umasig/utils.c"
-#include "/Users/audio/kenkyu/douki/umasig/conv.c"
+#include "umasig/umasig.h"
+#include "umasig/fft.c"
+#include "umasig/complex.c"
+#include "umasig/c_vector.c"
+#include "umasig/vector.c"
+#include "umasig/utils.c"
+#include "umasig/conv.c"
 
 
 int main(int argc,char *argv[])

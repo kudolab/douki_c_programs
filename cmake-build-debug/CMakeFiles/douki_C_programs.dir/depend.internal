@@ -72,13 +72,13 @@ CMakeFiles/douki_C_programs.dir/fft.c.o
  /Users/tetsu/dev/douki_C_programs/fft.c
 CMakeFiles/douki_C_programs.dir/fftout2.c.o
  /Users/tetsu/dev/douki_C_programs/fftout2.c
- /usr/local/include/fftw3.h
+ include/fftw3.h
 CMakeFiles/douki_C_programs.dir/fftout3.c.o
  /Users/tetsu/dev/douki_C_programs/fftout3.c
- /usr/local/include/fftw3.h
+ include/fftw3.h
 CMakeFiles/douki_C_programs.dir/fftout4.c.o
  /Users/tetsu/dev/douki_C_programs/fftout4.c
- /usr/local/include/fftw3.h
+ include/fftw3.h
 CMakeFiles/douki_C_programs.dir/find_cutpoint.c.o
  /Users/tetsu/dev/douki_C_programs/find_cutpoint.c
 CMakeFiles/douki_C_programs.dir/henkan.c.o
@@ -96,7 +96,7 @@ CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.o
  /Users/tetsu/dev/douki_C_programs/linear_inpo_hrir_using_ATD.c
 CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o
  /Users/tetsu/dev/douki_C_programs/make_whitenoise.c
- /usr/local/include/fftw3.h
+ include/fftw3.h
 CMakeFiles/douki_C_programs.dir/mono2LR.c.o
  /Users/tetsu/dev/douki_C_programs/mono2LR.c
 CMakeFiles/douki_C_programs.dir/monoplay.c.o
