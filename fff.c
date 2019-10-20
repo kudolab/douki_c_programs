@@ -15,13 +15,13 @@
 #include <math.h>
 
 #include "FileLib_osx.c"
-#include "/Users/audio/kenkyu/douki/umasig/umasig.h"
-#include "/Users/audio/kenkyu/douki/umasig/fft.c"
-#include "/Users/audio/kenkyu/douki/umasig/vector.c"
-#include "/Users/audio/kenkyu/douki/umasig/c_vector.c"
-#include "/Users/audio/kenkyu/douki/umasig/complex.c"
-#include "/Users/audio/kenkyu/douki/umasig/utils.c"
-#include "/Users/audio/kenkyu/douki/umasig/conv.c"
+#include "umasig/umasig.h"
+#include "umasig/fft.c"
+#include "umasig/vector.c"
+#include "umasig/c_vector.c"
+#include "umasig/complex.c"
+#include "umasig/utils.c"
+#include "umasig/conv.c"
 
 #define a0 ((1.0+sqrt(2.0))/4.0)
 #define a1 (0.25+0.25*sqrt((5.0-2.0*sqrt(2.0))/2.0))
