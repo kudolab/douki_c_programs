@@ -5,7 +5,7 @@
 #include <math.h>
 #include <string.h>
 #include <complex.h>
-#include "/Users/yuki/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 
 #define SUCCESS 0
 #define FAILURE -1

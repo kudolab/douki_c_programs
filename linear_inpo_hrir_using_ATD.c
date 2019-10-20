@@ -1,13 +1,13 @@
 /*
-  ÅþÃ£»þ´Öº¹¤ò¹ÍÎ¸¤·¤¿Àþ·ÁÊä´°Ë¡
-  ºîÀ®¼Ô¡§¹©Æ£¾´ÍÎ ºîÀ®Æü¡§2004/06/27  
+  ï¿½ï¿½Ã£ï¿½ï¿½ï¿½Öºï¿½ï¿½ï¿½ï¿½Î¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä´°Ë¡
+  ï¿½ï¿½ï¿½ï¿½ï¿½Ô¡ï¿½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2004/06/27  
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
-#include "/Users/audio/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 #include "/Users/audio/kenkyu/douki/umasig/umasig.h"
 #include "/Users/audio/kenkyu/douki/umasig/fft.c"
 #include "/Users/audio/kenkyu/douki/umasig/complex.c"
@@ -45,7 +45,7 @@ int main(int argc,char *argv[])
   
   fft_points=1;
   while(fft_points < (length1+length2-1)) fft_points *= 2;
-  fft_points_expd=fft_points*bai;/*bai¤À¤±¿®¹æÄ¹¤ò¿­¤Ð¤¹*/
+  fft_points_expd=fft_points*bai;/*baiï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ò¿­¤Ð¤ï¿½*/
   
   fprintf(stdout,"in1:%s length:%d,",argv[1],length1);
   fprintf(stdout,"in2:%s length:%d,",argv[2],length2);

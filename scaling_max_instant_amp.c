@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "/Users/audio/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 
 int main(int argc,char *argv[])
 {

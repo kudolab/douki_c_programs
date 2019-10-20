@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "/Users/yuki/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 
 
 void help(void)
