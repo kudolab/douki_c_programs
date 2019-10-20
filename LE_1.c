@@ -1,8 +1,8 @@
 // gcc FC_deviation.c -o FC_deviation 
 /* 
-   •¡”‚Ìü”g”“Á«ƒf[ƒ^(*.FFT)‚©‚ç”CˆÓ‚Ìü”g”‚Ì•Î·‚ğZo‚·‚é
+   ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^(*.FFT)ï¿½ï¿½ï¿½ï¿½Cï¿½Ó‚Ìï¿½ï¿½gï¿½ï¿½ï¿½Ì•Îï¿½ï¿½ï¿½ï¿½Zï¿½oï¿½ï¿½ï¿½ï¿½
 
-   sh FC_deviation [”íŒ±Ò–¼] [ƒf[ƒ^–¼]
+   sh FC_deviation [ï¿½íŒ±ï¿½Ò–ï¿½] [ï¿½fï¿½[ï¿½^ï¿½ï¿½]
 
    making by Onodera Yuki at 2001/08/01
 */
@@ -12,7 +12,7 @@
 #include <string.h>
 //#include <complex.h>
 #pragma jis
-//#include "/Users/yuki/kenkyu/douki/FileLib_osx.c"
+//#include "FileLib_osx.c"
 
 #define PI 3.141592654
 #define SUCCESS 0
@@ -20,31 +20,31 @@
 
 int main(int argc, char *argv[])
 {
-	int n;			// “Ç‚İ‚İƒtƒ@ƒCƒ‹”
-	int k;			// ƒJƒEƒ“ƒ^•Ï”	(**in‚Ìs(ŠeƒTƒ“ƒvƒ‹‚Ì’l)‚ğŠÇ—)
-	int linecnt;		// s”ƒJƒEƒ“ƒ^•Ï”
-	int c;			// ƒtƒ@ƒCƒ‹“Ç‚İ‚İƒJƒEƒ“ƒ^•Ï”
-	int l;			// —ÌˆæŠm•Û—pƒJƒEƒ“ƒ^•Ï”
-	int *m;		// ‘OŒãŒë”»’èƒJƒEƒ“ƒ^ 
+	int n;			// ï¿½Ç‚İï¿½ï¿½İƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+	int k;			// ï¿½Jï¿½Eï¿½ï¿½ï¿½^ï¿½Ïï¿½	(**inï¿½Ìs(ï¿½eï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ì’l)ï¿½ï¿½ï¿½Ç—ï¿½)
+	int linecnt;		// ï¿½sï¿½ï¿½ï¿½Jï¿½Eï¿½ï¿½ï¿½^ï¿½Ïï¿½
+	int c;			// ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ç‚İï¿½ï¿½İƒJï¿½Eï¿½ï¿½ï¿½^ï¿½Ïï¿½
+	int l;			// ï¿½Ìˆï¿½mï¿½Û—pï¿½Jï¿½Eï¿½ï¿½ï¿½^ï¿½Ïï¿½
+	int *m;		// ï¿½Oï¿½ï¿½ë”»ï¿½ï¿½Jï¿½Eï¿½ï¿½ï¿½^ 
 	int a=0;
 
-	char gomi1[256],gomi2[256];		// Ì‚Äƒf[ƒ^•Ï”
-	char name1[256]  = "/ANSWER/answer_KASAHARA_";	// “Ç‚İ‚İƒtƒ@ƒCƒ‹–¼(’è”‚P)
-	char name2[256] = ".dat";		// “Ç‚İ‚İƒtƒ@ƒCƒ‹
-	char NUM[256];				// “Ç‚İ‚İƒtƒ@ƒCƒ‹–¼(•Ï”)
-	char name[256];				// “Ç‚İ‚İƒtƒ@ƒCƒ‹–¼
-	char name_out[256];			// ‘‚«o‚µƒtƒ@ƒCƒ‹–¼
-	char data_name[256];			// ‘‚«o‚µƒtƒ@ƒCƒ‹‚Ì•ª—Ş–¼
+	char gomi1[256],gomi2[256];		// ï¿½Ì‚Äƒfï¿½[ï¿½^ï¿½Ïï¿½
+	char name1[256]  = "/ANSWER/answer_KASAHARA_";	// ï¿½Ç‚İï¿½ï¿½İƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½(ï¿½è”ï¿½P)
+	char name2[256] = ".dat";		// ï¿½Ç‚İï¿½ï¿½İƒtï¿½@ï¿½Cï¿½ï¿½
+	char NUM[256];				// ï¿½Ç‚İï¿½ï¿½İƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½(ï¿½Ïï¿½)
+	char name[256];				// ï¿½Ç‚İï¿½ï¿½İƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+	char name_out[256];			// ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+	char data_name[256];			// ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì•ï¿½ï¿½Ş–ï¿½
 
-	int *in_ang;		// “Ç‚İ‚İƒAƒ“ƒOƒ‹‚ğ•Û‘¶
-	int *in_ans;		// “Ç‚İ‚İƒAƒ“ƒT[‚ğ•Û‘¶
-	double *in_err;	// ƒAƒ“ƒOƒ‹‚ÆƒAƒ“ƒT[‚Ì‘Š‘ÎŒë·[%]
-	double in_ave=0;		// “Ç‚İ‚İƒtƒ@ƒCƒ‹‚ÌŠeƒTƒ“ƒvƒ‹‚É‚¨‚¯‚é•½‹Ï
-	double in_sum=0;		// “Ç‚İ‚İƒtƒ@ƒCƒ‹‚Ì‘˜a
-	FILE *fp_dev;		// Zo‚µ‚½“Á«•Î·‚Ìo—Íƒtƒ@ƒCƒ‹ƒ|ƒCƒ“ƒ^•Ï”
-	FILE *fp_linecnt;	// “Ç‚İ‚İƒtƒ@ƒCƒ‹‚Ìs”ƒJƒEƒ“ƒg—p
-	FILE *fp_extra;		// “Ç‚İ‚İƒtƒ@ƒCƒ‹‚Ìƒf[ƒ^’Šo—p
-	FILE *fp_out;		// ‘‚«o‚µ—pƒtƒ@ƒCƒ‹ƒ|ƒCƒ“ƒ^
+	int *in_ang;		// ï¿½Ç‚İï¿½ï¿½İƒAï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½Û‘ï¿½
+	int *in_ans;		// ï¿½Ç‚İï¿½ï¿½İƒAï¿½ï¿½ï¿½Tï¿½[ï¿½ï¿½Û‘ï¿½
+	double *in_err;	// ï¿½Aï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ÆƒAï¿½ï¿½ï¿½Tï¿½[ï¿½Ì‘ï¿½ï¿½ÎŒë·[%]
+	double in_ave=0;		// ï¿½Ç‚İï¿½ï¿½İƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ÌŠeï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½é•½ï¿½ï¿½
+	double in_sum=0;		// ï¿½Ç‚İï¿½ï¿½İƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Ì‘ï¿½ï¿½a
+	FILE *fp_dev;		// ï¿½Zï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îï¿½ï¿½Ìoï¿½Íƒtï¿½@ï¿½Cï¿½ï¿½ï¿½|ï¿½Cï¿½ï¿½ï¿½^ï¿½Ïï¿½
+	FILE *fp_linecnt;	// ï¿½Ç‚İï¿½ï¿½İƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Ìsï¿½ï¿½ï¿½Jï¿½Eï¿½ï¿½ï¿½gï¿½p
+	FILE *fp_extra;		// ï¿½Ç‚İï¿½ï¿½İƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Ìƒfï¿½[ï¿½^ï¿½ï¿½ï¿½oï¿½p
+	FILE *fp_out;		// ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½pï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½|ï¿½Cï¿½ï¿½ï¿½^
 
 	if(argc!=3)
 	{
@@ -53,14 +53,14 @@ int main(int argc, char *argv[])
         }
 	n = atoi(argv[2]);
 	fprintf(stderr,"The data number is %d\n",n);
-// --------------------------------------------“Ç‚İo‚µƒtƒ@ƒCƒ‹‚Ìw’è------------------------------------------------
+// --------------------------------------------ï¿½Ç‚İoï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ìwï¿½ï¿½------------------------------------------------
 	fprintf(stderr,"-------The reading file data-------\n");
 		sprintf(NUM,"%d",n);
 		strcat(name,argv[1]);
 		strcat(name,name1);
 		strcat(name,NUM);
 		strcat(name,name2);
-	// ------------------Å‰‚Ì‚Pü–Ú‚Ì‚İÀs-----ƒtƒ@ƒCƒ‹’·‚Ì’·‚³E—Ìˆæ‚Ì“®“IŠm•Û-------------------------------
+	// ------------------ï¿½Åï¿½ï¿½Ì‚Pï¿½ï¿½ï¿½Ú‚Ì‚İï¿½ï¿½s-----ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½Eï¿½Ìˆï¿½Ì“ï¿½ï¿½Iï¿½mï¿½ï¿½-------------------------------
 			linecnt = 0;
 			fp_linecnt = fopen(name,"r");
 			if(fp_linecnt){
@@ -77,10 +77,10 @@ int main(int argc, char *argv[])
 			in_ang = (int *)calloc(linecnt,sizeof(int));
 			in_ans = (int *)calloc(linecnt,sizeof(int));
 			m = (int *)calloc(linecnt,sizeof(int));
-		   // “Ç‚İ‚İƒf[ƒ^‚Ì•Û‘¶—Ìˆæ‚Ì“®“IŠm•Û
-	// --------------------------------------------ƒf[ƒ^‚Ìæ‚èo‚µ--------------------------------------------------
+		   // ï¿½Ç‚İï¿½ï¿½İƒfï¿½[ï¿½^ï¿½Ì•Û‘ï¿½ï¿½Ìˆï¿½Ì“ï¿½ï¿½Iï¿½mï¿½ï¿½
+	// --------------------------------------------ï¿½fï¿½[ï¿½^ï¿½Ìï¿½ï¿½oï¿½ï¿½--------------------------------------------------
 		k=0;
-		// ‘ÎÛƒtƒ@ƒCƒ‹‚©‚çƒf[ƒ^‚Ìæ‚èo‚µ(AnyFileRead‚Ì‘ã‘ÖƒvƒƒOƒ‰ƒ€)
+		// ï¿½ÎÛƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½Ìï¿½ï¿½oï¿½ï¿½(AnyFileReadï¿½Ì‘ï¿½Öƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½)
 		fprintf(stderr,"%s\n",name);
 		fp_extra = fopen(name,"r");
 		if(fp_extra){
@@ -94,9 +94,9 @@ int main(int argc, char *argv[])
 		for(k=0;k<linecnt;k++){
 			fprintf(stderr,"gomi1 = %s  in_ang =  %d  gomi2 =  %s in_ans =  %d\n",gomi1,in_ang[k],gomi2,in_ans[k]);
 		}
-		memset(name,0,sizeof(name));		// •¶š—ñ•Ï”name‚Ì‰Šú‰»
-		memset(NUM,0,sizeof(NUM));		// •¶š—ñ•Ï”NUM‚Ì‰Šú‰»
-// --------------------------------------------‘OŒãŒë”»’èA’èˆÊŒë·‚ÌZo--------------------------------------------------------
+		memset(name,0,sizeof(name));		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïï¿½nameï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½
+		memset(NUM,0,sizeof(NUM));		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïï¿½NUMï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½
+// --------------------------------------------ï¿½Oï¿½ï¿½ë”»ï¿½ï¿½Aï¿½ï¿½ÊŒë·ï¿½ÌZï¿½o--------------------------------------------------------
 		for(k=0;k<linecnt;k++){
 			if((in_ang[k] == 90)||(in_ang[k] == 270)){
 				m[k] = 0;
@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
 			}
 		}
 		for(k=0;k<linecnt;k++){
-		// in_ans‚ğ‘æˆêÛŒÀ‚ÉˆÚ“®B
+		// in_ansï¿½ï¿½ï¿½ï¿½ÛŒï¿½ï¿½ÉˆÚ“ï¿½ï¿½B
 			if(in_ans[k]<90){
  				in_ans[k] = in_ans[k];
 			}
@@ -131,7 +131,7 @@ int main(int argc, char *argv[])
 			if((in_ans[k]%5) != 0){
 				in_ans[k] = in_ans[k] + 1;
 			}
-		// in_ang‚ğ‘æˆêÛŒÀ‚ÉˆÚ“®B
+		// in_angï¿½ï¿½ï¿½ï¿½ÛŒï¿½ï¿½ÉˆÚ“ï¿½ï¿½B
 			if(in_ang[k]<90){
  				in_ang[k] = in_ang[k];
 			}
@@ -148,13 +148,13 @@ int main(int argc, char *argv[])
 				in_ang[k] = in_ang[k] + 1;
 			}
 		}
-// Œë·‚ğŒvZ
+// ï¿½ë·ï¿½ï¿½ï¿½vï¿½Z
 		for(k=0;k<linecnt;k++){
 		       	in_err[k] = fabs(((double)in_ans[k] - (double)in_ang[k]));
 			in_sum = in_sum + in_err[k];
 		}
 		in_ave = in_sum / linecnt;
-//----------------------------------------o—Í---------------------------------------------
+//----------------------------------------ï¿½oï¿½ï¿½---------------------------------------------
 	  a = 0;
 		fprintf(stderr,"testNo = %d\n",n);
 		for(k=0;k<linecnt;k++){
@@ -162,7 +162,7 @@ int main(int argc, char *argv[])
 			fprintf(stderr,"  sessionNo %2d  localization ERROR = %4.1lf[deg]   HANTEI = %2d \n",k+1,in_err[k],m[k]);
 		}
 		fprintf(stderr,      "TEST_AVE_LE = %.1lf[deg]  TEST_HANTEI = %d \n",in_ave,a);
-// --------------------------------------------ƒtƒ@ƒCƒ‹‚É‘‚«‚İ•Û‘¶---------------------------------------------
+// --------------------------------------------ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½İ•Û‘ï¿½---------------------------------------------
 	strcat(name_out,argv[1]);
 	strcat(name_out,"_ANSWER_localization_error");
 	strcat(data_name,argv[1]);
@@ -183,10 +183,10 @@ int main(int argc, char *argv[])
 			}
 			fprintf(fp_out,      "TEXT_AVE_LE = %.1lf[deg] TEST_HANTEI = %d \n",in_ave,a);
 	fclose(fp_out);
-	memset(data_name,0,sizeof(data_name));		// •¶š—ñ•Ï”data_name‚Ì‰Šú‰»
-	memset(name_out,0,sizeof(name_out));		// •¶š—ñ•Ï”name_out‚Ì‰Šú‰»
+	memset(data_name,0,sizeof(data_name));		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïï¿½data_nameï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½
+	memset(name_out,0,sizeof(name_out));		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïï¿½name_outï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½
 
-// --------------------------------------------ƒƒ‚ƒŠ‚Ì‰ğ•ú--------------------------------------------------------
+// --------------------------------------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‰ï¿½ï¿½--------------------------------------------------------
 	free(in_err);
 	free(in_ang);
 	free(in_ans);

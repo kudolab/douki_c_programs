@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="douki_C_programs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tetsu/dev/douki_C_programs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tetsu/dev/douki_C_programs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tetsu/dev/douki_C_programs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="douki_C_programs">
+				<Option output="/Users/tetsu/dev/douki_C_programs/cmake-build-debug/douki_C_programs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_C_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 douki_C_programs"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="douki_C_programs/fast">
+				<Option output="/Users/tetsu/dev/douki_C_programs/cmake-build-debug/douki_C_programs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_C_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 douki_C_programs/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_C_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/2chplay.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/2chplay2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/FC_deviation.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/FC_deviation_alter.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/FFT_ho.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/FileLib_osx.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/IMPmcode.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/LE_1.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/Rev_sup.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/WAVtoDSB.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/WAVtoDSB_osx.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/biascut.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/closed_loop_new.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/cosine_windowing.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/cutout_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/cutout_anyfile2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/douki_new.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/dv.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/equ_schroeder1.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/equ_schroeder2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/equ_schroeder3.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/equ_schroeder4.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/equ_schroeder5.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/fatchdb.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/fff.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/fft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/fftout2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/fftout3.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/fftout4.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/find_cutpoint.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/henkan.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/ifft.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/imp_add.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/imp_add_by10.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/inverse.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/linear_inpo_hrir_using_ATD.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/make_whitenoise.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/mono2LR.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/monoplay.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/monoplay2.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/monoplay_48k.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/monoplay_8kHz.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/monoplay_alter.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/monorecord.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/peaking_filter.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/playrec_2ch_inPath.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/playrec_2ch_new_kai.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/playrec_mono.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/playrec_mono_inPath.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/print_siglen.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/random.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/scaling_max_instant_amp.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/sepach.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/sinwave.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/timeconvo.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/zeropad_anyfile.c">
+			<Option target="douki_C_programs"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_C_programs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

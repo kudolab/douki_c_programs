@@ -15,7 +15,7 @@
 #include <complex.h>
 #include "/usr/local/include/fftw3.h"
 
-#include "/Users/yuki/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 
 #define PI 3.141592654
 #define SUCCESS 0

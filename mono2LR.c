@@ -1,6 +1,6 @@
-/* Æó¤Ä¤Î¥Ğ¥¤¥Ê¥ê²»À¼¥Ç¡¼¥¿¤òL¤ÈR¤ËÇÛÃÖ¤·¡¢°ì¤Ä¤Î¥Õ¥¡¥¤¥ë¤Ë¤Ş¤È¤á¤ë¥×¥í¥°¥é¥à
+/* äºŒã¤ã®ãƒã‚¤ãƒŠãƒªéŸ³å£°ãƒ‡ãƒ¼ã‚¿ã‚’Lã¨Rã«é…ç½®ã—ã€ä¸€ã¤ã®ãƒ•ã‚¡ã‚¤ãƒ«ã«ã¾ã¨ã‚ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
-   ºîÀ®Æü¡§2001/7/9  ºîÀ®¼Ô¡§¹©Æ£¾´ÍÎ
+   ä½œæˆæ—¥ï¼š2001/7/9  ä½œæˆè€…ï¼šå·¥è—¤å½°æ´‹
 */
 
 #include <stdio.h>
@@ -8,8 +8,8 @@
 #include <string.h>
 
 int main(int argc,char *argv[])
-/*  argv[1]¤ÏL¿®¹æ¤È¤·¤ÆÇÛÃÖ¤µ¤ì¤ë¥Õ¥¡¥¤¥ëÌ¾¤Î¥İ¥¤¥ó¥¿
-    argv[2]¤ÏR¿®¹æ¤È¤·¤ÆÇÛÃÖ¤µ¤ì¤ë¥Õ¥¡¥¤¥ëÌ¾¤Î¥İ¥¤¥ó¥¿
+/*  argv[1]ã¯Lä¿¡å·ã¨ã—ã¦é…ç½®ã•ã‚Œã‚‹ãƒ•ã‚¡ã‚¤ãƒ«åã®ãƒã‚¤ãƒ³ã‚¿
+    argv[2]ã¯Rä¿¡å·ã¨ã—ã¦é…ç½®ã•ã‚Œã‚‹ãƒ•ã‚¡ã‚¤ãƒ«åã®ãƒã‚¤ãƒ³ã‚¿
 */
 {
   int i;
@@ -28,7 +28,7 @@ int main(int argc,char *argv[])
   }
   
 
-/*ÆşÎÏ¤¬R¿®¹æ¤Î¤ß¤Î½èÍı*/
+/*å…¥åŠ›ãŒRä¿¡å·ã®ã¿ã®å‡¦ç†*/
   if( strcmp(argv[1],"non") == 0 ){
       
         if(  ( (fp2=fopen(argv[2],"rb")) == NULL )  ||
@@ -38,8 +38,8 @@ int main(int argc,char *argv[])
 	    exit(EXIT_FAILURE);
 	  }
 	
-	in1 = (short int *)malloc(1*(size_t)sizeof(short int)); /*L¿®¹æ¤Î¥Ğ¥Ã¥Õ¥¡*/
-	in2 = (short int *)malloc(1*(size_t)sizeof(short int)); /*R¿®¹æ¤Î¥Ğ¥Ã¥Õ¥¡*/
+	in1 = (short int *)malloc(1*(size_t)sizeof(short int)); /*Lä¿¡å·ã®ãƒãƒƒãƒ•ã‚¡*/
+	in2 = (short int *)malloc(1*(size_t)sizeof(short int)); /*Rä¿¡å·ã®ãƒãƒƒãƒ•ã‚¡*/
 	
 	in1_len = 0;
 	fseek(fp2,0,SEEK_END);
@@ -73,7 +73,7 @@ int main(int argc,char *argv[])
       }
       fclose(fp2);fclose(fp3);
   }
-  /*ÆşÎÏ¤¬L¿®¹æ¤Î¤ß¤Î½èÍı*/
+  /*å…¥åŠ›ãŒLä¿¡å·ã®ã¿ã®å‡¦ç†*/
   else if( strcmp(argv[2],"non") == 0 ){
 
       if(  ( (fp1=fopen(argv[1],"rb")) == NULL )  ||
@@ -83,8 +83,8 @@ int main(int argc,char *argv[])
 	  exit(EXIT_FAILURE);
 	}
       
-      in1 = (short int *)malloc(1*(size_t)sizeof(short int)); /*L¿®¹æ¤Î¥Ğ¥Ã¥Õ¥¡*/
-      in2 = (short int *)malloc(1*(size_t)sizeof(short int)); /*R¿®¹æ¤Î¥Ğ¥Ã¥Õ¥¡*/
+      in1 = (short int *)malloc(1*(size_t)sizeof(short int)); /*Lä¿¡å·ã®ãƒãƒƒãƒ•ã‚¡*/
+      in2 = (short int *)malloc(1*(size_t)sizeof(short int)); /*Rä¿¡å·ã®ãƒãƒƒãƒ•ã‚¡*/
       
       fseek(fp1,0,SEEK_END);
       in1_len =(int)ftell(fp1) / (size_t)sizeof(short int);
@@ -127,8 +127,8 @@ int main(int argc,char *argv[])
 	  exit(EXIT_FAILURE);
 	}
       
-      in1 = (short int *)malloc(1*(size_t)sizeof(short int)); /*L¿®¹æ¤Î¥Ğ¥Ã¥Õ¥¡*/
-      in2 = (short int *)malloc(1*(size_t)sizeof(short int)); /*R¿®¹æ¤Î¥Ğ¥Ã¥Õ¥¡*/
+      in1 = (short int *)malloc(1*(size_t)sizeof(short int)); /*Lä¿¡å·ã®ãƒãƒƒãƒ•ã‚¡*/
+      in2 = (short int *)malloc(1*(size_t)sizeof(short int)); /*Rä¿¡å·ã®ãƒãƒƒãƒ•ã‚¡*/
       
       fseek(fp1,0,SEEK_END);
       in1_len =(int)ftell(fp1) / (size_t)sizeof(short int);

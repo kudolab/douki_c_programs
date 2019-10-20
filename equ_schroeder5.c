@@ -15,7 +15,7 @@
 #include <string.h>
 #include <complex.h>
 
-#include "/Users/yuki/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 
 int main(int argc, char *argv[])
 {

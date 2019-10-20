@@ -4,7 +4,7 @@
 #include<math.h>
 #include<string.h>
 
-#include "/Users/audio/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 
 extern int  Inverse(double *,double *,double *,int);
 extern void Levinson(double *a,double *f,double *g,int n);

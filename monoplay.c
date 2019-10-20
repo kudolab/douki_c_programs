@@ -1,12 +1,12 @@
 /* monoplay.c */
 
-// clang mplay.c -o mplay /Users/kudo/Documents/portaudio/lib/.libs/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+// clang mplay.c -o mplay /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include "/Users/kudo/Documents/portaudio/include/portaudio.h"
+#include "/usr/local/Cellar/portaudio/19.6.0/include/portaudio.h"
 #include "FileLib_osx.c"
 
 /* #define SAMPLE_RATE  (17932) // Test failure to open with this value. */

@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include "/Users/yuki/portaudio/include/portaudio.h"
+#include "/usr/local/Cellar/portaudio/19.6.0/include/portaudio.h"
 #include "FileLib_osx.c"
 
 /* #define SAMPLE_RATE  (17932) // Test failure to open with this value. */

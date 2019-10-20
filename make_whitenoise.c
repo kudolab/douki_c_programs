@@ -1,10 +1,10 @@
 //gcc make_whitenoise.c -o make_whitenoise -lm -lfftw3
 
 /* 
-   Çò¿§»¨²»¤òÀ¸À®¤¹¤ë¥×¥í¥°¥é¥à
+   ç™½è‰²é›‘éŸ³ã‚’ç”Ÿæˆã™ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
-   ºîÀ®¼Ô:¹©Æ£¾´ÍÎ
-   ºîÀ®Æü:2006/01/09
+   ä½œæˆè€…:å·¥è—¤å½°æ´‹
+   ä½œæˆæ—¥:2006/01/09
 
 */
 
@@ -16,7 +16,7 @@
 #include <time.h>
 
 #include "/usr/local/include/fftw3.h"
-#include "/Users/audio/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 
 
 int main(int argc,char *argv[])

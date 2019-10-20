@@ -1,9 +1,9 @@
 
 /*
-  �ǡ����˥����ͤ�򤹤�ץ������
+  データにゼロ詰めをするプログラム
   
-  ������:2002/12/12
-  ������:��ƣ����
+  作成日:2002/12/12
+  作成者:工藤彰洋
 
 */
 
@@ -21,7 +21,7 @@ int main(int argc,char *argv[])
   double *x;
   
   if(argc < 4){
-    fprintf(stderr,"������­��ޤ���\n");
+    fprintf(stderr,"引数が足りません\n");
     fprintf(stderr,"this program becomes data tail zero\n");
     fprintf(stderr,"usage: ");
     fprintf(stderr,"zeropad_anyfile point in out\n");
@@ -33,7 +33,7 @@ int main(int argc,char *argv[])
   
   point=atoi(argv[1]);
   if(point>=length){
-    fprintf(stderr,"�ǡ�����0�ˤ����ϰϤ���Ŭ�ڤǤ�");
+    fprintf(stderr,"データを0にする範囲が不適切です");
     exit(EXIT_FAILURE);
   }
   

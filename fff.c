@@ -14,7 +14,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "/Users/audio/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 #include "/Users/audio/kenkyu/douki/umasig/umasig.h"
 #include "/Users/audio/kenkyu/douki/umasig/fft.c"
 #include "/Users/audio/kenkyu/douki/umasig/vector.c"

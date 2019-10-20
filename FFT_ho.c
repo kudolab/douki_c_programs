@@ -4,7 +4,7 @@
 #include<string.h>
 #include<math.h>
 
-#include "/Users/audio/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 #include "/Users/audio/kenkyu/douki/Proctool/fft.c"
 #include "/Users/audio/kenkyu/douki/Proctool/ifft.c"
 

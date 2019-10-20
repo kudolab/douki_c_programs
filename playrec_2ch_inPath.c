@@ -1,12 +1,12 @@
 /* playrec_2ch_new_kai.c */
 
-// clang playrec_2ch_inPath.c -o playrec_2ch_inPath /Users/audio/portaudio/lib/.libs/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+// clang playrec_2ch_inPath.c -o playrec_2ch_inPath /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include "/Users/audio/portaudio/include/portaudio.h"
+#include "/usr/local/Cellar/portaudio/19.6.0/include/portaudio.h"
 #include "FileLib_osx.c"
 
 #define SAMPLE_RATE  (48000)

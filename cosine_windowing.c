@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "/Users/audio/kenkyu/douki/FileLib_osx.c"
+#include "FileLib_osx.c"
 
 #define PI 3.141592654
 

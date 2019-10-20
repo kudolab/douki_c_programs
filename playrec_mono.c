@@ -1,12 +1,12 @@
 /* douki_kai.c */
 
-// clang douki_mono.c -o douki_mono /Users/audio/portaudio/lib/.libs/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+// clang douki_mono.c -o douki_mono /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include "/Users/audio/portaudio/include/portaudio.h"
+#include "/usr/local/Cellar/portaudio/19.6.0/include/portaudio.h"
 #include "FileLib_osx.c"
 
 /* #define SAMPLE_RATE  (17932) // Test failure to open with this value. */
