@@ -1,5 +1,9 @@
 # douki
-C programs for research
+Clang programs for research
+
+# Install
+Please execute below
+`sh install.sh`
 
 # requirements
 
