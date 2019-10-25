@@ -109,22 +109,9 @@ CMakeFiles/douki_C_programs.dir/umasig/fft.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/umasig/fft.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/umasig/fft.c -o CMakeFiles/douki_C_programs.dir/umasig/fft.c.s
 
-CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.o: CMakeFiles/douki_C_programs.dir/flags.make
-CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.o: ../umasig/fftfilt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.o   -c /Users/tetsu/dev/douki_C_programs/umasig/fftfilt.c
-
-CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/umasig/fftfilt.c > CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.i
-
-CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/umasig/fftfilt.c -o CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.s
-
 CMakeFiles/douki_C_programs.dir/umasig/plot.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/umasig/plot.c.o: ../umasig/plot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/douki_C_programs.dir/umasig/plot.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/douki_C_programs.dir/umasig/plot.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/umasig/plot.c.o   -c /Users/tetsu/dev/douki_C_programs/umasig/plot.c
 
 CMakeFiles/douki_C_programs.dir/umasig/plot.c.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/douki_C_programs.dir/umasig/plot.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/umasig/random.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/umasig/random.c.o: ../umasig/random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/douki_C_programs.dir/umasig/random.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/douki_C_programs.dir/umasig/random.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/umasig/random.c.o   -c /Users/tetsu/dev/douki_C_programs/umasig/random.c
 
 CMakeFiles/douki_C_programs.dir/umasig/random.c.i: cmake_force
@@ -150,7 +137,7 @@ CMakeFiles/douki_C_programs.dir/umasig/random.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/umasig/speech.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/umasig/speech.c.o: ../umasig/speech.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/douki_C_programs.dir/umasig/speech.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/douki_C_programs.dir/umasig/speech.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/umasig/speech.c.o   -c /Users/tetsu/dev/douki_C_programs/umasig/speech.c
 
 CMakeFiles/douki_C_programs.dir/umasig/speech.c.i: cmake_force
@@ -163,7 +150,7 @@ CMakeFiles/douki_C_programs.dir/umasig/speech.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/umasig/utils.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/umasig/utils.c.o: ../umasig/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/douki_C_programs.dir/umasig/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/douki_C_programs.dir/umasig/utils.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/umasig/utils.c.o   -c /Users/tetsu/dev/douki_C_programs/umasig/utils.c
 
 CMakeFiles/douki_C_programs.dir/umasig/utils.c.i: cmake_force
@@ -176,7 +163,7 @@ CMakeFiles/douki_C_programs.dir/umasig/utils.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/umasig/vector.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/umasig/vector.c.o: ../umasig/vector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/douki_C_programs.dir/umasig/vector.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/douki_C_programs.dir/umasig/vector.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/umasig/vector.c.o   -c /Users/tetsu/dev/douki_C_programs/umasig/vector.c
 
 CMakeFiles/douki_C_programs.dir/umasig/vector.c.i: cmake_force
@@ -189,7 +176,7 @@ CMakeFiles/douki_C_programs.dir/umasig/vector.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/umasig/window.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/umasig/window.c.o: ../umasig/window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/douki_C_programs.dir/umasig/window.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/douki_C_programs.dir/umasig/window.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/umasig/window.c.o   -c /Users/tetsu/dev/douki_C_programs/umasig/window.c
 
 CMakeFiles/douki_C_programs.dir/umasig/window.c.i: cmake_force
@@ -202,7 +189,7 @@ CMakeFiles/douki_C_programs.dir/umasig/window.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/2chplay.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/2chplay.c.o: ../2chplay.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/douki_C_programs.dir/2chplay.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/douki_C_programs.dir/2chplay.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/2chplay.c.o   -c /Users/tetsu/dev/douki_C_programs/2chplay.c
 
 CMakeFiles/douki_C_programs.dir/2chplay.c.i: cmake_force
@@ -215,7 +202,7 @@ CMakeFiles/douki_C_programs.dir/2chplay.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/2chplay2.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/2chplay2.c.o: ../2chplay2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/douki_C_programs.dir/2chplay2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/douki_C_programs.dir/2chplay2.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/2chplay2.c.o   -c /Users/tetsu/dev/douki_C_programs/2chplay2.c
 
 CMakeFiles/douki_C_programs.dir/2chplay2.c.i: cmake_force
@@ -228,7 +215,7 @@ CMakeFiles/douki_C_programs.dir/2chplay2.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/biascut.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/biascut.c.o: ../biascut.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/douki_C_programs.dir/biascut.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/douki_C_programs.dir/biascut.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/biascut.c.o   -c /Users/tetsu/dev/douki_C_programs/biascut.c
 
 CMakeFiles/douki_C_programs.dir/biascut.c.i: cmake_force
@@ -241,7 +228,7 @@ CMakeFiles/douki_C_programs.dir/biascut.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/closed_loop_new.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/closed_loop_new.c.o: ../closed_loop_new.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/douki_C_programs.dir/closed_loop_new.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/douki_C_programs.dir/closed_loop_new.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/closed_loop_new.c.o   -c /Users/tetsu/dev/douki_C_programs/closed_loop_new.c
 
 CMakeFiles/douki_C_programs.dir/closed_loop_new.c.i: cmake_force
@@ -254,7 +241,7 @@ CMakeFiles/douki_C_programs.dir/closed_loop_new.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/cosine_windowing.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/cosine_windowing.c.o: ../cosine_windowing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/douki_C_programs.dir/cosine_windowing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/douki_C_programs.dir/cosine_windowing.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/cosine_windowing.c.o   -c /Users/tetsu/dev/douki_C_programs/cosine_windowing.c
 
 CMakeFiles/douki_C_programs.dir/cosine_windowing.c.i: cmake_force
@@ -267,7 +254,7 @@ CMakeFiles/douki_C_programs.dir/cosine_windowing.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.o: ../cutout_anyfile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.o   -c /Users/tetsu/dev/douki_C_programs/cutout_anyfile.c
 
 CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.i: cmake_force
@@ -280,7 +267,7 @@ CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.o: ../cutout_anyfile2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.o   -c /Users/tetsu/dev/douki_C_programs/cutout_anyfile2.c
 
 CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.i: cmake_force
@@ -293,7 +280,7 @@ CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/douki_new.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/douki_new.c.o: ../douki_new.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/douki_C_programs.dir/douki_new.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/douki_C_programs.dir/douki_new.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/douki_new.c.o   -c /Users/tetsu/dev/douki_C_programs/douki_new.c
 
 CMakeFiles/douki_C_programs.dir/douki_new.c.i: cmake_force
@@ -306,7 +293,7 @@ CMakeFiles/douki_C_programs.dir/douki_new.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/dv.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/dv.c.o: ../dv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/douki_C_programs.dir/dv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/douki_C_programs.dir/dv.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/dv.c.o   -c /Users/tetsu/dev/douki_C_programs/dv.c
 
 CMakeFiles/douki_C_programs.dir/dv.c.i: cmake_force
@@ -319,7 +306,7 @@ CMakeFiles/douki_C_programs.dir/dv.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.o: ../equ_schroeder1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.o   -c /Users/tetsu/dev/douki_C_programs/equ_schroeder1.c
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.i: cmake_force
@@ -332,7 +319,7 @@ CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.o: ../equ_schroeder2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.o   -c /Users/tetsu/dev/douki_C_programs/equ_schroeder2.c
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.i: cmake_force
@@ -345,7 +332,7 @@ CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.o: ../equ_schroeder3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.o   -c /Users/tetsu/dev/douki_C_programs/equ_schroeder3.c
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.i: cmake_force
@@ -358,7 +345,7 @@ CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.o: ../equ_schroeder4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.o   -c /Users/tetsu/dev/douki_C_programs/equ_schroeder4.c
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.i: cmake_force
@@ -371,7 +358,7 @@ CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.o: ../equ_schroeder5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.o   -c /Users/tetsu/dev/douki_C_programs/equ_schroeder5.c
 
 CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.i: cmake_force
@@ -384,7 +371,7 @@ CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/fatchdb.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/fatchdb.c.o: ../fatchdb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/douki_C_programs.dir/fatchdb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/douki_C_programs.dir/fatchdb.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/fatchdb.c.o   -c /Users/tetsu/dev/douki_C_programs/fatchdb.c
 
 CMakeFiles/douki_C_programs.dir/fatchdb.c.i: cmake_force
@@ -395,35 +382,35 @@ CMakeFiles/douki_C_programs.dir/fatchdb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/fatchdb.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/fatchdb.c -o CMakeFiles/douki_C_programs.dir/fatchdb.c.s
 
-CMakeFiles/douki_C_programs.dir/fc_deviation.c.o: CMakeFiles/douki_C_programs.dir/flags.make
-CMakeFiles/douki_C_programs.dir/fc_deviation.c.o: ../fc_deviation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/douki_C_programs.dir/fc_deviation.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/fc_deviation.c.o   -c /Users/tetsu/dev/douki_C_programs/fc_deviation.c
+CMakeFiles/douki_C_programs.dir/FC_deviation.c.o: CMakeFiles/douki_C_programs.dir/flags.make
+CMakeFiles/douki_C_programs.dir/FC_deviation.c.o: ../FC_deviation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/douki_C_programs.dir/FC_deviation.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/FC_deviation.c.o   -c /Users/tetsu/dev/douki_C_programs/FC_deviation.c
 
-CMakeFiles/douki_C_programs.dir/fc_deviation.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/douki_C_programs.dir/fc_deviation.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/fc_deviation.c > CMakeFiles/douki_C_programs.dir/fc_deviation.c.i
+CMakeFiles/douki_C_programs.dir/FC_deviation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/douki_C_programs.dir/FC_deviation.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/FC_deviation.c > CMakeFiles/douki_C_programs.dir/FC_deviation.c.i
 
-CMakeFiles/douki_C_programs.dir/fc_deviation.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/fc_deviation.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/fc_deviation.c -o CMakeFiles/douki_C_programs.dir/fc_deviation.c.s
+CMakeFiles/douki_C_programs.dir/FC_deviation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/FC_deviation.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/FC_deviation.c -o CMakeFiles/douki_C_programs.dir/FC_deviation.c.s
 
-CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.o: CMakeFiles/douki_C_programs.dir/flags.make
-CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.o: ../fc_deviation_alter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.o   -c /Users/tetsu/dev/douki_C_programs/fc_deviation_alter.c
+CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.o: CMakeFiles/douki_C_programs.dir/flags.make
+CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.o: ../FC_deviation_alter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.o   -c /Users/tetsu/dev/douki_C_programs/FC_deviation_alter.c
 
-CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/fc_deviation_alter.c > CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.i
+CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/FC_deviation_alter.c > CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.i
 
-CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/fc_deviation_alter.c -o CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.s
+CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/FC_deviation_alter.c -o CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.s
 
 CMakeFiles/douki_C_programs.dir/fff.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/fff.c.o: ../fff.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/douki_C_programs.dir/fff.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/douki_C_programs.dir/fff.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/fff.c.o   -c /Users/tetsu/dev/douki_C_programs/fff.c
 
 CMakeFiles/douki_C_programs.dir/fff.c.i: cmake_force
@@ -436,7 +423,7 @@ CMakeFiles/douki_C_programs.dir/fff.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/fft.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/fft.c.o: ../fft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/douki_C_programs.dir/fft.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/douki_C_programs.dir/fft.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/fft.c.o   -c /Users/tetsu/dev/douki_C_programs/fft.c
 
 CMakeFiles/douki_C_programs.dir/fft.c.i: cmake_force
@@ -447,22 +434,9 @@ CMakeFiles/douki_C_programs.dir/fft.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/fft.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/fft.c -o CMakeFiles/douki_C_programs.dir/fft.c.s
 
-CMakeFiles/douki_C_programs.dir/fft_ho.c.o: CMakeFiles/douki_C_programs.dir/flags.make
-CMakeFiles/douki_C_programs.dir/fft_ho.c.o: ../fft_ho.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/douki_C_programs.dir/fft_ho.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/fft_ho.c.o   -c /Users/tetsu/dev/douki_C_programs/fft_ho.c
-
-CMakeFiles/douki_C_programs.dir/fft_ho.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/douki_C_programs.dir/fft_ho.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/fft_ho.c > CMakeFiles/douki_C_programs.dir/fft_ho.c.i
-
-CMakeFiles/douki_C_programs.dir/fft_ho.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/fft_ho.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/fft_ho.c -o CMakeFiles/douki_C_programs.dir/fft_ho.c.s
-
 CMakeFiles/douki_C_programs.dir/fftout2.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/fftout2.c.o: ../fftout2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/douki_C_programs.dir/fftout2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/douki_C_programs.dir/fftout2.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/fftout2.c.o   -c /Users/tetsu/dev/douki_C_programs/fftout2.c
 
 CMakeFiles/douki_C_programs.dir/fftout2.c.i: cmake_force
@@ -475,7 +449,7 @@ CMakeFiles/douki_C_programs.dir/fftout2.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/fftout3.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/fftout3.c.o: ../fftout3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/douki_C_programs.dir/fftout3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/douki_C_programs.dir/fftout3.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/fftout3.c.o   -c /Users/tetsu/dev/douki_C_programs/fftout3.c
 
 CMakeFiles/douki_C_programs.dir/fftout3.c.i: cmake_force
@@ -488,7 +462,7 @@ CMakeFiles/douki_C_programs.dir/fftout3.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/fftout4.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/fftout4.c.o: ../fftout4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/douki_C_programs.dir/fftout4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/douki_C_programs.dir/fftout4.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/fftout4.c.o   -c /Users/tetsu/dev/douki_C_programs/fftout4.c
 
 CMakeFiles/douki_C_programs.dir/fftout4.c.i: cmake_force
@@ -501,7 +475,7 @@ CMakeFiles/douki_C_programs.dir/fftout4.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/FileLib_osx.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/FileLib_osx.c.o: ../FileLib_osx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/douki_C_programs.dir/FileLib_osx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/douki_C_programs.dir/FileLib_osx.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/FileLib_osx.c.o   -c /Users/tetsu/dev/douki_C_programs/FileLib_osx.c
 
 CMakeFiles/douki_C_programs.dir/FileLib_osx.c.i: cmake_force
@@ -514,7 +488,7 @@ CMakeFiles/douki_C_programs.dir/FileLib_osx.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/find_cutpoint.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/find_cutpoint.c.o: ../find_cutpoint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/douki_C_programs.dir/find_cutpoint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/douki_C_programs.dir/find_cutpoint.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/find_cutpoint.c.o   -c /Users/tetsu/dev/douki_C_programs/find_cutpoint.c
 
 CMakeFiles/douki_C_programs.dir/find_cutpoint.c.i: cmake_force
@@ -527,7 +501,7 @@ CMakeFiles/douki_C_programs.dir/find_cutpoint.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/henkan.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/henkan.c.o: ../henkan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/douki_C_programs.dir/henkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/douki_C_programs.dir/henkan.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/henkan.c.o   -c /Users/tetsu/dev/douki_C_programs/henkan.c
 
 CMakeFiles/douki_C_programs.dir/henkan.c.i: cmake_force
@@ -540,7 +514,7 @@ CMakeFiles/douki_C_programs.dir/henkan.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/ifft.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/ifft.c.o: ../ifft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/douki_C_programs.dir/ifft.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/douki_C_programs.dir/ifft.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/ifft.c.o   -c /Users/tetsu/dev/douki_C_programs/ifft.c
 
 CMakeFiles/douki_C_programs.dir/ifft.c.i: cmake_force
@@ -553,7 +527,7 @@ CMakeFiles/douki_C_programs.dir/ifft.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/imp_add.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/imp_add.c.o: ../imp_add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/douki_C_programs.dir/imp_add.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/douki_C_programs.dir/imp_add.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/imp_add.c.o   -c /Users/tetsu/dev/douki_C_programs/imp_add.c
 
 CMakeFiles/douki_C_programs.dir/imp_add.c.i: cmake_force
@@ -566,7 +540,7 @@ CMakeFiles/douki_C_programs.dir/imp_add.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/imp_add_by10.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/imp_add_by10.c.o: ../imp_add_by10.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/douki_C_programs.dir/imp_add_by10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/douki_C_programs.dir/imp_add_by10.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/imp_add_by10.c.o   -c /Users/tetsu/dev/douki_C_programs/imp_add_by10.c
 
 CMakeFiles/douki_C_programs.dir/imp_add_by10.c.i: cmake_force
@@ -579,7 +553,7 @@ CMakeFiles/douki_C_programs.dir/imp_add_by10.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/IMPmcode.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/IMPmcode.c.o: ../IMPmcode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/douki_C_programs.dir/IMPmcode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/douki_C_programs.dir/IMPmcode.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/IMPmcode.c.o   -c /Users/tetsu/dev/douki_C_programs/IMPmcode.c
 
 CMakeFiles/douki_C_programs.dir/IMPmcode.c.i: cmake_force
@@ -592,7 +566,7 @@ CMakeFiles/douki_C_programs.dir/IMPmcode.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/inverse.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/inverse.c.o: ../inverse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/douki_C_programs.dir/inverse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/douki_C_programs.dir/inverse.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/inverse.c.o   -c /Users/tetsu/dev/douki_C_programs/inverse.c
 
 CMakeFiles/douki_C_programs.dir/inverse.c.i: cmake_force
@@ -605,7 +579,7 @@ CMakeFiles/douki_C_programs.dir/inverse.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/LE_1.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/LE_1.c.o: ../LE_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/douki_C_programs.dir/LE_1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/douki_C_programs.dir/LE_1.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/LE_1.c.o   -c /Users/tetsu/dev/douki_C_programs/LE_1.c
 
 CMakeFiles/douki_C_programs.dir/LE_1.c.i: cmake_force
@@ -618,7 +592,7 @@ CMakeFiles/douki_C_programs.dir/LE_1.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.o: ../linear_inpo_hrir_using_ATD.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.o   -c /Users/tetsu/dev/douki_C_programs/linear_inpo_hrir_using_ATD.c
 
 CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.i: cmake_force
@@ -631,7 +605,7 @@ CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o: ../make_whitenoise.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o   -c /Users/tetsu/dev/douki_C_programs/make_whitenoise.c
 
 CMakeFiles/douki_C_programs.dir/make_whitenoise.c.i: cmake_force
@@ -644,7 +618,7 @@ CMakeFiles/douki_C_programs.dir/make_whitenoise.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/mono2LR.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/mono2LR.c.o: ../mono2LR.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/douki_C_programs.dir/mono2LR.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/douki_C_programs.dir/mono2LR.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/mono2LR.c.o   -c /Users/tetsu/dev/douki_C_programs/mono2LR.c
 
 CMakeFiles/douki_C_programs.dir/mono2LR.c.i: cmake_force
@@ -657,7 +631,7 @@ CMakeFiles/douki_C_programs.dir/mono2LR.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/monoplay.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/monoplay.c.o: ../monoplay.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/douki_C_programs.dir/monoplay.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/douki_C_programs.dir/monoplay.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/monoplay.c.o   -c /Users/tetsu/dev/douki_C_programs/monoplay.c
 
 CMakeFiles/douki_C_programs.dir/monoplay.c.i: cmake_force
@@ -670,7 +644,7 @@ CMakeFiles/douki_C_programs.dir/monoplay.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/monoplay2.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/monoplay2.c.o: ../monoplay2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/douki_C_programs.dir/monoplay2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/douki_C_programs.dir/monoplay2.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/monoplay2.c.o   -c /Users/tetsu/dev/douki_C_programs/monoplay2.c
 
 CMakeFiles/douki_C_programs.dir/monoplay2.c.i: cmake_force
@@ -683,7 +657,7 @@ CMakeFiles/douki_C_programs.dir/monoplay2.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/monoplay_48k.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/monoplay_48k.c.o: ../monoplay_48k.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/douki_C_programs.dir/monoplay_48k.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/douki_C_programs.dir/monoplay_48k.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/monoplay_48k.c.o   -c /Users/tetsu/dev/douki_C_programs/monoplay_48k.c
 
 CMakeFiles/douki_C_programs.dir/monoplay_48k.c.i: cmake_force
@@ -696,7 +670,7 @@ CMakeFiles/douki_C_programs.dir/monoplay_48k.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.o: ../monoplay_8kHz.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.o   -c /Users/tetsu/dev/douki_C_programs/monoplay_8kHz.c
 
 CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.i: cmake_force
@@ -709,7 +683,7 @@ CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/monoplay_alter.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/monoplay_alter.c.o: ../monoplay_alter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/douki_C_programs.dir/monoplay_alter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/douki_C_programs.dir/monoplay_alter.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/monoplay_alter.c.o   -c /Users/tetsu/dev/douki_C_programs/monoplay_alter.c
 
 CMakeFiles/douki_C_programs.dir/monoplay_alter.c.i: cmake_force
@@ -722,7 +696,7 @@ CMakeFiles/douki_C_programs.dir/monoplay_alter.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/monorecord.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/monorecord.c.o: ../monorecord.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/douki_C_programs.dir/monorecord.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/douki_C_programs.dir/monorecord.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/monorecord.c.o   -c /Users/tetsu/dev/douki_C_programs/monorecord.c
 
 CMakeFiles/douki_C_programs.dir/monorecord.c.i: cmake_force
@@ -735,7 +709,7 @@ CMakeFiles/douki_C_programs.dir/monorecord.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/peaking_filter.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/peaking_filter.c.o: ../peaking_filter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/douki_C_programs.dir/peaking_filter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/douki_C_programs.dir/peaking_filter.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/peaking_filter.c.o   -c /Users/tetsu/dev/douki_C_programs/peaking_filter.c
 
 CMakeFiles/douki_C_programs.dir/peaking_filter.c.i: cmake_force
@@ -748,7 +722,7 @@ CMakeFiles/douki_C_programs.dir/peaking_filter.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.o: ../playrec_2ch_inPath.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.o   -c /Users/tetsu/dev/douki_C_programs/playrec_2ch_inPath.c
 
 CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.i: cmake_force
@@ -761,7 +735,7 @@ CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.o: ../playrec_2ch_new_kai.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.o   -c /Users/tetsu/dev/douki_C_programs/playrec_2ch_new_kai.c
 
 CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.i: cmake_force
@@ -774,7 +748,7 @@ CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/playrec_mono.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/playrec_mono.c.o: ../playrec_mono.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/douki_C_programs.dir/playrec_mono.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/douki_C_programs.dir/playrec_mono.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/playrec_mono.c.o   -c /Users/tetsu/dev/douki_C_programs/playrec_mono.c
 
 CMakeFiles/douki_C_programs.dir/playrec_mono.c.i: cmake_force
@@ -787,7 +761,7 @@ CMakeFiles/douki_C_programs.dir/playrec_mono.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.o: ../playrec_mono_inPath.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.o   -c /Users/tetsu/dev/douki_C_programs/playrec_mono_inPath.c
 
 CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.i: cmake_force
@@ -800,7 +774,7 @@ CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/print_siglen.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/print_siglen.c.o: ../print_siglen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/douki_C_programs.dir/print_siglen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/douki_C_programs.dir/print_siglen.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/print_siglen.c.o   -c /Users/tetsu/dev/douki_C_programs/print_siglen.c
 
 CMakeFiles/douki_C_programs.dir/print_siglen.c.i: cmake_force
@@ -813,7 +787,7 @@ CMakeFiles/douki_C_programs.dir/print_siglen.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/random.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/random.c.o: ../random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/douki_C_programs.dir/random.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/douki_C_programs.dir/random.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/random.c.o   -c /Users/tetsu/dev/douki_C_programs/random.c
 
 CMakeFiles/douki_C_programs.dir/random.c.i: cmake_force
@@ -826,7 +800,7 @@ CMakeFiles/douki_C_programs.dir/random.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/Rev_sup.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/Rev_sup.c.o: ../Rev_sup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/douki_C_programs.dir/Rev_sup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/douki_C_programs.dir/Rev_sup.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/Rev_sup.c.o   -c /Users/tetsu/dev/douki_C_programs/Rev_sup.c
 
 CMakeFiles/douki_C_programs.dir/Rev_sup.c.i: cmake_force
@@ -839,7 +813,7 @@ CMakeFiles/douki_C_programs.dir/Rev_sup.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.o: ../scaling_max_instant_amp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.o   -c /Users/tetsu/dev/douki_C_programs/scaling_max_instant_amp.c
 
 CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.i: cmake_force
@@ -852,7 +826,7 @@ CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/sepach.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/sepach.c.o: ../sepach.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/douki_C_programs.dir/sepach.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/douki_C_programs.dir/sepach.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/sepach.c.o   -c /Users/tetsu/dev/douki_C_programs/sepach.c
 
 CMakeFiles/douki_C_programs.dir/sepach.c.i: cmake_force
@@ -865,7 +839,7 @@ CMakeFiles/douki_C_programs.dir/sepach.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/sinwave.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/sinwave.c.o: ../sinwave.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/douki_C_programs.dir/sinwave.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/douki_C_programs.dir/sinwave.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/sinwave.c.o   -c /Users/tetsu/dev/douki_C_programs/sinwave.c
 
 CMakeFiles/douki_C_programs.dir/sinwave.c.i: cmake_force
@@ -878,7 +852,7 @@ CMakeFiles/douki_C_programs.dir/sinwave.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/timeconvo.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/timeconvo.c.o: ../timeconvo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/douki_C_programs.dir/timeconvo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/douki_C_programs.dir/timeconvo.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/timeconvo.c.o   -c /Users/tetsu/dev/douki_C_programs/timeconvo.c
 
 CMakeFiles/douki_C_programs.dir/timeconvo.c.i: cmake_force
@@ -889,22 +863,9 @@ CMakeFiles/douki_C_programs.dir/timeconvo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/timeconvo.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/timeconvo.c -o CMakeFiles/douki_C_programs.dir/timeconvo.c.s
 
-CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.o: CMakeFiles/douki_C_programs.dir/flags.make
-CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.o: ../WAVtoDSB.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.o   -c /Users/tetsu/dev/douki_C_programs/WAVtoDSB.c
-
-CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/WAVtoDSB.c > CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.i
-
-CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/WAVtoDSB.c -o CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.s
-
 CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.o: ../WAVtoDSB_osx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.o   -c /Users/tetsu/dev/douki_C_programs/WAVtoDSB_osx.c
 
 CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.i: cmake_force
@@ -917,7 +878,7 @@ CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.s: cmake_force
 
 CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.o: CMakeFiles/douki_C_programs.dir/flags.make
 CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.o: ../zeropad_anyfile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.o   -c /Users/tetsu/dev/douki_C_programs/zeropad_anyfile.c
 
 CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.i: cmake_force
@@ -934,7 +895,6 @@ douki_C_programs_OBJECTS = \
 "CMakeFiles/douki_C_programs.dir/umasig/complex.c.o" \
 "CMakeFiles/douki_C_programs.dir/umasig/conv.c.o" \
 "CMakeFiles/douki_C_programs.dir/umasig/fft.c.o" \
-"CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.o" \
 "CMakeFiles/douki_C_programs.dir/umasig/plot.c.o" \
 "CMakeFiles/douki_C_programs.dir/umasig/random.c.o" \
 "CMakeFiles/douki_C_programs.dir/umasig/speech.c.o" \
@@ -956,11 +916,10 @@ douki_C_programs_OBJECTS = \
 "CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.o" \
 "CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.o" \
 "CMakeFiles/douki_C_programs.dir/fatchdb.c.o" \
-"CMakeFiles/douki_C_programs.dir/fc_deviation.c.o" \
-"CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.o" \
+"CMakeFiles/douki_C_programs.dir/FC_deviation.c.o" \
+"CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.o" \
 "CMakeFiles/douki_C_programs.dir/fff.c.o" \
 "CMakeFiles/douki_C_programs.dir/fft.c.o" \
-"CMakeFiles/douki_C_programs.dir/fft_ho.c.o" \
 "CMakeFiles/douki_C_programs.dir/fftout2.c.o" \
 "CMakeFiles/douki_C_programs.dir/fftout3.c.o" \
 "CMakeFiles/douki_C_programs.dir/fftout4.c.o" \
@@ -994,7 +953,6 @@ douki_C_programs_OBJECTS = \
 "CMakeFiles/douki_C_programs.dir/sepach.c.o" \
 "CMakeFiles/douki_C_programs.dir/sinwave.c.o" \
 "CMakeFiles/douki_C_programs.dir/timeconvo.c.o" \
-"CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.o" \
 "CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.o" \
 "CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.o"
 
@@ -1005,7 +963,6 @@ douki_C_programs: CMakeFiles/douki_C_programs.dir/umasig/c_vector.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/umasig/complex.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/umasig/conv.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/umasig/fft.c.o
-douki_C_programs: CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/umasig/plot.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/umasig/random.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/umasig/speech.c.o
@@ -1027,11 +984,10 @@ douki_C_programs: CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/fatchdb.c.o
-douki_C_programs: CMakeFiles/douki_C_programs.dir/fc_deviation.c.o
-douki_C_programs: CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.o
+douki_C_programs: CMakeFiles/douki_C_programs.dir/FC_deviation.c.o
+douki_C_programs: CMakeFiles/douki_C_programs.dir/FC_deviation_alter.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/fff.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/fft.c.o
-douki_C_programs: CMakeFiles/douki_C_programs.dir/fft_ho.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/fftout2.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/fftout3.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/fftout4.c.o
@@ -1065,12 +1021,11 @@ douki_C_programs: CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/sepach.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/sinwave.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/timeconvo.c.o
-douki_C_programs: CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.o
 douki_C_programs: CMakeFiles/douki_C_programs.dir/build.make
 douki_C_programs: CMakeFiles/douki_C_programs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Linking C executable douki_C_programs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Linking C executable douki_C_programs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/douki_C_programs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

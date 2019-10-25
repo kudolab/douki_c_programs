@@ -15,7 +15,8 @@
 //#include <complex.h>
 #include <time.h>
 
-#include "include/fftw3.h"
+#include "/usr/local/include/fftw3.h"
+//#include <fftw3.h>
 #include "FileLib_osx.c"
 
 
