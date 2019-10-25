@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/dv.dir/dv.c.o"
+  "dv"
+  "dv.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/dv.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

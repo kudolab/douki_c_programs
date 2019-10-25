@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tetsu/dev/douki_C_programs/FileLib_osx.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/Users/tetsu/dev/douki_C_programs/make_whitenoise.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+string.h
+-
+time.h
+-
+/usr/local/include/fftw3.h
+-
+FileLib_osx.c
+/Users/tetsu/dev/douki_C_programs/FileLib_osx.c
+
+/usr/local/include/fftw3.h
+stdio.h
+-
+stddef.h
+-
+

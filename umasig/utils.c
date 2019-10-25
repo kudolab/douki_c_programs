@@ -14,17 +14,15 @@
 #include "umasig.h"
 
 // for the ``printf debug''
-void ho()
-{
-  fprintf(stderr, "ho!\n");
-  fflush(stderr);
+void ho() {
+    fprintf(stderr, "ho!\n");
+    fflush(stderr);
 }
 
-long stream_len(int block_size, FILE *stream)
-{
-  long len;
-  fseek(stream, 0L, SEEK_END);
-  len = ftell(stream);
-  rewind(stream);
-  return len/block_size;
+long stream_len(int block_size, FILE *stream) {
+    long len;
+    fseek(stream, 0L, SEEK_END);
+    len = ftell(stream);
+    rewind(stream);
+    return len / block_size;
 }

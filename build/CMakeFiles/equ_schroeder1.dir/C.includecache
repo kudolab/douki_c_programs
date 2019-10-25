@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tetsu/dev/douki_C_programs/FileLib_osx.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/Users/tetsu/dev/douki_C_programs/equ_schroeder1.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+string.h
+-
+complex.h
+-
+FileLib_osx.c
+/Users/tetsu/dev/douki_C_programs/FileLib_osx.c
+

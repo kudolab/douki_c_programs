@@ -111,17 +111,667 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named douki_C_programs
+# Target rules for targets named playrec_mono
 
 # Build rule for target.
-douki_C_programs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 douki_C_programs
-.PHONY : douki_C_programs
+playrec_mono: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 playrec_mono
+.PHONY : playrec_mono
 
 # fast build rule for target.
-douki_C_programs/fast:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/build
-.PHONY : douki_C_programs/fast
+playrec_mono/fast:
+	$(MAKE) -f CMakeFiles/playrec_mono.dir/build.make CMakeFiles/playrec_mono.dir/build
+.PHONY : playrec_mono/fast
+
+#=============================================================================
+# Target rules for targets named playrec_2ch_new_kai
+
+# Build rule for target.
+playrec_2ch_new_kai: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 playrec_2ch_new_kai
+.PHONY : playrec_2ch_new_kai
+
+# fast build rule for target.
+playrec_2ch_new_kai/fast:
+	$(MAKE) -f CMakeFiles/playrec_2ch_new_kai.dir/build.make CMakeFiles/playrec_2ch_new_kai.dir/build
+.PHONY : playrec_2ch_new_kai/fast
+
+#=============================================================================
+# Target rules for targets named playrec_2ch_inPath
+
+# Build rule for target.
+playrec_2ch_inPath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 playrec_2ch_inPath
+.PHONY : playrec_2ch_inPath
+
+# fast build rule for target.
+playrec_2ch_inPath/fast:
+	$(MAKE) -f CMakeFiles/playrec_2ch_inPath.dir/build.make CMakeFiles/playrec_2ch_inPath.dir/build
+.PHONY : playrec_2ch_inPath/fast
+
+#=============================================================================
+# Target rules for targets named monoplay_48k
+
+# Build rule for target.
+monoplay_48k: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay_48k
+.PHONY : monoplay_48k
+
+# fast build rule for target.
+monoplay_48k/fast:
+	$(MAKE) -f CMakeFiles/monoplay_48k.dir/build.make CMakeFiles/monoplay_48k.dir/build
+.PHONY : monoplay_48k/fast
+
+#=============================================================================
+# Target rules for targets named make_whitenoise
+
+# Build rule for target.
+make_whitenoise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 make_whitenoise
+.PHONY : make_whitenoise
+
+# fast build rule for target.
+make_whitenoise/fast:
+	$(MAKE) -f CMakeFiles/make_whitenoise.dir/build.make CMakeFiles/make_whitenoise.dir/build
+.PHONY : make_whitenoise/fast
+
+#=============================================================================
+# Target rules for targets named fatchdb
+
+# Build rule for target.
+fatchdb: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fatchdb
+.PHONY : fatchdb
+
+# fast build rule for target.
+fatchdb/fast:
+	$(MAKE) -f CMakeFiles/fatchdb.dir/build.make CMakeFiles/fatchdb.dir/build
+.PHONY : fatchdb/fast
+
+#=============================================================================
+# Target rules for targets named fftout4
+
+# Build rule for target.
+fftout4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fftout4
+.PHONY : fftout4
+
+# fast build rule for target.
+fftout4/fast:
+	$(MAKE) -f CMakeFiles/fftout4.dir/build.make CMakeFiles/fftout4.dir/build
+.PHONY : fftout4/fast
+
+#=============================================================================
+# Target rules for targets named 2chplay2
+
+# Build rule for target.
+2chplay2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2chplay2
+.PHONY : 2chplay2
+
+# fast build rule for target.
+2chplay2/fast:
+	$(MAKE) -f CMakeFiles/2chplay2.dir/build.make CMakeFiles/2chplay2.dir/build
+.PHONY : 2chplay2/fast
+
+#=============================================================================
+# Target rules for targets named zeropad_anyfile
+
+# Build rule for target.
+zeropad_anyfile: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zeropad_anyfile
+.PHONY : zeropad_anyfile
+
+# fast build rule for target.
+zeropad_anyfile/fast:
+	$(MAKE) -f CMakeFiles/zeropad_anyfile.dir/build.make CMakeFiles/zeropad_anyfile.dir/build
+.PHONY : zeropad_anyfile/fast
+
+#=============================================================================
+# Target rules for targets named monoplay_8kHz
+
+# Build rule for target.
+monoplay_8kHz: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay_8kHz
+.PHONY : monoplay_8kHz
+
+# fast build rule for target.
+monoplay_8kHz/fast:
+	$(MAKE) -f CMakeFiles/monoplay_8kHz.dir/build.make CMakeFiles/monoplay_8kHz.dir/build
+.PHONY : monoplay_8kHz/fast
+
+#=============================================================================
+# Target rules for targets named monoplay
+
+# Build rule for target.
+monoplay: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay
+.PHONY : monoplay
+
+# fast build rule for target.
+monoplay/fast:
+	$(MAKE) -f CMakeFiles/monoplay.dir/build.make CMakeFiles/monoplay.dir/build
+.PHONY : monoplay/fast
+
+#=============================================================================
+# Target rules for targets named sinwave
+
+# Build rule for target.
+sinwave: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sinwave
+.PHONY : sinwave
+
+# fast build rule for target.
+sinwave/fast:
+	$(MAKE) -f CMakeFiles/sinwave.dir/build.make CMakeFiles/sinwave.dir/build
+.PHONY : sinwave/fast
+
+#=============================================================================
+# Target rules for targets named sepach
+
+# Build rule for target.
+sepach: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sepach
+.PHONY : sepach
+
+# fast build rule for target.
+sepach/fast:
+	$(MAKE) -f CMakeFiles/sepach.dir/build.make CMakeFiles/sepach.dir/build
+.PHONY : sepach/fast
+
+#=============================================================================
+# Target rules for targets named scaling_max_instant_amp
+
+# Build rule for target.
+scaling_max_instant_amp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scaling_max_instant_amp
+.PHONY : scaling_max_instant_amp
+
+# fast build rule for target.
+scaling_max_instant_amp/fast:
+	$(MAKE) -f CMakeFiles/scaling_max_instant_amp.dir/build.make CMakeFiles/scaling_max_instant_amp.dir/build
+.PHONY : scaling_max_instant_amp/fast
+
+#=============================================================================
+# Target rules for targets named monorecord
+
+# Build rule for target.
+monorecord: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monorecord
+.PHONY : monorecord
+
+# fast build rule for target.
+monorecord/fast:
+	$(MAKE) -f CMakeFiles/monorecord.dir/build.make CMakeFiles/monorecord.dir/build
+.PHONY : monorecord/fast
+
+#=============================================================================
+# Target rules for targets named random
+
+# Build rule for target.
+random: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 random
+.PHONY : random
+
+# fast build rule for target.
+random/fast:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/build
+.PHONY : random/fast
+
+#=============================================================================
+# Target rules for targets named print_siglen
+
+# Build rule for target.
+print_siglen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 print_siglen
+.PHONY : print_siglen
+
+# fast build rule for target.
+print_siglen/fast:
+	$(MAKE) -f CMakeFiles/print_siglen.dir/build.make CMakeFiles/print_siglen.dir/build
+.PHONY : print_siglen/fast
+
+#=============================================================================
+# Target rules for targets named IMPmcode
+
+# Build rule for target.
+IMPmcode: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 IMPmcode
+.PHONY : IMPmcode
+
+# fast build rule for target.
+IMPmcode/fast:
+	$(MAKE) -f CMakeFiles/IMPmcode.dir/build.make CMakeFiles/IMPmcode.dir/build
+.PHONY : IMPmcode/fast
+
+#=============================================================================
+# Target rules for targets named mono2LR
+
+# Build rule for target.
+mono2LR: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mono2LR
+.PHONY : mono2LR
+
+# fast build rule for target.
+mono2LR/fast:
+	$(MAKE) -f CMakeFiles/mono2LR.dir/build.make CMakeFiles/mono2LR.dir/build
+.PHONY : mono2LR/fast
+
+#=============================================================================
+# Target rules for targets named FC_deviation_alter
+
+# Build rule for target.
+FC_deviation_alter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FC_deviation_alter
+.PHONY : FC_deviation_alter
+
+# fast build rule for target.
+FC_deviation_alter/fast:
+	$(MAKE) -f CMakeFiles/FC_deviation_alter.dir/build.make CMakeFiles/FC_deviation_alter.dir/build
+.PHONY : FC_deviation_alter/fast
+
+#=============================================================================
+# Target rules for targets named timeconvo
+
+# Build rule for target.
+timeconvo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 timeconvo
+.PHONY : timeconvo
+
+# fast build rule for target.
+timeconvo/fast:
+	$(MAKE) -f CMakeFiles/timeconvo.dir/build.make CMakeFiles/timeconvo.dir/build
+.PHONY : timeconvo/fast
+
+#=============================================================================
+# Target rules for targets named linear_inpo_hrir_using_ATD
+
+# Build rule for target.
+linear_inpo_hrir_using_ATD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linear_inpo_hrir_using_ATD
+.PHONY : linear_inpo_hrir_using_ATD
+
+# fast build rule for target.
+linear_inpo_hrir_using_ATD/fast:
+	$(MAKE) -f CMakeFiles/linear_inpo_hrir_using_ATD.dir/build.make CMakeFiles/linear_inpo_hrir_using_ATD.dir/build
+.PHONY : linear_inpo_hrir_using_ATD/fast
+
+#=============================================================================
+# Target rules for targets named LE_1
+
+# Build rule for target.
+LE_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LE_1
+.PHONY : LE_1
+
+# fast build rule for target.
+LE_1/fast:
+	$(MAKE) -f CMakeFiles/LE_1.dir/build.make CMakeFiles/LE_1.dir/build
+.PHONY : LE_1/fast
+
+#=============================================================================
+# Target rules for targets named WAVtoDSB_osx
+
+# Build rule for target.
+WAVtoDSB_osx: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WAVtoDSB_osx
+.PHONY : WAVtoDSB_osx
+
+# fast build rule for target.
+WAVtoDSB_osx/fast:
+	$(MAKE) -f CMakeFiles/WAVtoDSB_osx.dir/build.make CMakeFiles/WAVtoDSB_osx.dir/build
+.PHONY : WAVtoDSB_osx/fast
+
+#=============================================================================
+# Target rules for targets named fftout3
+
+# Build rule for target.
+fftout3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fftout3
+.PHONY : fftout3
+
+# fast build rule for target.
+fftout3/fast:
+	$(MAKE) -f CMakeFiles/fftout3.dir/build.make CMakeFiles/fftout3.dir/build
+.PHONY : fftout3/fast
+
+#=============================================================================
+# Target rules for targets named imp_add_by10
+
+# Build rule for target.
+imp_add_by10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imp_add_by10
+.PHONY : imp_add_by10
+
+# fast build rule for target.
+imp_add_by10/fast:
+	$(MAKE) -f CMakeFiles/imp_add_by10.dir/build.make CMakeFiles/imp_add_by10.dir/build
+.PHONY : imp_add_by10/fast
+
+#=============================================================================
+# Target rules for targets named cosine_windowing
+
+# Build rule for target.
+cosine_windowing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cosine_windowing
+.PHONY : cosine_windowing
+
+# fast build rule for target.
+cosine_windowing/fast:
+	$(MAKE) -f CMakeFiles/cosine_windowing.dir/build.make CMakeFiles/cosine_windowing.dir/build
+.PHONY : cosine_windowing/fast
+
+#=============================================================================
+# Target rules for targets named imp_add
+
+# Build rule for target.
+imp_add: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imp_add
+.PHONY : imp_add
+
+# fast build rule for target.
+imp_add/fast:
+	$(MAKE) -f CMakeFiles/imp_add.dir/build.make CMakeFiles/imp_add.dir/build
+.PHONY : imp_add/fast
+
+#=============================================================================
+# Target rules for targets named peaking_filter
+
+# Build rule for target.
+peaking_filter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 peaking_filter
+.PHONY : peaking_filter
+
+# fast build rule for target.
+peaking_filter/fast:
+	$(MAKE) -f CMakeFiles/peaking_filter.dir/build.make CMakeFiles/peaking_filter.dir/build
+.PHONY : peaking_filter/fast
+
+#=============================================================================
+# Target rules for targets named find_cutpoint
+
+# Build rule for target.
+find_cutpoint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 find_cutpoint
+.PHONY : find_cutpoint
+
+# fast build rule for target.
+find_cutpoint/fast:
+	$(MAKE) -f CMakeFiles/find_cutpoint.dir/build.make CMakeFiles/find_cutpoint.dir/build
+.PHONY : find_cutpoint/fast
+
+#=============================================================================
+# Target rules for targets named equ_schroeder5
+
+# Build rule for target.
+equ_schroeder5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 equ_schroeder5
+.PHONY : equ_schroeder5
+
+# fast build rule for target.
+equ_schroeder5/fast:
+	$(MAKE) -f CMakeFiles/equ_schroeder5.dir/build.make CMakeFiles/equ_schroeder5.dir/build
+.PHONY : equ_schroeder5/fast
+
+#=============================================================================
+# Target rules for targets named inverse
+
+# Build rule for target.
+inverse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 inverse
+.PHONY : inverse
+
+# fast build rule for target.
+inverse/fast:
+	$(MAKE) -f CMakeFiles/inverse.dir/build.make CMakeFiles/inverse.dir/build
+.PHONY : inverse/fast
+
+#=============================================================================
+# Target rules for targets named equ_schroeder2
+
+# Build rule for target.
+equ_schroeder2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 equ_schroeder2
+.PHONY : equ_schroeder2
+
+# fast build rule for target.
+equ_schroeder2/fast:
+	$(MAKE) -f CMakeFiles/equ_schroeder2.dir/build.make CMakeFiles/equ_schroeder2.dir/build
+.PHONY : equ_schroeder2/fast
+
+#=============================================================================
+# Target rules for targets named closed_loop_new
+
+# Build rule for target.
+closed_loop_new: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 closed_loop_new
+.PHONY : closed_loop_new
+
+# fast build rule for target.
+closed_loop_new/fast:
+	$(MAKE) -f CMakeFiles/closed_loop_new.dir/build.make CMakeFiles/closed_loop_new.dir/build
+.PHONY : closed_loop_new/fast
+
+#=============================================================================
+# Target rules for targets named FC_deviation
+
+# Build rule for target.
+FC_deviation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FC_deviation
+.PHONY : FC_deviation
+
+# fast build rule for target.
+FC_deviation/fast:
+	$(MAKE) -f CMakeFiles/FC_deviation.dir/build.make CMakeFiles/FC_deviation.dir/build
+.PHONY : FC_deviation/fast
+
+#=============================================================================
+# Target rules for targets named equ_schroeder4
+
+# Build rule for target.
+equ_schroeder4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 equ_schroeder4
+.PHONY : equ_schroeder4
+
+# fast build rule for target.
+equ_schroeder4/fast:
+	$(MAKE) -f CMakeFiles/equ_schroeder4.dir/build.make CMakeFiles/equ_schroeder4.dir/build
+.PHONY : equ_schroeder4/fast
+
+#=============================================================================
+# Target rules for targets named equ_schroeder3
+
+# Build rule for target.
+equ_schroeder3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 equ_schroeder3
+.PHONY : equ_schroeder3
+
+# fast build rule for target.
+equ_schroeder3/fast:
+	$(MAKE) -f CMakeFiles/equ_schroeder3.dir/build.make CMakeFiles/equ_schroeder3.dir/build
+.PHONY : equ_schroeder3/fast
+
+#=============================================================================
+# Target rules for targets named henkan
+
+# Build rule for target.
+henkan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 henkan
+.PHONY : henkan
+
+# fast build rule for target.
+henkan/fast:
+	$(MAKE) -f CMakeFiles/henkan.dir/build.make CMakeFiles/henkan.dir/build
+.PHONY : henkan/fast
+
+#=============================================================================
+# Target rules for targets named monoplay2
+
+# Build rule for target.
+monoplay2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay2
+.PHONY : monoplay2
+
+# fast build rule for target.
+monoplay2/fast:
+	$(MAKE) -f CMakeFiles/monoplay2.dir/build.make CMakeFiles/monoplay2.dir/build
+.PHONY : monoplay2/fast
+
+#=============================================================================
+# Target rules for targets named cutout_anyfile2
+
+# Build rule for target.
+cutout_anyfile2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cutout_anyfile2
+.PHONY : cutout_anyfile2
+
+# fast build rule for target.
+cutout_anyfile2/fast:
+	$(MAKE) -f CMakeFiles/cutout_anyfile2.dir/build.make CMakeFiles/cutout_anyfile2.dir/build
+.PHONY : cutout_anyfile2/fast
+
+#=============================================================================
+# Target rules for targets named fftout2
+
+# Build rule for target.
+fftout2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fftout2
+.PHONY : fftout2
+
+# fast build rule for target.
+fftout2/fast:
+	$(MAKE) -f CMakeFiles/fftout2.dir/build.make CMakeFiles/fftout2.dir/build
+.PHONY : fftout2/fast
+
+#=============================================================================
+# Target rules for targets named 2chplay
+
+# Build rule for target.
+2chplay: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2chplay
+.PHONY : 2chplay
+
+# fast build rule for target.
+2chplay/fast:
+	$(MAKE) -f CMakeFiles/2chplay.dir/build.make CMakeFiles/2chplay.dir/build
+.PHONY : 2chplay/fast
+
+#=============================================================================
+# Target rules for targets named monoplay_alter
+
+# Build rule for target.
+monoplay_alter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay_alter
+.PHONY : monoplay_alter
+
+# fast build rule for target.
+monoplay_alter/fast:
+	$(MAKE) -f CMakeFiles/monoplay_alter.dir/build.make CMakeFiles/monoplay_alter.dir/build
+.PHONY : monoplay_alter/fast
+
+#=============================================================================
+# Target rules for targets named equ_schroeder1
+
+# Build rule for target.
+equ_schroeder1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 equ_schroeder1
+.PHONY : equ_schroeder1
+
+# fast build rule for target.
+equ_schroeder1/fast:
+	$(MAKE) -f CMakeFiles/equ_schroeder1.dir/build.make CMakeFiles/equ_schroeder1.dir/build
+.PHONY : equ_schroeder1/fast
+
+#=============================================================================
+# Target rules for targets named douki_new
+
+# Build rule for target.
+douki_new: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 douki_new
+.PHONY : douki_new
+
+# fast build rule for target.
+douki_new/fast:
+	$(MAKE) -f CMakeFiles/douki_new.dir/build.make CMakeFiles/douki_new.dir/build
+.PHONY : douki_new/fast
+
+#=============================================================================
+# Target rules for targets named cutout_anyfile
+
+# Build rule for target.
+cutout_anyfile: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cutout_anyfile
+.PHONY : cutout_anyfile
+
+# fast build rule for target.
+cutout_anyfile/fast:
+	$(MAKE) -f CMakeFiles/cutout_anyfile.dir/build.make CMakeFiles/cutout_anyfile.dir/build
+.PHONY : cutout_anyfile/fast
+
+#=============================================================================
+# Target rules for targets named dv
+
+# Build rule for target.
+dv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dv
+.PHONY : dv
+
+# fast build rule for target.
+dv/fast:
+	$(MAKE) -f CMakeFiles/dv.dir/build.make CMakeFiles/dv.dir/build
+.PHONY : dv/fast
+
+#=============================================================================
+# Target rules for targets named playrec_mono_inPath
+
+# Build rule for target.
+playrec_mono_inPath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 playrec_mono_inPath
+.PHONY : playrec_mono_inPath
+
+# fast build rule for target.
+playrec_mono_inPath/fast:
+	$(MAKE) -f CMakeFiles/playrec_mono_inPath.dir/build.make CMakeFiles/playrec_mono_inPath.dir/build
+.PHONY : playrec_mono_inPath/fast
+
+#=============================================================================
+# Target rules for targets named fff
+
+# Build rule for target.
+fff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fff
+.PHONY : fff
+
+# fast build rule for target.
+fff/fast:
+	$(MAKE) -f CMakeFiles/fff.dir/build.make CMakeFiles/fff.dir/build
+.PHONY : fff/fast
+
+#=============================================================================
+# Target rules for targets named biascut
+
+# Build rule for target.
+biascut: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 biascut
+.PHONY : biascut
+
+# fast build rule for target.
+biascut/fast:
+	$(MAKE) -f CMakeFiles/biascut.dir/build.make CMakeFiles/biascut.dir/build
+.PHONY : biascut/fast
+
+#=============================================================================
+# Target rules for targets named umasig
+
+# Build rule for target.
+umasig: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 umasig
+.PHONY : umasig
+
+# fast build rule for target.
+umasig/fast:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/build
+.PHONY : umasig/fast
 
 2chplay.o: 2chplay.c.o
 
@@ -129,7 +779,7 @@ douki_C_programs/fast:
 
 # target to build an object file
 2chplay.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/2chplay.c.o
+	$(MAKE) -f CMakeFiles/2chplay.dir/build.make CMakeFiles/2chplay.dir/2chplay.c.o
 .PHONY : 2chplay.c.o
 
 2chplay.i: 2chplay.c.i
@@ -138,7 +788,7 @@ douki_C_programs/fast:
 
 # target to preprocess a source file
 2chplay.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/2chplay.c.i
+	$(MAKE) -f CMakeFiles/2chplay.dir/build.make CMakeFiles/2chplay.dir/2chplay.c.i
 .PHONY : 2chplay.c.i
 
 2chplay.s: 2chplay.c.s
@@ -147,7 +797,7 @@ douki_C_programs/fast:
 
 # target to generate assembly for a file
 2chplay.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/2chplay.c.s
+	$(MAKE) -f CMakeFiles/2chplay.dir/build.make CMakeFiles/2chplay.dir/2chplay.c.s
 .PHONY : 2chplay.c.s
 
 2chplay2.o: 2chplay2.c.o
@@ -156,7 +806,7 @@ douki_C_programs/fast:
 
 # target to build an object file
 2chplay2.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/2chplay2.c.o
+	$(MAKE) -f CMakeFiles/2chplay2.dir/build.make CMakeFiles/2chplay2.dir/2chplay2.c.o
 .PHONY : 2chplay2.c.o
 
 2chplay2.i: 2chplay2.c.i
@@ -165,7 +815,7 @@ douki_C_programs/fast:
 
 # target to preprocess a source file
 2chplay2.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/2chplay2.c.i
+	$(MAKE) -f CMakeFiles/2chplay2.dir/build.make CMakeFiles/2chplay2.dir/2chplay2.c.i
 .PHONY : 2chplay2.c.i
 
 2chplay2.s: 2chplay2.c.s
@@ -174,35 +824,62 @@ douki_C_programs/fast:
 
 # target to generate assembly for a file
 2chplay2.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/2chplay2.c.s
+	$(MAKE) -f CMakeFiles/2chplay2.dir/build.make CMakeFiles/2chplay2.dir/2chplay2.c.s
 .PHONY : 2chplay2.c.s
 
-FileLib_osx.o: FileLib_osx.c.o
+FC_deviation.o: FC_deviation.c.o
 
-.PHONY : FileLib_osx.o
+.PHONY : FC_deviation.o
 
 # target to build an object file
-FileLib_osx.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FileLib_osx.c.o
-.PHONY : FileLib_osx.c.o
+FC_deviation.c.o:
+	$(MAKE) -f CMakeFiles/FC_deviation.dir/build.make CMakeFiles/FC_deviation.dir/FC_deviation.c.o
+.PHONY : FC_deviation.c.o
 
-FileLib_osx.i: FileLib_osx.c.i
+FC_deviation.i: FC_deviation.c.i
 
-.PHONY : FileLib_osx.i
+.PHONY : FC_deviation.i
 
 # target to preprocess a source file
-FileLib_osx.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FileLib_osx.c.i
-.PHONY : FileLib_osx.c.i
+FC_deviation.c.i:
+	$(MAKE) -f CMakeFiles/FC_deviation.dir/build.make CMakeFiles/FC_deviation.dir/FC_deviation.c.i
+.PHONY : FC_deviation.c.i
 
-FileLib_osx.s: FileLib_osx.c.s
+FC_deviation.s: FC_deviation.c.s
 
-.PHONY : FileLib_osx.s
+.PHONY : FC_deviation.s
 
 # target to generate assembly for a file
-FileLib_osx.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/FileLib_osx.c.s
-.PHONY : FileLib_osx.c.s
+FC_deviation.c.s:
+	$(MAKE) -f CMakeFiles/FC_deviation.dir/build.make CMakeFiles/FC_deviation.dir/FC_deviation.c.s
+.PHONY : FC_deviation.c.s
+
+FC_deviation_alter.o: FC_deviation_alter.c.o
+
+.PHONY : FC_deviation_alter.o
+
+# target to build an object file
+FC_deviation_alter.c.o:
+	$(MAKE) -f CMakeFiles/FC_deviation_alter.dir/build.make CMakeFiles/FC_deviation_alter.dir/FC_deviation_alter.c.o
+.PHONY : FC_deviation_alter.c.o
+
+FC_deviation_alter.i: FC_deviation_alter.c.i
+
+.PHONY : FC_deviation_alter.i
+
+# target to preprocess a source file
+FC_deviation_alter.c.i:
+	$(MAKE) -f CMakeFiles/FC_deviation_alter.dir/build.make CMakeFiles/FC_deviation_alter.dir/FC_deviation_alter.c.i
+.PHONY : FC_deviation_alter.c.i
+
+FC_deviation_alter.s: FC_deviation_alter.c.s
+
+.PHONY : FC_deviation_alter.s
+
+# target to generate assembly for a file
+FC_deviation_alter.c.s:
+	$(MAKE) -f CMakeFiles/FC_deviation_alter.dir/build.make CMakeFiles/FC_deviation_alter.dir/FC_deviation_alter.c.s
+.PHONY : FC_deviation_alter.c.s
 
 IMPmcode.o: IMPmcode.c.o
 
@@ -210,7 +887,7 @@ IMPmcode.o: IMPmcode.c.o
 
 # target to build an object file
 IMPmcode.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/IMPmcode.c.o
+	$(MAKE) -f CMakeFiles/IMPmcode.dir/build.make CMakeFiles/IMPmcode.dir/IMPmcode.c.o
 .PHONY : IMPmcode.c.o
 
 IMPmcode.i: IMPmcode.c.i
@@ -219,7 +896,7 @@ IMPmcode.i: IMPmcode.c.i
 
 # target to preprocess a source file
 IMPmcode.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/IMPmcode.c.i
+	$(MAKE) -f CMakeFiles/IMPmcode.dir/build.make CMakeFiles/IMPmcode.dir/IMPmcode.c.i
 .PHONY : IMPmcode.c.i
 
 IMPmcode.s: IMPmcode.c.s
@@ -228,7 +905,7 @@ IMPmcode.s: IMPmcode.c.s
 
 # target to generate assembly for a file
 IMPmcode.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/IMPmcode.c.s
+	$(MAKE) -f CMakeFiles/IMPmcode.dir/build.make CMakeFiles/IMPmcode.dir/IMPmcode.c.s
 .PHONY : IMPmcode.c.s
 
 LE_1.o: LE_1.c.o
@@ -237,7 +914,7 @@ LE_1.o: LE_1.c.o
 
 # target to build an object file
 LE_1.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/LE_1.c.o
+	$(MAKE) -f CMakeFiles/LE_1.dir/build.make CMakeFiles/LE_1.dir/LE_1.c.o
 .PHONY : LE_1.c.o
 
 LE_1.i: LE_1.c.i
@@ -246,7 +923,7 @@ LE_1.i: LE_1.c.i
 
 # target to preprocess a source file
 LE_1.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/LE_1.c.i
+	$(MAKE) -f CMakeFiles/LE_1.dir/build.make CMakeFiles/LE_1.dir/LE_1.c.i
 .PHONY : LE_1.c.i
 
 LE_1.s: LE_1.c.s
@@ -255,62 +932,8 @@ LE_1.s: LE_1.c.s
 
 # target to generate assembly for a file
 LE_1.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/LE_1.c.s
+	$(MAKE) -f CMakeFiles/LE_1.dir/build.make CMakeFiles/LE_1.dir/LE_1.c.s
 .PHONY : LE_1.c.s
-
-Rev_sup.o: Rev_sup.c.o
-
-.PHONY : Rev_sup.o
-
-# target to build an object file
-Rev_sup.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/Rev_sup.c.o
-.PHONY : Rev_sup.c.o
-
-Rev_sup.i: Rev_sup.c.i
-
-.PHONY : Rev_sup.i
-
-# target to preprocess a source file
-Rev_sup.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/Rev_sup.c.i
-.PHONY : Rev_sup.c.i
-
-Rev_sup.s: Rev_sup.c.s
-
-.PHONY : Rev_sup.s
-
-# target to generate assembly for a file
-Rev_sup.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/Rev_sup.c.s
-.PHONY : Rev_sup.c.s
-
-WAVtoDSB.o: WAVtoDSB.c.o
-
-.PHONY : WAVtoDSB.o
-
-# target to build an object file
-WAVtoDSB.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.o
-.PHONY : WAVtoDSB.c.o
-
-WAVtoDSB.i: WAVtoDSB.c.i
-
-.PHONY : WAVtoDSB.i
-
-# target to preprocess a source file
-WAVtoDSB.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.i
-.PHONY : WAVtoDSB.c.i
-
-WAVtoDSB.s: WAVtoDSB.c.s
-
-.PHONY : WAVtoDSB.s
-
-# target to generate assembly for a file
-WAVtoDSB.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/WAVtoDSB.c.s
-.PHONY : WAVtoDSB.c.s
 
 WAVtoDSB_osx.o: WAVtoDSB_osx.c.o
 
@@ -318,7 +941,7 @@ WAVtoDSB_osx.o: WAVtoDSB_osx.c.o
 
 # target to build an object file
 WAVtoDSB_osx.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.o
+	$(MAKE) -f CMakeFiles/WAVtoDSB_osx.dir/build.make CMakeFiles/WAVtoDSB_osx.dir/WAVtoDSB_osx.c.o
 .PHONY : WAVtoDSB_osx.c.o
 
 WAVtoDSB_osx.i: WAVtoDSB_osx.c.i
@@ -327,7 +950,7 @@ WAVtoDSB_osx.i: WAVtoDSB_osx.c.i
 
 # target to preprocess a source file
 WAVtoDSB_osx.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.i
+	$(MAKE) -f CMakeFiles/WAVtoDSB_osx.dir/build.make CMakeFiles/WAVtoDSB_osx.dir/WAVtoDSB_osx.c.i
 .PHONY : WAVtoDSB_osx.c.i
 
 WAVtoDSB_osx.s: WAVtoDSB_osx.c.s
@@ -336,7 +959,7 @@ WAVtoDSB_osx.s: WAVtoDSB_osx.c.s
 
 # target to generate assembly for a file
 WAVtoDSB_osx.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/WAVtoDSB_osx.c.s
+	$(MAKE) -f CMakeFiles/WAVtoDSB_osx.dir/build.make CMakeFiles/WAVtoDSB_osx.dir/WAVtoDSB_osx.c.s
 .PHONY : WAVtoDSB_osx.c.s
 
 biascut.o: biascut.c.o
@@ -345,7 +968,7 @@ biascut.o: biascut.c.o
 
 # target to build an object file
 biascut.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/biascut.c.o
+	$(MAKE) -f CMakeFiles/biascut.dir/build.make CMakeFiles/biascut.dir/biascut.c.o
 .PHONY : biascut.c.o
 
 biascut.i: biascut.c.i
@@ -354,7 +977,7 @@ biascut.i: biascut.c.i
 
 # target to preprocess a source file
 biascut.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/biascut.c.i
+	$(MAKE) -f CMakeFiles/biascut.dir/build.make CMakeFiles/biascut.dir/biascut.c.i
 .PHONY : biascut.c.i
 
 biascut.s: biascut.c.s
@@ -363,7 +986,7 @@ biascut.s: biascut.c.s
 
 # target to generate assembly for a file
 biascut.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/biascut.c.s
+	$(MAKE) -f CMakeFiles/biascut.dir/build.make CMakeFiles/biascut.dir/biascut.c.s
 .PHONY : biascut.c.s
 
 closed_loop_new.o: closed_loop_new.c.o
@@ -372,7 +995,7 @@ closed_loop_new.o: closed_loop_new.c.o
 
 # target to build an object file
 closed_loop_new.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/closed_loop_new.c.o
+	$(MAKE) -f CMakeFiles/closed_loop_new.dir/build.make CMakeFiles/closed_loop_new.dir/closed_loop_new.c.o
 .PHONY : closed_loop_new.c.o
 
 closed_loop_new.i: closed_loop_new.c.i
@@ -381,7 +1004,7 @@ closed_loop_new.i: closed_loop_new.c.i
 
 # target to preprocess a source file
 closed_loop_new.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/closed_loop_new.c.i
+	$(MAKE) -f CMakeFiles/closed_loop_new.dir/build.make CMakeFiles/closed_loop_new.dir/closed_loop_new.c.i
 .PHONY : closed_loop_new.c.i
 
 closed_loop_new.s: closed_loop_new.c.s
@@ -390,7 +1013,7 @@ closed_loop_new.s: closed_loop_new.c.s
 
 # target to generate assembly for a file
 closed_loop_new.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/closed_loop_new.c.s
+	$(MAKE) -f CMakeFiles/closed_loop_new.dir/build.make CMakeFiles/closed_loop_new.dir/closed_loop_new.c.s
 .PHONY : closed_loop_new.c.s
 
 cosine_windowing.o: cosine_windowing.c.o
@@ -399,7 +1022,7 @@ cosine_windowing.o: cosine_windowing.c.o
 
 # target to build an object file
 cosine_windowing.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/cosine_windowing.c.o
+	$(MAKE) -f CMakeFiles/cosine_windowing.dir/build.make CMakeFiles/cosine_windowing.dir/cosine_windowing.c.o
 .PHONY : cosine_windowing.c.o
 
 cosine_windowing.i: cosine_windowing.c.i
@@ -408,7 +1031,7 @@ cosine_windowing.i: cosine_windowing.c.i
 
 # target to preprocess a source file
 cosine_windowing.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/cosine_windowing.c.i
+	$(MAKE) -f CMakeFiles/cosine_windowing.dir/build.make CMakeFiles/cosine_windowing.dir/cosine_windowing.c.i
 .PHONY : cosine_windowing.c.i
 
 cosine_windowing.s: cosine_windowing.c.s
@@ -417,7 +1040,7 @@ cosine_windowing.s: cosine_windowing.c.s
 
 # target to generate assembly for a file
 cosine_windowing.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/cosine_windowing.c.s
+	$(MAKE) -f CMakeFiles/cosine_windowing.dir/build.make CMakeFiles/cosine_windowing.dir/cosine_windowing.c.s
 .PHONY : cosine_windowing.c.s
 
 cutout_anyfile.o: cutout_anyfile.c.o
@@ -426,7 +1049,7 @@ cutout_anyfile.o: cutout_anyfile.c.o
 
 # target to build an object file
 cutout_anyfile.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.o
+	$(MAKE) -f CMakeFiles/cutout_anyfile.dir/build.make CMakeFiles/cutout_anyfile.dir/cutout_anyfile.c.o
 .PHONY : cutout_anyfile.c.o
 
 cutout_anyfile.i: cutout_anyfile.c.i
@@ -435,7 +1058,7 @@ cutout_anyfile.i: cutout_anyfile.c.i
 
 # target to preprocess a source file
 cutout_anyfile.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.i
+	$(MAKE) -f CMakeFiles/cutout_anyfile.dir/build.make CMakeFiles/cutout_anyfile.dir/cutout_anyfile.c.i
 .PHONY : cutout_anyfile.c.i
 
 cutout_anyfile.s: cutout_anyfile.c.s
@@ -444,7 +1067,7 @@ cutout_anyfile.s: cutout_anyfile.c.s
 
 # target to generate assembly for a file
 cutout_anyfile.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/cutout_anyfile.c.s
+	$(MAKE) -f CMakeFiles/cutout_anyfile.dir/build.make CMakeFiles/cutout_anyfile.dir/cutout_anyfile.c.s
 .PHONY : cutout_anyfile.c.s
 
 cutout_anyfile2.o: cutout_anyfile2.c.o
@@ -453,7 +1076,7 @@ cutout_anyfile2.o: cutout_anyfile2.c.o
 
 # target to build an object file
 cutout_anyfile2.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.o
+	$(MAKE) -f CMakeFiles/cutout_anyfile2.dir/build.make CMakeFiles/cutout_anyfile2.dir/cutout_anyfile2.c.o
 .PHONY : cutout_anyfile2.c.o
 
 cutout_anyfile2.i: cutout_anyfile2.c.i
@@ -462,7 +1085,7 @@ cutout_anyfile2.i: cutout_anyfile2.c.i
 
 # target to preprocess a source file
 cutout_anyfile2.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.i
+	$(MAKE) -f CMakeFiles/cutout_anyfile2.dir/build.make CMakeFiles/cutout_anyfile2.dir/cutout_anyfile2.c.i
 .PHONY : cutout_anyfile2.c.i
 
 cutout_anyfile2.s: cutout_anyfile2.c.s
@@ -471,7 +1094,7 @@ cutout_anyfile2.s: cutout_anyfile2.c.s
 
 # target to generate assembly for a file
 cutout_anyfile2.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/cutout_anyfile2.c.s
+	$(MAKE) -f CMakeFiles/cutout_anyfile2.dir/build.make CMakeFiles/cutout_anyfile2.dir/cutout_anyfile2.c.s
 .PHONY : cutout_anyfile2.c.s
 
 douki_new.o: douki_new.c.o
@@ -480,7 +1103,7 @@ douki_new.o: douki_new.c.o
 
 # target to build an object file
 douki_new.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/douki_new.c.o
+	$(MAKE) -f CMakeFiles/douki_new.dir/build.make CMakeFiles/douki_new.dir/douki_new.c.o
 .PHONY : douki_new.c.o
 
 douki_new.i: douki_new.c.i
@@ -489,7 +1112,7 @@ douki_new.i: douki_new.c.i
 
 # target to preprocess a source file
 douki_new.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/douki_new.c.i
+	$(MAKE) -f CMakeFiles/douki_new.dir/build.make CMakeFiles/douki_new.dir/douki_new.c.i
 .PHONY : douki_new.c.i
 
 douki_new.s: douki_new.c.s
@@ -498,7 +1121,7 @@ douki_new.s: douki_new.c.s
 
 # target to generate assembly for a file
 douki_new.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/douki_new.c.s
+	$(MAKE) -f CMakeFiles/douki_new.dir/build.make CMakeFiles/douki_new.dir/douki_new.c.s
 .PHONY : douki_new.c.s
 
 dv.o: dv.c.o
@@ -507,7 +1130,7 @@ dv.o: dv.c.o
 
 # target to build an object file
 dv.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/dv.c.o
+	$(MAKE) -f CMakeFiles/dv.dir/build.make CMakeFiles/dv.dir/dv.c.o
 .PHONY : dv.c.o
 
 dv.i: dv.c.i
@@ -516,7 +1139,7 @@ dv.i: dv.c.i
 
 # target to preprocess a source file
 dv.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/dv.c.i
+	$(MAKE) -f CMakeFiles/dv.dir/build.make CMakeFiles/dv.dir/dv.c.i
 .PHONY : dv.c.i
 
 dv.s: dv.c.s
@@ -525,7 +1148,7 @@ dv.s: dv.c.s
 
 # target to generate assembly for a file
 dv.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/dv.c.s
+	$(MAKE) -f CMakeFiles/dv.dir/build.make CMakeFiles/dv.dir/dv.c.s
 .PHONY : dv.c.s
 
 equ_schroeder1.o: equ_schroeder1.c.o
@@ -534,7 +1157,7 @@ equ_schroeder1.o: equ_schroeder1.c.o
 
 # target to build an object file
 equ_schroeder1.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.o
+	$(MAKE) -f CMakeFiles/equ_schroeder1.dir/build.make CMakeFiles/equ_schroeder1.dir/equ_schroeder1.c.o
 .PHONY : equ_schroeder1.c.o
 
 equ_schroeder1.i: equ_schroeder1.c.i
@@ -543,7 +1166,7 @@ equ_schroeder1.i: equ_schroeder1.c.i
 
 # target to preprocess a source file
 equ_schroeder1.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.i
+	$(MAKE) -f CMakeFiles/equ_schroeder1.dir/build.make CMakeFiles/equ_schroeder1.dir/equ_schroeder1.c.i
 .PHONY : equ_schroeder1.c.i
 
 equ_schroeder1.s: equ_schroeder1.c.s
@@ -552,7 +1175,7 @@ equ_schroeder1.s: equ_schroeder1.c.s
 
 # target to generate assembly for a file
 equ_schroeder1.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder1.c.s
+	$(MAKE) -f CMakeFiles/equ_schroeder1.dir/build.make CMakeFiles/equ_schroeder1.dir/equ_schroeder1.c.s
 .PHONY : equ_schroeder1.c.s
 
 equ_schroeder2.o: equ_schroeder2.c.o
@@ -561,7 +1184,7 @@ equ_schroeder2.o: equ_schroeder2.c.o
 
 # target to build an object file
 equ_schroeder2.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.o
+	$(MAKE) -f CMakeFiles/equ_schroeder2.dir/build.make CMakeFiles/equ_schroeder2.dir/equ_schroeder2.c.o
 .PHONY : equ_schroeder2.c.o
 
 equ_schroeder2.i: equ_schroeder2.c.i
@@ -570,7 +1193,7 @@ equ_schroeder2.i: equ_schroeder2.c.i
 
 # target to preprocess a source file
 equ_schroeder2.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.i
+	$(MAKE) -f CMakeFiles/equ_schroeder2.dir/build.make CMakeFiles/equ_schroeder2.dir/equ_schroeder2.c.i
 .PHONY : equ_schroeder2.c.i
 
 equ_schroeder2.s: equ_schroeder2.c.s
@@ -579,7 +1202,7 @@ equ_schroeder2.s: equ_schroeder2.c.s
 
 # target to generate assembly for a file
 equ_schroeder2.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder2.c.s
+	$(MAKE) -f CMakeFiles/equ_schroeder2.dir/build.make CMakeFiles/equ_schroeder2.dir/equ_schroeder2.c.s
 .PHONY : equ_schroeder2.c.s
 
 equ_schroeder3.o: equ_schroeder3.c.o
@@ -588,7 +1211,7 @@ equ_schroeder3.o: equ_schroeder3.c.o
 
 # target to build an object file
 equ_schroeder3.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.o
+	$(MAKE) -f CMakeFiles/equ_schroeder3.dir/build.make CMakeFiles/equ_schroeder3.dir/equ_schroeder3.c.o
 .PHONY : equ_schroeder3.c.o
 
 equ_schroeder3.i: equ_schroeder3.c.i
@@ -597,7 +1220,7 @@ equ_schroeder3.i: equ_schroeder3.c.i
 
 # target to preprocess a source file
 equ_schroeder3.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.i
+	$(MAKE) -f CMakeFiles/equ_schroeder3.dir/build.make CMakeFiles/equ_schroeder3.dir/equ_schroeder3.c.i
 .PHONY : equ_schroeder3.c.i
 
 equ_schroeder3.s: equ_schroeder3.c.s
@@ -606,7 +1229,7 @@ equ_schroeder3.s: equ_schroeder3.c.s
 
 # target to generate assembly for a file
 equ_schroeder3.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder3.c.s
+	$(MAKE) -f CMakeFiles/equ_schroeder3.dir/build.make CMakeFiles/equ_schroeder3.dir/equ_schroeder3.c.s
 .PHONY : equ_schroeder3.c.s
 
 equ_schroeder4.o: equ_schroeder4.c.o
@@ -615,7 +1238,7 @@ equ_schroeder4.o: equ_schroeder4.c.o
 
 # target to build an object file
 equ_schroeder4.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.o
+	$(MAKE) -f CMakeFiles/equ_schroeder4.dir/build.make CMakeFiles/equ_schroeder4.dir/equ_schroeder4.c.o
 .PHONY : equ_schroeder4.c.o
 
 equ_schroeder4.i: equ_schroeder4.c.i
@@ -624,7 +1247,7 @@ equ_schroeder4.i: equ_schroeder4.c.i
 
 # target to preprocess a source file
 equ_schroeder4.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.i
+	$(MAKE) -f CMakeFiles/equ_schroeder4.dir/build.make CMakeFiles/equ_schroeder4.dir/equ_schroeder4.c.i
 .PHONY : equ_schroeder4.c.i
 
 equ_schroeder4.s: equ_schroeder4.c.s
@@ -633,7 +1256,7 @@ equ_schroeder4.s: equ_schroeder4.c.s
 
 # target to generate assembly for a file
 equ_schroeder4.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder4.c.s
+	$(MAKE) -f CMakeFiles/equ_schroeder4.dir/build.make CMakeFiles/equ_schroeder4.dir/equ_schroeder4.c.s
 .PHONY : equ_schroeder4.c.s
 
 equ_schroeder5.o: equ_schroeder5.c.o
@@ -642,7 +1265,7 @@ equ_schroeder5.o: equ_schroeder5.c.o
 
 # target to build an object file
 equ_schroeder5.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.o
+	$(MAKE) -f CMakeFiles/equ_schroeder5.dir/build.make CMakeFiles/equ_schroeder5.dir/equ_schroeder5.c.o
 .PHONY : equ_schroeder5.c.o
 
 equ_schroeder5.i: equ_schroeder5.c.i
@@ -651,7 +1274,7 @@ equ_schroeder5.i: equ_schroeder5.c.i
 
 # target to preprocess a source file
 equ_schroeder5.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.i
+	$(MAKE) -f CMakeFiles/equ_schroeder5.dir/build.make CMakeFiles/equ_schroeder5.dir/equ_schroeder5.c.i
 .PHONY : equ_schroeder5.c.i
 
 equ_schroeder5.s: equ_schroeder5.c.s
@@ -660,7 +1283,7 @@ equ_schroeder5.s: equ_schroeder5.c.s
 
 # target to generate assembly for a file
 equ_schroeder5.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/equ_schroeder5.c.s
+	$(MAKE) -f CMakeFiles/equ_schroeder5.dir/build.make CMakeFiles/equ_schroeder5.dir/equ_schroeder5.c.s
 .PHONY : equ_schroeder5.c.s
 
 fatchdb.o: fatchdb.c.o
@@ -669,7 +1292,7 @@ fatchdb.o: fatchdb.c.o
 
 # target to build an object file
 fatchdb.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fatchdb.c.o
+	$(MAKE) -f CMakeFiles/fatchdb.dir/build.make CMakeFiles/fatchdb.dir/fatchdb.c.o
 .PHONY : fatchdb.c.o
 
 fatchdb.i: fatchdb.c.i
@@ -678,7 +1301,7 @@ fatchdb.i: fatchdb.c.i
 
 # target to preprocess a source file
 fatchdb.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fatchdb.c.i
+	$(MAKE) -f CMakeFiles/fatchdb.dir/build.make CMakeFiles/fatchdb.dir/fatchdb.c.i
 .PHONY : fatchdb.c.i
 
 fatchdb.s: fatchdb.c.s
@@ -687,62 +1310,8 @@ fatchdb.s: fatchdb.c.s
 
 # target to generate assembly for a file
 fatchdb.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fatchdb.c.s
+	$(MAKE) -f CMakeFiles/fatchdb.dir/build.make CMakeFiles/fatchdb.dir/fatchdb.c.s
 .PHONY : fatchdb.c.s
-
-fc_deviation.o: fc_deviation.c.o
-
-.PHONY : fc_deviation.o
-
-# target to build an object file
-fc_deviation.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation.c.o
-.PHONY : fc_deviation.c.o
-
-fc_deviation.i: fc_deviation.c.i
-
-.PHONY : fc_deviation.i
-
-# target to preprocess a source file
-fc_deviation.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation.c.i
-.PHONY : fc_deviation.c.i
-
-fc_deviation.s: fc_deviation.c.s
-
-.PHONY : fc_deviation.s
-
-# target to generate assembly for a file
-fc_deviation.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation.c.s
-.PHONY : fc_deviation.c.s
-
-fc_deviation_alter.o: fc_deviation_alter.c.o
-
-.PHONY : fc_deviation_alter.o
-
-# target to build an object file
-fc_deviation_alter.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.o
-.PHONY : fc_deviation_alter.c.o
-
-fc_deviation_alter.i: fc_deviation_alter.c.i
-
-.PHONY : fc_deviation_alter.i
-
-# target to preprocess a source file
-fc_deviation_alter.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.i
-.PHONY : fc_deviation_alter.c.i
-
-fc_deviation_alter.s: fc_deviation_alter.c.s
-
-.PHONY : fc_deviation_alter.s
-
-# target to generate assembly for a file
-fc_deviation_alter.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fc_deviation_alter.c.s
-.PHONY : fc_deviation_alter.c.s
 
 fff.o: fff.c.o
 
@@ -750,7 +1319,7 @@ fff.o: fff.c.o
 
 # target to build an object file
 fff.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fff.c.o
+	$(MAKE) -f CMakeFiles/fff.dir/build.make CMakeFiles/fff.dir/fff.c.o
 .PHONY : fff.c.o
 
 fff.i: fff.c.i
@@ -759,7 +1328,7 @@ fff.i: fff.c.i
 
 # target to preprocess a source file
 fff.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fff.c.i
+	$(MAKE) -f CMakeFiles/fff.dir/build.make CMakeFiles/fff.dir/fff.c.i
 .PHONY : fff.c.i
 
 fff.s: fff.c.s
@@ -768,62 +1337,8 @@ fff.s: fff.c.s
 
 # target to generate assembly for a file
 fff.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fff.c.s
+	$(MAKE) -f CMakeFiles/fff.dir/build.make CMakeFiles/fff.dir/fff.c.s
 .PHONY : fff.c.s
-
-fft.o: fft.c.o
-
-.PHONY : fft.o
-
-# target to build an object file
-fft.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft.c.o
-.PHONY : fft.c.o
-
-fft.i: fft.c.i
-
-.PHONY : fft.i
-
-# target to preprocess a source file
-fft.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft.c.i
-.PHONY : fft.c.i
-
-fft.s: fft.c.s
-
-.PHONY : fft.s
-
-# target to generate assembly for a file
-fft.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft.c.s
-.PHONY : fft.c.s
-
-fft_ho.o: fft_ho.c.o
-
-.PHONY : fft_ho.o
-
-# target to build an object file
-fft_ho.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft_ho.c.o
-.PHONY : fft_ho.c.o
-
-fft_ho.i: fft_ho.c.i
-
-.PHONY : fft_ho.i
-
-# target to preprocess a source file
-fft_ho.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft_ho.c.i
-.PHONY : fft_ho.c.i
-
-fft_ho.s: fft_ho.c.s
-
-.PHONY : fft_ho.s
-
-# target to generate assembly for a file
-fft_ho.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fft_ho.c.s
-.PHONY : fft_ho.c.s
 
 fftout2.o: fftout2.c.o
 
@@ -831,7 +1346,7 @@ fftout2.o: fftout2.c.o
 
 # target to build an object file
 fftout2.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fftout2.c.o
+	$(MAKE) -f CMakeFiles/fftout2.dir/build.make CMakeFiles/fftout2.dir/fftout2.c.o
 .PHONY : fftout2.c.o
 
 fftout2.i: fftout2.c.i
@@ -840,7 +1355,7 @@ fftout2.i: fftout2.c.i
 
 # target to preprocess a source file
 fftout2.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fftout2.c.i
+	$(MAKE) -f CMakeFiles/fftout2.dir/build.make CMakeFiles/fftout2.dir/fftout2.c.i
 .PHONY : fftout2.c.i
 
 fftout2.s: fftout2.c.s
@@ -849,7 +1364,7 @@ fftout2.s: fftout2.c.s
 
 # target to generate assembly for a file
 fftout2.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fftout2.c.s
+	$(MAKE) -f CMakeFiles/fftout2.dir/build.make CMakeFiles/fftout2.dir/fftout2.c.s
 .PHONY : fftout2.c.s
 
 fftout3.o: fftout3.c.o
@@ -858,7 +1373,7 @@ fftout3.o: fftout3.c.o
 
 # target to build an object file
 fftout3.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fftout3.c.o
+	$(MAKE) -f CMakeFiles/fftout3.dir/build.make CMakeFiles/fftout3.dir/fftout3.c.o
 .PHONY : fftout3.c.o
 
 fftout3.i: fftout3.c.i
@@ -867,7 +1382,7 @@ fftout3.i: fftout3.c.i
 
 # target to preprocess a source file
 fftout3.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fftout3.c.i
+	$(MAKE) -f CMakeFiles/fftout3.dir/build.make CMakeFiles/fftout3.dir/fftout3.c.i
 .PHONY : fftout3.c.i
 
 fftout3.s: fftout3.c.s
@@ -876,7 +1391,7 @@ fftout3.s: fftout3.c.s
 
 # target to generate assembly for a file
 fftout3.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fftout3.c.s
+	$(MAKE) -f CMakeFiles/fftout3.dir/build.make CMakeFiles/fftout3.dir/fftout3.c.s
 .PHONY : fftout3.c.s
 
 fftout4.o: fftout4.c.o
@@ -885,7 +1400,7 @@ fftout4.o: fftout4.c.o
 
 # target to build an object file
 fftout4.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fftout4.c.o
+	$(MAKE) -f CMakeFiles/fftout4.dir/build.make CMakeFiles/fftout4.dir/fftout4.c.o
 .PHONY : fftout4.c.o
 
 fftout4.i: fftout4.c.i
@@ -894,7 +1409,7 @@ fftout4.i: fftout4.c.i
 
 # target to preprocess a source file
 fftout4.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fftout4.c.i
+	$(MAKE) -f CMakeFiles/fftout4.dir/build.make CMakeFiles/fftout4.dir/fftout4.c.i
 .PHONY : fftout4.c.i
 
 fftout4.s: fftout4.c.s
@@ -903,7 +1418,7 @@ fftout4.s: fftout4.c.s
 
 # target to generate assembly for a file
 fftout4.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/fftout4.c.s
+	$(MAKE) -f CMakeFiles/fftout4.dir/build.make CMakeFiles/fftout4.dir/fftout4.c.s
 .PHONY : fftout4.c.s
 
 find_cutpoint.o: find_cutpoint.c.o
@@ -912,7 +1427,7 @@ find_cutpoint.o: find_cutpoint.c.o
 
 # target to build an object file
 find_cutpoint.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/find_cutpoint.c.o
+	$(MAKE) -f CMakeFiles/find_cutpoint.dir/build.make CMakeFiles/find_cutpoint.dir/find_cutpoint.c.o
 .PHONY : find_cutpoint.c.o
 
 find_cutpoint.i: find_cutpoint.c.i
@@ -921,7 +1436,7 @@ find_cutpoint.i: find_cutpoint.c.i
 
 # target to preprocess a source file
 find_cutpoint.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/find_cutpoint.c.i
+	$(MAKE) -f CMakeFiles/find_cutpoint.dir/build.make CMakeFiles/find_cutpoint.dir/find_cutpoint.c.i
 .PHONY : find_cutpoint.c.i
 
 find_cutpoint.s: find_cutpoint.c.s
@@ -930,7 +1445,7 @@ find_cutpoint.s: find_cutpoint.c.s
 
 # target to generate assembly for a file
 find_cutpoint.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/find_cutpoint.c.s
+	$(MAKE) -f CMakeFiles/find_cutpoint.dir/build.make CMakeFiles/find_cutpoint.dir/find_cutpoint.c.s
 .PHONY : find_cutpoint.c.s
 
 henkan.o: henkan.c.o
@@ -939,7 +1454,7 @@ henkan.o: henkan.c.o
 
 # target to build an object file
 henkan.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/henkan.c.o
+	$(MAKE) -f CMakeFiles/henkan.dir/build.make CMakeFiles/henkan.dir/henkan.c.o
 .PHONY : henkan.c.o
 
 henkan.i: henkan.c.i
@@ -948,7 +1463,7 @@ henkan.i: henkan.c.i
 
 # target to preprocess a source file
 henkan.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/henkan.c.i
+	$(MAKE) -f CMakeFiles/henkan.dir/build.make CMakeFiles/henkan.dir/henkan.c.i
 .PHONY : henkan.c.i
 
 henkan.s: henkan.c.s
@@ -957,35 +1472,8 @@ henkan.s: henkan.c.s
 
 # target to generate assembly for a file
 henkan.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/henkan.c.s
+	$(MAKE) -f CMakeFiles/henkan.dir/build.make CMakeFiles/henkan.dir/henkan.c.s
 .PHONY : henkan.c.s
-
-ifft.o: ifft.c.o
-
-.PHONY : ifft.o
-
-# target to build an object file
-ifft.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/ifft.c.o
-.PHONY : ifft.c.o
-
-ifft.i: ifft.c.i
-
-.PHONY : ifft.i
-
-# target to preprocess a source file
-ifft.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/ifft.c.i
-.PHONY : ifft.c.i
-
-ifft.s: ifft.c.s
-
-.PHONY : ifft.s
-
-# target to generate assembly for a file
-ifft.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/ifft.c.s
-.PHONY : ifft.c.s
 
 imp_add.o: imp_add.c.o
 
@@ -993,7 +1481,7 @@ imp_add.o: imp_add.c.o
 
 # target to build an object file
 imp_add.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/imp_add.c.o
+	$(MAKE) -f CMakeFiles/imp_add.dir/build.make CMakeFiles/imp_add.dir/imp_add.c.o
 .PHONY : imp_add.c.o
 
 imp_add.i: imp_add.c.i
@@ -1002,7 +1490,7 @@ imp_add.i: imp_add.c.i
 
 # target to preprocess a source file
 imp_add.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/imp_add.c.i
+	$(MAKE) -f CMakeFiles/imp_add.dir/build.make CMakeFiles/imp_add.dir/imp_add.c.i
 .PHONY : imp_add.c.i
 
 imp_add.s: imp_add.c.s
@@ -1011,7 +1499,7 @@ imp_add.s: imp_add.c.s
 
 # target to generate assembly for a file
 imp_add.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/imp_add.c.s
+	$(MAKE) -f CMakeFiles/imp_add.dir/build.make CMakeFiles/imp_add.dir/imp_add.c.s
 .PHONY : imp_add.c.s
 
 imp_add_by10.o: imp_add_by10.c.o
@@ -1020,7 +1508,7 @@ imp_add_by10.o: imp_add_by10.c.o
 
 # target to build an object file
 imp_add_by10.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/imp_add_by10.c.o
+	$(MAKE) -f CMakeFiles/imp_add_by10.dir/build.make CMakeFiles/imp_add_by10.dir/imp_add_by10.c.o
 .PHONY : imp_add_by10.c.o
 
 imp_add_by10.i: imp_add_by10.c.i
@@ -1029,7 +1517,7 @@ imp_add_by10.i: imp_add_by10.c.i
 
 # target to preprocess a source file
 imp_add_by10.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/imp_add_by10.c.i
+	$(MAKE) -f CMakeFiles/imp_add_by10.dir/build.make CMakeFiles/imp_add_by10.dir/imp_add_by10.c.i
 .PHONY : imp_add_by10.c.i
 
 imp_add_by10.s: imp_add_by10.c.s
@@ -1038,7 +1526,7 @@ imp_add_by10.s: imp_add_by10.c.s
 
 # target to generate assembly for a file
 imp_add_by10.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/imp_add_by10.c.s
+	$(MAKE) -f CMakeFiles/imp_add_by10.dir/build.make CMakeFiles/imp_add_by10.dir/imp_add_by10.c.s
 .PHONY : imp_add_by10.c.s
 
 inverse.o: inverse.c.o
@@ -1047,7 +1535,7 @@ inverse.o: inverse.c.o
 
 # target to build an object file
 inverse.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/inverse.c.o
+	$(MAKE) -f CMakeFiles/inverse.dir/build.make CMakeFiles/inverse.dir/inverse.c.o
 .PHONY : inverse.c.o
 
 inverse.i: inverse.c.i
@@ -1056,7 +1544,7 @@ inverse.i: inverse.c.i
 
 # target to preprocess a source file
 inverse.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/inverse.c.i
+	$(MAKE) -f CMakeFiles/inverse.dir/build.make CMakeFiles/inverse.dir/inverse.c.i
 .PHONY : inverse.c.i
 
 inverse.s: inverse.c.s
@@ -1065,7 +1553,7 @@ inverse.s: inverse.c.s
 
 # target to generate assembly for a file
 inverse.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/inverse.c.s
+	$(MAKE) -f CMakeFiles/inverse.dir/build.make CMakeFiles/inverse.dir/inverse.c.s
 .PHONY : inverse.c.s
 
 linear_inpo_hrir_using_ATD.o: linear_inpo_hrir_using_ATD.c.o
@@ -1074,7 +1562,7 @@ linear_inpo_hrir_using_ATD.o: linear_inpo_hrir_using_ATD.c.o
 
 # target to build an object file
 linear_inpo_hrir_using_ATD.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.o
+	$(MAKE) -f CMakeFiles/linear_inpo_hrir_using_ATD.dir/build.make CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.o
 .PHONY : linear_inpo_hrir_using_ATD.c.o
 
 linear_inpo_hrir_using_ATD.i: linear_inpo_hrir_using_ATD.c.i
@@ -1083,7 +1571,7 @@ linear_inpo_hrir_using_ATD.i: linear_inpo_hrir_using_ATD.c.i
 
 # target to preprocess a source file
 linear_inpo_hrir_using_ATD.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.i
+	$(MAKE) -f CMakeFiles/linear_inpo_hrir_using_ATD.dir/build.make CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.i
 .PHONY : linear_inpo_hrir_using_ATD.c.i
 
 linear_inpo_hrir_using_ATD.s: linear_inpo_hrir_using_ATD.c.s
@@ -1092,7 +1580,7 @@ linear_inpo_hrir_using_ATD.s: linear_inpo_hrir_using_ATD.c.s
 
 # target to generate assembly for a file
 linear_inpo_hrir_using_ATD.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/linear_inpo_hrir_using_ATD.c.s
+	$(MAKE) -f CMakeFiles/linear_inpo_hrir_using_ATD.dir/build.make CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.s
 .PHONY : linear_inpo_hrir_using_ATD.c.s
 
 make_whitenoise.o: make_whitenoise.c.o
@@ -1101,7 +1589,7 @@ make_whitenoise.o: make_whitenoise.c.o
 
 # target to build an object file
 make_whitenoise.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/make_whitenoise.c.o
+	$(MAKE) -f CMakeFiles/make_whitenoise.dir/build.make CMakeFiles/make_whitenoise.dir/make_whitenoise.c.o
 .PHONY : make_whitenoise.c.o
 
 make_whitenoise.i: make_whitenoise.c.i
@@ -1110,7 +1598,7 @@ make_whitenoise.i: make_whitenoise.c.i
 
 # target to preprocess a source file
 make_whitenoise.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/make_whitenoise.c.i
+	$(MAKE) -f CMakeFiles/make_whitenoise.dir/build.make CMakeFiles/make_whitenoise.dir/make_whitenoise.c.i
 .PHONY : make_whitenoise.c.i
 
 make_whitenoise.s: make_whitenoise.c.s
@@ -1119,7 +1607,7 @@ make_whitenoise.s: make_whitenoise.c.s
 
 # target to generate assembly for a file
 make_whitenoise.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/make_whitenoise.c.s
+	$(MAKE) -f CMakeFiles/make_whitenoise.dir/build.make CMakeFiles/make_whitenoise.dir/make_whitenoise.c.s
 .PHONY : make_whitenoise.c.s
 
 mono2LR.o: mono2LR.c.o
@@ -1128,7 +1616,7 @@ mono2LR.o: mono2LR.c.o
 
 # target to build an object file
 mono2LR.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/mono2LR.c.o
+	$(MAKE) -f CMakeFiles/mono2LR.dir/build.make CMakeFiles/mono2LR.dir/mono2LR.c.o
 .PHONY : mono2LR.c.o
 
 mono2LR.i: mono2LR.c.i
@@ -1137,7 +1625,7 @@ mono2LR.i: mono2LR.c.i
 
 # target to preprocess a source file
 mono2LR.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/mono2LR.c.i
+	$(MAKE) -f CMakeFiles/mono2LR.dir/build.make CMakeFiles/mono2LR.dir/mono2LR.c.i
 .PHONY : mono2LR.c.i
 
 mono2LR.s: mono2LR.c.s
@@ -1146,7 +1634,7 @@ mono2LR.s: mono2LR.c.s
 
 # target to generate assembly for a file
 mono2LR.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/mono2LR.c.s
+	$(MAKE) -f CMakeFiles/mono2LR.dir/build.make CMakeFiles/mono2LR.dir/mono2LR.c.s
 .PHONY : mono2LR.c.s
 
 monoplay.o: monoplay.c.o
@@ -1155,7 +1643,7 @@ monoplay.o: monoplay.c.o
 
 # target to build an object file
 monoplay.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay.c.o
+	$(MAKE) -f CMakeFiles/monoplay.dir/build.make CMakeFiles/monoplay.dir/monoplay.c.o
 .PHONY : monoplay.c.o
 
 monoplay.i: monoplay.c.i
@@ -1164,7 +1652,7 @@ monoplay.i: monoplay.c.i
 
 # target to preprocess a source file
 monoplay.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay.c.i
+	$(MAKE) -f CMakeFiles/monoplay.dir/build.make CMakeFiles/monoplay.dir/monoplay.c.i
 .PHONY : monoplay.c.i
 
 monoplay.s: monoplay.c.s
@@ -1173,7 +1661,7 @@ monoplay.s: monoplay.c.s
 
 # target to generate assembly for a file
 monoplay.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay.c.s
+	$(MAKE) -f CMakeFiles/monoplay.dir/build.make CMakeFiles/monoplay.dir/monoplay.c.s
 .PHONY : monoplay.c.s
 
 monoplay2.o: monoplay2.c.o
@@ -1182,7 +1670,7 @@ monoplay2.o: monoplay2.c.o
 
 # target to build an object file
 monoplay2.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay2.c.o
+	$(MAKE) -f CMakeFiles/monoplay2.dir/build.make CMakeFiles/monoplay2.dir/monoplay2.c.o
 .PHONY : monoplay2.c.o
 
 monoplay2.i: monoplay2.c.i
@@ -1191,7 +1679,7 @@ monoplay2.i: monoplay2.c.i
 
 # target to preprocess a source file
 monoplay2.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay2.c.i
+	$(MAKE) -f CMakeFiles/monoplay2.dir/build.make CMakeFiles/monoplay2.dir/monoplay2.c.i
 .PHONY : monoplay2.c.i
 
 monoplay2.s: monoplay2.c.s
@@ -1200,7 +1688,7 @@ monoplay2.s: monoplay2.c.s
 
 # target to generate assembly for a file
 monoplay2.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay2.c.s
+	$(MAKE) -f CMakeFiles/monoplay2.dir/build.make CMakeFiles/monoplay2.dir/monoplay2.c.s
 .PHONY : monoplay2.c.s
 
 monoplay_48k.o: monoplay_48k.c.o
@@ -1209,7 +1697,7 @@ monoplay_48k.o: monoplay_48k.c.o
 
 # target to build an object file
 monoplay_48k.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay_48k.c.o
+	$(MAKE) -f CMakeFiles/monoplay_48k.dir/build.make CMakeFiles/monoplay_48k.dir/monoplay_48k.c.o
 .PHONY : monoplay_48k.c.o
 
 monoplay_48k.i: monoplay_48k.c.i
@@ -1218,7 +1706,7 @@ monoplay_48k.i: monoplay_48k.c.i
 
 # target to preprocess a source file
 monoplay_48k.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay_48k.c.i
+	$(MAKE) -f CMakeFiles/monoplay_48k.dir/build.make CMakeFiles/monoplay_48k.dir/monoplay_48k.c.i
 .PHONY : monoplay_48k.c.i
 
 monoplay_48k.s: monoplay_48k.c.s
@@ -1227,7 +1715,7 @@ monoplay_48k.s: monoplay_48k.c.s
 
 # target to generate assembly for a file
 monoplay_48k.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay_48k.c.s
+	$(MAKE) -f CMakeFiles/monoplay_48k.dir/build.make CMakeFiles/monoplay_48k.dir/monoplay_48k.c.s
 .PHONY : monoplay_48k.c.s
 
 monoplay_8kHz.o: monoplay_8kHz.c.o
@@ -1236,7 +1724,7 @@ monoplay_8kHz.o: monoplay_8kHz.c.o
 
 # target to build an object file
 monoplay_8kHz.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.o
+	$(MAKE) -f CMakeFiles/monoplay_8kHz.dir/build.make CMakeFiles/monoplay_8kHz.dir/monoplay_8kHz.c.o
 .PHONY : monoplay_8kHz.c.o
 
 monoplay_8kHz.i: monoplay_8kHz.c.i
@@ -1245,7 +1733,7 @@ monoplay_8kHz.i: monoplay_8kHz.c.i
 
 # target to preprocess a source file
 monoplay_8kHz.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.i
+	$(MAKE) -f CMakeFiles/monoplay_8kHz.dir/build.make CMakeFiles/monoplay_8kHz.dir/monoplay_8kHz.c.i
 .PHONY : monoplay_8kHz.c.i
 
 monoplay_8kHz.s: monoplay_8kHz.c.s
@@ -1254,7 +1742,7 @@ monoplay_8kHz.s: monoplay_8kHz.c.s
 
 # target to generate assembly for a file
 monoplay_8kHz.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay_8kHz.c.s
+	$(MAKE) -f CMakeFiles/monoplay_8kHz.dir/build.make CMakeFiles/monoplay_8kHz.dir/monoplay_8kHz.c.s
 .PHONY : monoplay_8kHz.c.s
 
 monoplay_alter.o: monoplay_alter.c.o
@@ -1263,7 +1751,7 @@ monoplay_alter.o: monoplay_alter.c.o
 
 # target to build an object file
 monoplay_alter.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay_alter.c.o
+	$(MAKE) -f CMakeFiles/monoplay_alter.dir/build.make CMakeFiles/monoplay_alter.dir/monoplay_alter.c.o
 .PHONY : monoplay_alter.c.o
 
 monoplay_alter.i: monoplay_alter.c.i
@@ -1272,7 +1760,7 @@ monoplay_alter.i: monoplay_alter.c.i
 
 # target to preprocess a source file
 monoplay_alter.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay_alter.c.i
+	$(MAKE) -f CMakeFiles/monoplay_alter.dir/build.make CMakeFiles/monoplay_alter.dir/monoplay_alter.c.i
 .PHONY : monoplay_alter.c.i
 
 monoplay_alter.s: monoplay_alter.c.s
@@ -1281,7 +1769,7 @@ monoplay_alter.s: monoplay_alter.c.s
 
 # target to generate assembly for a file
 monoplay_alter.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monoplay_alter.c.s
+	$(MAKE) -f CMakeFiles/monoplay_alter.dir/build.make CMakeFiles/monoplay_alter.dir/monoplay_alter.c.s
 .PHONY : monoplay_alter.c.s
 
 monorecord.o: monorecord.c.o
@@ -1290,7 +1778,7 @@ monorecord.o: monorecord.c.o
 
 # target to build an object file
 monorecord.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monorecord.c.o
+	$(MAKE) -f CMakeFiles/monorecord.dir/build.make CMakeFiles/monorecord.dir/monorecord.c.o
 .PHONY : monorecord.c.o
 
 monorecord.i: monorecord.c.i
@@ -1299,7 +1787,7 @@ monorecord.i: monorecord.c.i
 
 # target to preprocess a source file
 monorecord.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monorecord.c.i
+	$(MAKE) -f CMakeFiles/monorecord.dir/build.make CMakeFiles/monorecord.dir/monorecord.c.i
 .PHONY : monorecord.c.i
 
 monorecord.s: monorecord.c.s
@@ -1308,7 +1796,7 @@ monorecord.s: monorecord.c.s
 
 # target to generate assembly for a file
 monorecord.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/monorecord.c.s
+	$(MAKE) -f CMakeFiles/monorecord.dir/build.make CMakeFiles/monorecord.dir/monorecord.c.s
 .PHONY : monorecord.c.s
 
 peaking_filter.o: peaking_filter.c.o
@@ -1317,7 +1805,7 @@ peaking_filter.o: peaking_filter.c.o
 
 # target to build an object file
 peaking_filter.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/peaking_filter.c.o
+	$(MAKE) -f CMakeFiles/peaking_filter.dir/build.make CMakeFiles/peaking_filter.dir/peaking_filter.c.o
 .PHONY : peaking_filter.c.o
 
 peaking_filter.i: peaking_filter.c.i
@@ -1326,7 +1814,7 @@ peaking_filter.i: peaking_filter.c.i
 
 # target to preprocess a source file
 peaking_filter.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/peaking_filter.c.i
+	$(MAKE) -f CMakeFiles/peaking_filter.dir/build.make CMakeFiles/peaking_filter.dir/peaking_filter.c.i
 .PHONY : peaking_filter.c.i
 
 peaking_filter.s: peaking_filter.c.s
@@ -1335,7 +1823,7 @@ peaking_filter.s: peaking_filter.c.s
 
 # target to generate assembly for a file
 peaking_filter.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/peaking_filter.c.s
+	$(MAKE) -f CMakeFiles/peaking_filter.dir/build.make CMakeFiles/peaking_filter.dir/peaking_filter.c.s
 .PHONY : peaking_filter.c.s
 
 playrec_2ch_inPath.o: playrec_2ch_inPath.c.o
@@ -1344,7 +1832,7 @@ playrec_2ch_inPath.o: playrec_2ch_inPath.c.o
 
 # target to build an object file
 playrec_2ch_inPath.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.o
+	$(MAKE) -f CMakeFiles/playrec_2ch_inPath.dir/build.make CMakeFiles/playrec_2ch_inPath.dir/playrec_2ch_inPath.c.o
 .PHONY : playrec_2ch_inPath.c.o
 
 playrec_2ch_inPath.i: playrec_2ch_inPath.c.i
@@ -1353,7 +1841,7 @@ playrec_2ch_inPath.i: playrec_2ch_inPath.c.i
 
 # target to preprocess a source file
 playrec_2ch_inPath.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.i
+	$(MAKE) -f CMakeFiles/playrec_2ch_inPath.dir/build.make CMakeFiles/playrec_2ch_inPath.dir/playrec_2ch_inPath.c.i
 .PHONY : playrec_2ch_inPath.c.i
 
 playrec_2ch_inPath.s: playrec_2ch_inPath.c.s
@@ -1362,7 +1850,7 @@ playrec_2ch_inPath.s: playrec_2ch_inPath.c.s
 
 # target to generate assembly for a file
 playrec_2ch_inPath.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_2ch_inPath.c.s
+	$(MAKE) -f CMakeFiles/playrec_2ch_inPath.dir/build.make CMakeFiles/playrec_2ch_inPath.dir/playrec_2ch_inPath.c.s
 .PHONY : playrec_2ch_inPath.c.s
 
 playrec_2ch_new_kai.o: playrec_2ch_new_kai.c.o
@@ -1371,7 +1859,7 @@ playrec_2ch_new_kai.o: playrec_2ch_new_kai.c.o
 
 # target to build an object file
 playrec_2ch_new_kai.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.o
+	$(MAKE) -f CMakeFiles/playrec_2ch_new_kai.dir/build.make CMakeFiles/playrec_2ch_new_kai.dir/playrec_2ch_new_kai.c.o
 .PHONY : playrec_2ch_new_kai.c.o
 
 playrec_2ch_new_kai.i: playrec_2ch_new_kai.c.i
@@ -1380,7 +1868,7 @@ playrec_2ch_new_kai.i: playrec_2ch_new_kai.c.i
 
 # target to preprocess a source file
 playrec_2ch_new_kai.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.i
+	$(MAKE) -f CMakeFiles/playrec_2ch_new_kai.dir/build.make CMakeFiles/playrec_2ch_new_kai.dir/playrec_2ch_new_kai.c.i
 .PHONY : playrec_2ch_new_kai.c.i
 
 playrec_2ch_new_kai.s: playrec_2ch_new_kai.c.s
@@ -1389,7 +1877,7 @@ playrec_2ch_new_kai.s: playrec_2ch_new_kai.c.s
 
 # target to generate assembly for a file
 playrec_2ch_new_kai.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_2ch_new_kai.c.s
+	$(MAKE) -f CMakeFiles/playrec_2ch_new_kai.dir/build.make CMakeFiles/playrec_2ch_new_kai.dir/playrec_2ch_new_kai.c.s
 .PHONY : playrec_2ch_new_kai.c.s
 
 playrec_mono.o: playrec_mono.c.o
@@ -1398,7 +1886,7 @@ playrec_mono.o: playrec_mono.c.o
 
 # target to build an object file
 playrec_mono.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_mono.c.o
+	$(MAKE) -f CMakeFiles/playrec_mono.dir/build.make CMakeFiles/playrec_mono.dir/playrec_mono.c.o
 .PHONY : playrec_mono.c.o
 
 playrec_mono.i: playrec_mono.c.i
@@ -1407,7 +1895,7 @@ playrec_mono.i: playrec_mono.c.i
 
 # target to preprocess a source file
 playrec_mono.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_mono.c.i
+	$(MAKE) -f CMakeFiles/playrec_mono.dir/build.make CMakeFiles/playrec_mono.dir/playrec_mono.c.i
 .PHONY : playrec_mono.c.i
 
 playrec_mono.s: playrec_mono.c.s
@@ -1416,7 +1904,7 @@ playrec_mono.s: playrec_mono.c.s
 
 # target to generate assembly for a file
 playrec_mono.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_mono.c.s
+	$(MAKE) -f CMakeFiles/playrec_mono.dir/build.make CMakeFiles/playrec_mono.dir/playrec_mono.c.s
 .PHONY : playrec_mono.c.s
 
 playrec_mono_inPath.o: playrec_mono_inPath.c.o
@@ -1425,7 +1913,7 @@ playrec_mono_inPath.o: playrec_mono_inPath.c.o
 
 # target to build an object file
 playrec_mono_inPath.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.o
+	$(MAKE) -f CMakeFiles/playrec_mono_inPath.dir/build.make CMakeFiles/playrec_mono_inPath.dir/playrec_mono_inPath.c.o
 .PHONY : playrec_mono_inPath.c.o
 
 playrec_mono_inPath.i: playrec_mono_inPath.c.i
@@ -1434,7 +1922,7 @@ playrec_mono_inPath.i: playrec_mono_inPath.c.i
 
 # target to preprocess a source file
 playrec_mono_inPath.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.i
+	$(MAKE) -f CMakeFiles/playrec_mono_inPath.dir/build.make CMakeFiles/playrec_mono_inPath.dir/playrec_mono_inPath.c.i
 .PHONY : playrec_mono_inPath.c.i
 
 playrec_mono_inPath.s: playrec_mono_inPath.c.s
@@ -1443,7 +1931,7 @@ playrec_mono_inPath.s: playrec_mono_inPath.c.s
 
 # target to generate assembly for a file
 playrec_mono_inPath.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/playrec_mono_inPath.c.s
+	$(MAKE) -f CMakeFiles/playrec_mono_inPath.dir/build.make CMakeFiles/playrec_mono_inPath.dir/playrec_mono_inPath.c.s
 .PHONY : playrec_mono_inPath.c.s
 
 print_siglen.o: print_siglen.c.o
@@ -1452,7 +1940,7 @@ print_siglen.o: print_siglen.c.o
 
 # target to build an object file
 print_siglen.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/print_siglen.c.o
+	$(MAKE) -f CMakeFiles/print_siglen.dir/build.make CMakeFiles/print_siglen.dir/print_siglen.c.o
 .PHONY : print_siglen.c.o
 
 print_siglen.i: print_siglen.c.i
@@ -1461,7 +1949,7 @@ print_siglen.i: print_siglen.c.i
 
 # target to preprocess a source file
 print_siglen.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/print_siglen.c.i
+	$(MAKE) -f CMakeFiles/print_siglen.dir/build.make CMakeFiles/print_siglen.dir/print_siglen.c.i
 .PHONY : print_siglen.c.i
 
 print_siglen.s: print_siglen.c.s
@@ -1470,7 +1958,7 @@ print_siglen.s: print_siglen.c.s
 
 # target to generate assembly for a file
 print_siglen.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/print_siglen.c.s
+	$(MAKE) -f CMakeFiles/print_siglen.dir/build.make CMakeFiles/print_siglen.dir/print_siglen.c.s
 .PHONY : print_siglen.c.s
 
 random.o: random.c.o
@@ -1479,7 +1967,7 @@ random.o: random.c.o
 
 # target to build an object file
 random.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/random.c.o
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/random.c.o
 .PHONY : random.c.o
 
 random.i: random.c.i
@@ -1488,7 +1976,7 @@ random.i: random.c.i
 
 # target to preprocess a source file
 random.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/random.c.i
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/random.c.i
 .PHONY : random.c.i
 
 random.s: random.c.s
@@ -1497,7 +1985,7 @@ random.s: random.c.s
 
 # target to generate assembly for a file
 random.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/random.c.s
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/random.c.s
 .PHONY : random.c.s
 
 scaling_max_instant_amp.o: scaling_max_instant_amp.c.o
@@ -1506,7 +1994,7 @@ scaling_max_instant_amp.o: scaling_max_instant_amp.c.o
 
 # target to build an object file
 scaling_max_instant_amp.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.o
+	$(MAKE) -f CMakeFiles/scaling_max_instant_amp.dir/build.make CMakeFiles/scaling_max_instant_amp.dir/scaling_max_instant_amp.c.o
 .PHONY : scaling_max_instant_amp.c.o
 
 scaling_max_instant_amp.i: scaling_max_instant_amp.c.i
@@ -1515,7 +2003,7 @@ scaling_max_instant_amp.i: scaling_max_instant_amp.c.i
 
 # target to preprocess a source file
 scaling_max_instant_amp.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.i
+	$(MAKE) -f CMakeFiles/scaling_max_instant_amp.dir/build.make CMakeFiles/scaling_max_instant_amp.dir/scaling_max_instant_amp.c.i
 .PHONY : scaling_max_instant_amp.c.i
 
 scaling_max_instant_amp.s: scaling_max_instant_amp.c.s
@@ -1524,7 +2012,7 @@ scaling_max_instant_amp.s: scaling_max_instant_amp.c.s
 
 # target to generate assembly for a file
 scaling_max_instant_amp.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/scaling_max_instant_amp.c.s
+	$(MAKE) -f CMakeFiles/scaling_max_instant_amp.dir/build.make CMakeFiles/scaling_max_instant_amp.dir/scaling_max_instant_amp.c.s
 .PHONY : scaling_max_instant_amp.c.s
 
 sepach.o: sepach.c.o
@@ -1533,7 +2021,7 @@ sepach.o: sepach.c.o
 
 # target to build an object file
 sepach.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/sepach.c.o
+	$(MAKE) -f CMakeFiles/sepach.dir/build.make CMakeFiles/sepach.dir/sepach.c.o
 .PHONY : sepach.c.o
 
 sepach.i: sepach.c.i
@@ -1542,7 +2030,7 @@ sepach.i: sepach.c.i
 
 # target to preprocess a source file
 sepach.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/sepach.c.i
+	$(MAKE) -f CMakeFiles/sepach.dir/build.make CMakeFiles/sepach.dir/sepach.c.i
 .PHONY : sepach.c.i
 
 sepach.s: sepach.c.s
@@ -1551,7 +2039,7 @@ sepach.s: sepach.c.s
 
 # target to generate assembly for a file
 sepach.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/sepach.c.s
+	$(MAKE) -f CMakeFiles/sepach.dir/build.make CMakeFiles/sepach.dir/sepach.c.s
 .PHONY : sepach.c.s
 
 sinwave.o: sinwave.c.o
@@ -1560,7 +2048,7 @@ sinwave.o: sinwave.c.o
 
 # target to build an object file
 sinwave.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/sinwave.c.o
+	$(MAKE) -f CMakeFiles/sinwave.dir/build.make CMakeFiles/sinwave.dir/sinwave.c.o
 .PHONY : sinwave.c.o
 
 sinwave.i: sinwave.c.i
@@ -1569,7 +2057,7 @@ sinwave.i: sinwave.c.i
 
 # target to preprocess a source file
 sinwave.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/sinwave.c.i
+	$(MAKE) -f CMakeFiles/sinwave.dir/build.make CMakeFiles/sinwave.dir/sinwave.c.i
 .PHONY : sinwave.c.i
 
 sinwave.s: sinwave.c.s
@@ -1578,7 +2066,7 @@ sinwave.s: sinwave.c.s
 
 # target to generate assembly for a file
 sinwave.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/sinwave.c.s
+	$(MAKE) -f CMakeFiles/sinwave.dir/build.make CMakeFiles/sinwave.dir/sinwave.c.s
 .PHONY : sinwave.c.s
 
 timeconvo.o: timeconvo.c.o
@@ -1587,7 +2075,7 @@ timeconvo.o: timeconvo.c.o
 
 # target to build an object file
 timeconvo.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/timeconvo.c.o
+	$(MAKE) -f CMakeFiles/timeconvo.dir/build.make CMakeFiles/timeconvo.dir/timeconvo.c.o
 .PHONY : timeconvo.c.o
 
 timeconvo.i: timeconvo.c.i
@@ -1596,7 +2084,7 @@ timeconvo.i: timeconvo.c.i
 
 # target to preprocess a source file
 timeconvo.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/timeconvo.c.i
+	$(MAKE) -f CMakeFiles/timeconvo.dir/build.make CMakeFiles/timeconvo.dir/timeconvo.c.i
 .PHONY : timeconvo.c.i
 
 timeconvo.s: timeconvo.c.s
@@ -1605,7 +2093,7 @@ timeconvo.s: timeconvo.c.s
 
 # target to generate assembly for a file
 timeconvo.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/timeconvo.c.s
+	$(MAKE) -f CMakeFiles/timeconvo.dir/build.make CMakeFiles/timeconvo.dir/timeconvo.c.s
 .PHONY : timeconvo.c.s
 
 umasig/c_vector.o: umasig/c_vector.c.o
@@ -1614,7 +2102,7 @@ umasig/c_vector.o: umasig/c_vector.c.o
 
 # target to build an object file
 umasig/c_vector.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/c_vector.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/c_vector.c.o
 .PHONY : umasig/c_vector.c.o
 
 umasig/c_vector.i: umasig/c_vector.c.i
@@ -1623,7 +2111,7 @@ umasig/c_vector.i: umasig/c_vector.c.i
 
 # target to preprocess a source file
 umasig/c_vector.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/c_vector.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/c_vector.c.i
 .PHONY : umasig/c_vector.c.i
 
 umasig/c_vector.s: umasig/c_vector.c.s
@@ -1632,7 +2120,7 @@ umasig/c_vector.s: umasig/c_vector.c.s
 
 # target to generate assembly for a file
 umasig/c_vector.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/c_vector.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/c_vector.c.s
 .PHONY : umasig/c_vector.c.s
 
 umasig/complex.o: umasig/complex.c.o
@@ -1641,7 +2129,7 @@ umasig/complex.o: umasig/complex.c.o
 
 # target to build an object file
 umasig/complex.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/complex.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/complex.c.o
 .PHONY : umasig/complex.c.o
 
 umasig/complex.i: umasig/complex.c.i
@@ -1650,7 +2138,7 @@ umasig/complex.i: umasig/complex.c.i
 
 # target to preprocess a source file
 umasig/complex.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/complex.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/complex.c.i
 .PHONY : umasig/complex.c.i
 
 umasig/complex.s: umasig/complex.c.s
@@ -1659,7 +2147,7 @@ umasig/complex.s: umasig/complex.c.s
 
 # target to generate assembly for a file
 umasig/complex.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/complex.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/complex.c.s
 .PHONY : umasig/complex.c.s
 
 umasig/conv.o: umasig/conv.c.o
@@ -1668,7 +2156,7 @@ umasig/conv.o: umasig/conv.c.o
 
 # target to build an object file
 umasig/conv.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/conv.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/conv.c.o
 .PHONY : umasig/conv.c.o
 
 umasig/conv.i: umasig/conv.c.i
@@ -1677,7 +2165,7 @@ umasig/conv.i: umasig/conv.c.i
 
 # target to preprocess a source file
 umasig/conv.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/conv.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/conv.c.i
 .PHONY : umasig/conv.c.i
 
 umasig/conv.s: umasig/conv.c.s
@@ -1686,7 +2174,7 @@ umasig/conv.s: umasig/conv.c.s
 
 # target to generate assembly for a file
 umasig/conv.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/conv.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/conv.c.s
 .PHONY : umasig/conv.c.s
 
 umasig/fft.o: umasig/fft.c.o
@@ -1695,7 +2183,7 @@ umasig/fft.o: umasig/fft.c.o
 
 # target to build an object file
 umasig/fft.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fft.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/fft.c.o
 .PHONY : umasig/fft.c.o
 
 umasig/fft.i: umasig/fft.c.i
@@ -1704,7 +2192,7 @@ umasig/fft.i: umasig/fft.c.i
 
 # target to preprocess a source file
 umasig/fft.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fft.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/fft.c.i
 .PHONY : umasig/fft.c.i
 
 umasig/fft.s: umasig/fft.c.s
@@ -1713,35 +2201,8 @@ umasig/fft.s: umasig/fft.c.s
 
 # target to generate assembly for a file
 umasig/fft.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fft.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/fft.c.s
 .PHONY : umasig/fft.c.s
-
-umasig/fftfilt.o: umasig/fftfilt.c.o
-
-.PHONY : umasig/fftfilt.o
-
-# target to build an object file
-umasig/fftfilt.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.o
-.PHONY : umasig/fftfilt.c.o
-
-umasig/fftfilt.i: umasig/fftfilt.c.i
-
-.PHONY : umasig/fftfilt.i
-
-# target to preprocess a source file
-umasig/fftfilt.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.i
-.PHONY : umasig/fftfilt.c.i
-
-umasig/fftfilt.s: umasig/fftfilt.c.s
-
-.PHONY : umasig/fftfilt.s
-
-# target to generate assembly for a file
-umasig/fftfilt.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/fftfilt.c.s
-.PHONY : umasig/fftfilt.c.s
 
 umasig/plot.o: umasig/plot.c.o
 
@@ -1749,7 +2210,7 @@ umasig/plot.o: umasig/plot.c.o
 
 # target to build an object file
 umasig/plot.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/plot.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/plot.c.o
 .PHONY : umasig/plot.c.o
 
 umasig/plot.i: umasig/plot.c.i
@@ -1758,7 +2219,7 @@ umasig/plot.i: umasig/plot.c.i
 
 # target to preprocess a source file
 umasig/plot.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/plot.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/plot.c.i
 .PHONY : umasig/plot.c.i
 
 umasig/plot.s: umasig/plot.c.s
@@ -1767,7 +2228,7 @@ umasig/plot.s: umasig/plot.c.s
 
 # target to generate assembly for a file
 umasig/plot.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/plot.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/plot.c.s
 .PHONY : umasig/plot.c.s
 
 umasig/random.o: umasig/random.c.o
@@ -1776,7 +2237,7 @@ umasig/random.o: umasig/random.c.o
 
 # target to build an object file
 umasig/random.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/random.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/random.c.o
 .PHONY : umasig/random.c.o
 
 umasig/random.i: umasig/random.c.i
@@ -1785,7 +2246,7 @@ umasig/random.i: umasig/random.c.i
 
 # target to preprocess a source file
 umasig/random.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/random.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/random.c.i
 .PHONY : umasig/random.c.i
 
 umasig/random.s: umasig/random.c.s
@@ -1794,7 +2255,7 @@ umasig/random.s: umasig/random.c.s
 
 # target to generate assembly for a file
 umasig/random.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/random.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/random.c.s
 .PHONY : umasig/random.c.s
 
 umasig/speech.o: umasig/speech.c.o
@@ -1803,7 +2264,7 @@ umasig/speech.o: umasig/speech.c.o
 
 # target to build an object file
 umasig/speech.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/speech.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/speech.c.o
 .PHONY : umasig/speech.c.o
 
 umasig/speech.i: umasig/speech.c.i
@@ -1812,7 +2273,7 @@ umasig/speech.i: umasig/speech.c.i
 
 # target to preprocess a source file
 umasig/speech.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/speech.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/speech.c.i
 .PHONY : umasig/speech.c.i
 
 umasig/speech.s: umasig/speech.c.s
@@ -1821,7 +2282,7 @@ umasig/speech.s: umasig/speech.c.s
 
 # target to generate assembly for a file
 umasig/speech.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/speech.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/speech.c.s
 .PHONY : umasig/speech.c.s
 
 umasig/utils.o: umasig/utils.c.o
@@ -1830,7 +2291,7 @@ umasig/utils.o: umasig/utils.c.o
 
 # target to build an object file
 umasig/utils.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/utils.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/utils.c.o
 .PHONY : umasig/utils.c.o
 
 umasig/utils.i: umasig/utils.c.i
@@ -1839,7 +2300,7 @@ umasig/utils.i: umasig/utils.c.i
 
 # target to preprocess a source file
 umasig/utils.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/utils.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/utils.c.i
 .PHONY : umasig/utils.c.i
 
 umasig/utils.s: umasig/utils.c.s
@@ -1848,7 +2309,7 @@ umasig/utils.s: umasig/utils.c.s
 
 # target to generate assembly for a file
 umasig/utils.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/utils.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/utils.c.s
 .PHONY : umasig/utils.c.s
 
 umasig/vector.o: umasig/vector.c.o
@@ -1857,7 +2318,7 @@ umasig/vector.o: umasig/vector.c.o
 
 # target to build an object file
 umasig/vector.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/vector.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/vector.c.o
 .PHONY : umasig/vector.c.o
 
 umasig/vector.i: umasig/vector.c.i
@@ -1866,7 +2327,7 @@ umasig/vector.i: umasig/vector.c.i
 
 # target to preprocess a source file
 umasig/vector.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/vector.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/vector.c.i
 .PHONY : umasig/vector.c.i
 
 umasig/vector.s: umasig/vector.c.s
@@ -1875,7 +2336,7 @@ umasig/vector.s: umasig/vector.c.s
 
 # target to generate assembly for a file
 umasig/vector.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/vector.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/vector.c.s
 .PHONY : umasig/vector.c.s
 
 umasig/window.o: umasig/window.c.o
@@ -1884,7 +2345,7 @@ umasig/window.o: umasig/window.c.o
 
 # target to build an object file
 umasig/window.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/window.c.o
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/window.c.o
 .PHONY : umasig/window.c.o
 
 umasig/window.i: umasig/window.c.i
@@ -1893,7 +2354,7 @@ umasig/window.i: umasig/window.c.i
 
 # target to preprocess a source file
 umasig/window.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/window.c.i
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/window.c.i
 .PHONY : umasig/window.c.i
 
 umasig/window.s: umasig/window.c.s
@@ -1902,7 +2363,7 @@ umasig/window.s: umasig/window.c.s
 
 # target to generate assembly for a file
 umasig/window.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/umasig/window.c.s
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/umasig/window.c.s
 .PHONY : umasig/window.c.s
 
 zeropad_anyfile.o: zeropad_anyfile.c.o
@@ -1911,7 +2372,7 @@ zeropad_anyfile.o: zeropad_anyfile.c.o
 
 # target to build an object file
 zeropad_anyfile.c.o:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.o
+	$(MAKE) -f CMakeFiles/zeropad_anyfile.dir/build.make CMakeFiles/zeropad_anyfile.dir/zeropad_anyfile.c.o
 .PHONY : zeropad_anyfile.c.o
 
 zeropad_anyfile.i: zeropad_anyfile.c.i
@@ -1920,7 +2381,7 @@ zeropad_anyfile.i: zeropad_anyfile.c.i
 
 # target to preprocess a source file
 zeropad_anyfile.c.i:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.i
+	$(MAKE) -f CMakeFiles/zeropad_anyfile.dir/build.make CMakeFiles/zeropad_anyfile.dir/zeropad_anyfile.c.i
 .PHONY : zeropad_anyfile.c.i
 
 zeropad_anyfile.s: zeropad_anyfile.c.s
@@ -1929,7 +2390,7 @@ zeropad_anyfile.s: zeropad_anyfile.c.s
 
 # target to generate assembly for a file
 zeropad_anyfile.c.s:
-	$(MAKE) -f CMakeFiles/douki_C_programs.dir/build.make CMakeFiles/douki_C_programs.dir/zeropad_anyfile.c.s
+	$(MAKE) -f CMakeFiles/zeropad_anyfile.dir/build.make CMakeFiles/zeropad_anyfile.dir/zeropad_anyfile.c.s
 .PHONY : zeropad_anyfile.c.s
 
 # Help Target
@@ -1939,29 +2400,76 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... playrec_mono"
+	@echo "... playrec_2ch_new_kai"
+	@echo "... playrec_2ch_inPath"
+	@echo "... monoplay_48k"
+	@echo "... make_whitenoise"
+	@echo "... fatchdb"
+	@echo "... fftout4"
+	@echo "... 2chplay2"
+	@echo "... zeropad_anyfile"
+	@echo "... monoplay_8kHz"
+	@echo "... monoplay"
+	@echo "... sinwave"
+	@echo "... sepach"
+	@echo "... scaling_max_instant_amp"
+	@echo "... monorecord"
+	@echo "... random"
 	@echo "... edit_cache"
-	@echo "... douki_C_programs"
+	@echo "... print_siglen"
+	@echo "... IMPmcode"
+	@echo "... mono2LR"
+	@echo "... FC_deviation_alter"
+	@echo "... timeconvo"
+	@echo "... linear_inpo_hrir_using_ATD"
+	@echo "... LE_1"
+	@echo "... WAVtoDSB_osx"
+	@echo "... fftout3"
+	@echo "... imp_add_by10"
+	@echo "... cosine_windowing"
+	@echo "... imp_add"
+	@echo "... peaking_filter"
+	@echo "... find_cutpoint"
+	@echo "... equ_schroeder5"
+	@echo "... inverse"
+	@echo "... equ_schroeder2"
+	@echo "... closed_loop_new"
+	@echo "... FC_deviation"
+	@echo "... equ_schroeder4"
+	@echo "... equ_schroeder3"
+	@echo "... henkan"
+	@echo "... monoplay2"
+	@echo "... cutout_anyfile2"
+	@echo "... fftout2"
+	@echo "... 2chplay"
+	@echo "... monoplay_alter"
+	@echo "... equ_schroeder1"
+	@echo "... douki_new"
+	@echo "... cutout_anyfile"
+	@echo "... dv"
+	@echo "... playrec_mono_inPath"
+	@echo "... fff"
+	@echo "... biascut"
+	@echo "... umasig"
 	@echo "... 2chplay.o"
 	@echo "... 2chplay.i"
 	@echo "... 2chplay.s"
 	@echo "... 2chplay2.o"
 	@echo "... 2chplay2.i"
 	@echo "... 2chplay2.s"
-	@echo "... FileLib_osx.o"
-	@echo "... FileLib_osx.i"
-	@echo "... FileLib_osx.s"
+	@echo "... FC_deviation.o"
+	@echo "... FC_deviation.i"
+	@echo "... FC_deviation.s"
+	@echo "... FC_deviation_alter.o"
+	@echo "... FC_deviation_alter.i"
+	@echo "... FC_deviation_alter.s"
 	@echo "... IMPmcode.o"
 	@echo "... IMPmcode.i"
 	@echo "... IMPmcode.s"
 	@echo "... LE_1.o"
 	@echo "... LE_1.i"
 	@echo "... LE_1.s"
-	@echo "... Rev_sup.o"
-	@echo "... Rev_sup.i"
-	@echo "... Rev_sup.s"
-	@echo "... WAVtoDSB.o"
-	@echo "... WAVtoDSB.i"
-	@echo "... WAVtoDSB.s"
 	@echo "... WAVtoDSB_osx.o"
 	@echo "... WAVtoDSB_osx.i"
 	@echo "... WAVtoDSB_osx.s"
@@ -2004,21 +2512,9 @@ help:
 	@echo "... fatchdb.o"
 	@echo "... fatchdb.i"
 	@echo "... fatchdb.s"
-	@echo "... fc_deviation.o"
-	@echo "... fc_deviation.i"
-	@echo "... fc_deviation.s"
-	@echo "... fc_deviation_alter.o"
-	@echo "... fc_deviation_alter.i"
-	@echo "... fc_deviation_alter.s"
 	@echo "... fff.o"
 	@echo "... fff.i"
 	@echo "... fff.s"
-	@echo "... fft.o"
-	@echo "... fft.i"
-	@echo "... fft.s"
-	@echo "... fft_ho.o"
-	@echo "... fft_ho.i"
-	@echo "... fft_ho.s"
 	@echo "... fftout2.o"
 	@echo "... fftout2.i"
 	@echo "... fftout2.s"
@@ -2034,9 +2530,6 @@ help:
 	@echo "... henkan.o"
 	@echo "... henkan.i"
 	@echo "... henkan.s"
-	@echo "... ifft.o"
-	@echo "... ifft.i"
-	@echo "... ifft.s"
 	@echo "... imp_add.o"
 	@echo "... imp_add.i"
 	@echo "... imp_add.s"
@@ -2118,9 +2611,6 @@ help:
 	@echo "... umasig/fft.o"
 	@echo "... umasig/fft.i"
 	@echo "... umasig/fft.s"
-	@echo "... umasig/fftfilt.o"
-	@echo "... umasig/fftfilt.i"
-	@echo "... umasig/fftfilt.s"
 	@echo "... umasig/plot.o"
 	@echo "... umasig/plot.i"
 	@echo "... umasig/plot.s"
