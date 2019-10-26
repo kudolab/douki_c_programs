@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="douki_C_programs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playrec_mono">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/playrec_mono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 playrec_mono"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playrec_mono/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/playrec_mono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 playrec_mono/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playrec_2ch_new_kai">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/playrec_2ch_new_kai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 playrec_2ch_new_kai"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playrec_2ch_new_kai/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/playrec_2ch_new_kai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 playrec_2ch_new_kai/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playrec_2ch_inPath">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/playrec_2ch_inPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 playrec_2ch_inPath"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playrec_2ch_inPath/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/playrec_2ch_inPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 playrec_2ch_inPath/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay_48k">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay_48k" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay_48k"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay_48k/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay_48k" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay_48k/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="make_whitenoise">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/make_whitenoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 make_whitenoise"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="make_whitenoise/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/make_whitenoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 make_whitenoise/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fatchdb">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fatchdb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fatchdb"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fatchdb/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fatchdb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fatchdb/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fftout4">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fftout4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fftout4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fftout4/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fftout4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fftout4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2chplay2">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/2chplay2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 2chplay2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2chplay2/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/2chplay2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 2chplay2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zeropad_anyfile">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/zeropad_anyfile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 zeropad_anyfile"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zeropad_anyfile/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/zeropad_anyfile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 zeropad_anyfile/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay_8kHz">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay_8kHz" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay_8kHz"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay_8kHz/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay_8kHz" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay_8kHz/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sinwave">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/sinwave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 sinwave"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sinwave/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/sinwave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 sinwave/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sepach">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/sepach" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 sepach"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sepach/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/sepach" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 sepach/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scaling_max_instant_amp">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/scaling_max_instant_amp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 scaling_max_instant_amp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scaling_max_instant_amp/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/scaling_max_instant_amp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 scaling_max_instant_amp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monorecord">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monorecord" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monorecord"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monorecord/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monorecord" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monorecord/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="random">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/random" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 random"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="random/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/random" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 random/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_siglen">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/print_siglen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 print_siglen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_siglen/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/print_siglen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 print_siglen/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IMPmcode">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/IMPmcode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMPmcode"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IMPmcode/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/IMPmcode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMPmcode/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono2LR">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/mono2LR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono2LR"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono2LR/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/mono2LR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono2LR/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FC_deviation_alter">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/FC_deviation_alter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 FC_deviation_alter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FC_deviation_alter/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/FC_deviation_alter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 FC_deviation_alter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeconvo">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/timeconvo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 timeconvo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeconvo/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/timeconvo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 timeconvo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linear_inpo_hrir_using_ATD">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/linear_inpo_hrir_using_ATD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 linear_inpo_hrir_using_ATD"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linear_inpo_hrir_using_ATD/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/linear_inpo_hrir_using_ATD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 linear_inpo_hrir_using_ATD/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LE_1">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/LE_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 LE_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LE_1/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/LE_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 LE_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WAVtoDSB_osx">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/WAVtoDSB_osx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 WAVtoDSB_osx"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WAVtoDSB_osx/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/WAVtoDSB_osx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 WAVtoDSB_osx/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fftout3">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fftout3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fftout3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fftout3/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fftout3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fftout3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imp_add_by10">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/imp_add_by10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 imp_add_by10"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imp_add_by10/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/imp_add_by10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 imp_add_by10/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cosine_windowing">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/cosine_windowing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 cosine_windowing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cosine_windowing/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/cosine_windowing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 cosine_windowing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imp_add">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/imp_add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 imp_add"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imp_add/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/imp_add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 imp_add/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="peaking_filter">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/peaking_filter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 peaking_filter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="peaking_filter/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/peaking_filter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 peaking_filter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="find_cutpoint">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/find_cutpoint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 find_cutpoint"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="find_cutpoint/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/find_cutpoint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 find_cutpoint/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder5">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder5/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inverse">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/inverse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 inverse"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inverse/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/inverse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 inverse/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder2">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder2/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="closed_loop_new">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/closed_loop_new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 closed_loop_new"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="closed_loop_new/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/closed_loop_new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 closed_loop_new/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FC_deviation">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/FC_deviation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 FC_deviation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FC_deviation/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/FC_deviation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 FC_deviation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder4">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder4/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder3">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder3/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="henkan">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/henkan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 henkan"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="henkan/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/henkan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 henkan/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay2">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay2/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cutout_anyfile2">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/cutout_anyfile2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 cutout_anyfile2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cutout_anyfile2/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/cutout_anyfile2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 cutout_anyfile2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fftout2">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fftout2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fftout2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fftout2/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fftout2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fftout2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2chplay">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/2chplay" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 2chplay"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2chplay/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/2chplay" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 2chplay/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay_alter">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay_alter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay_alter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monoplay_alter/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/monoplay_alter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 monoplay_alter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder1">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="equ_schroeder1/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/equ_schroeder1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 equ_schroeder1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="douki_new">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/douki_new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 douki_new"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="douki_new/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/douki_new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 douki_new/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cutout_anyfile">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/cutout_anyfile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 cutout_anyfile"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cutout_anyfile/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/cutout_anyfile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 cutout_anyfile/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dv">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/dv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 dv"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dv/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/dv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 dv/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playrec_mono_inPath">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/playrec_mono_inPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 playrec_mono_inPath"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playrec_mono_inPath/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/playrec_mono_inPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 playrec_mono_inPath/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fff">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fff" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fff"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fff/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/fff" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 fff/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="biascut">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/biascut" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 biascut"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="biascut/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/biascut" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 biascut/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="umasig">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/libumasig.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 umasig"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="umasig/fast">
+				<Option output="/Users/tetsu/dev/douki_c_programs/cmake-build-debug/libumasig.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tetsu/dev/douki_c_programs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tetsu/dev/douki_c_programs/umasig"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 umasig/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tetsu/dev/douki_c_programs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/2chplay.c">
+			<Option target="2chplay"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/2chplay2.c">
+			<Option target="2chplay2"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/FC_deviation.c">
+			<Option target="FC_deviation"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/FC_deviation_alter.c">
+			<Option target="FC_deviation_alter"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/IMPmcode.c">
+			<Option target="IMPmcode"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/LE_1.c">
+			<Option target="LE_1"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/WAVtoDSB_osx.c">
+			<Option target="WAVtoDSB_osx"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/biascut.c">
+			<Option target="biascut"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/closed_loop_new.c">
+			<Option target="closed_loop_new"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/cosine_windowing.c">
+			<Option target="cosine_windowing"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/cutout_anyfile.c">
+			<Option target="cutout_anyfile"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/cutout_anyfile2.c">
+			<Option target="cutout_anyfile2"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/douki_new.c">
+			<Option target="douki_new"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/dv.c">
+			<Option target="dv"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/equ_schroeder1.c">
+			<Option target="equ_schroeder1"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/equ_schroeder2.c">
+			<Option target="equ_schroeder2"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/equ_schroeder3.c">
+			<Option target="equ_schroeder3"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/equ_schroeder4.c">
+			<Option target="equ_schroeder4"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/equ_schroeder5.c">
+			<Option target="equ_schroeder5"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/fatchdb.c">
+			<Option target="fatchdb"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/fff.c">
+			<Option target="fff"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/fftout2.c">
+			<Option target="fftout2"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/fftout3.c">
+			<Option target="fftout3"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/fftout4.c">
+			<Option target="fftout4"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/find_cutpoint.c">
+			<Option target="find_cutpoint"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/henkan.c">
+			<Option target="henkan"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/imp_add.c">
+			<Option target="imp_add"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/imp_add_by10.c">
+			<Option target="imp_add_by10"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/inverse.c">
+			<Option target="inverse"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/linear_inpo_hrir_using_ATD.c">
+			<Option target="linear_inpo_hrir_using_ATD"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/make_whitenoise.c">
+			<Option target="make_whitenoise"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/mono2LR.c">
+			<Option target="mono2LR"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/monoplay.c">
+			<Option target="monoplay"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/monoplay2.c">
+			<Option target="monoplay2"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/monoplay_48k.c">
+			<Option target="monoplay_48k"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/monoplay_8kHz.c">
+			<Option target="monoplay_8kHz"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/monoplay_alter.c">
+			<Option target="monoplay_alter"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/monorecord.c">
+			<Option target="monorecord"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/peaking_filter.c">
+			<Option target="peaking_filter"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/playrec_2ch_inPath.c">
+			<Option target="playrec_2ch_inPath"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/playrec_2ch_new_kai.c">
+			<Option target="playrec_2ch_new_kai"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/playrec_mono.c">
+			<Option target="playrec_mono"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/playrec_mono_inPath.c">
+			<Option target="playrec_mono_inPath"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/print_siglen.c">
+			<Option target="print_siglen"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/random.c">
+			<Option target="random"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/scaling_max_instant_amp.c">
+			<Option target="scaling_max_instant_amp"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/sepach.c">
+			<Option target="sepach"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/sinwave.c">
+			<Option target="sinwave"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/timeconvo.c">
+			<Option target="timeconvo"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/c_vector.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/complex.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/conv.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/fft.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/plot.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/random.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/speech.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/umasig.h">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/utils.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/vector.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/umasig/window.c">
+			<Option target="umasig"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/zeropad_anyfile.c">
+			<Option target="zeropad_anyfile"/>
+		</Unit>
+		<Unit filename="/Users/tetsu/dev/douki_c_programs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
