@@ -6,5 +6,9 @@ C_FLAGS = -lm /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework C
 
 C_DEFINES = 
 
+<<<<<<< HEAD
 C_INCLUDES = -I/Users/tetsu/dev/douki_c_programs/umasig 
+=======
+C_INCLUDES = -I/Users/tetsu/dev/douki_C_programs/umasig 
+>>>>>>> feature/dir
 

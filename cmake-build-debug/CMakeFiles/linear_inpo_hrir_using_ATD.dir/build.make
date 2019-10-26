@@ -43,10 +43,17 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/tetsu/dev/douki_c_programs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/tetsu/dev/douki_c_programs/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /Users/tetsu/dev/douki_C_programs
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/tetsu/dev/douki_C_programs/cmake-build-debug
+>>>>>>> feature/dir
 
 # Include any dependencies generated for this target.
 include CMakeFiles/linear_inpo_hrir_using_ATD.dir/depend.make
@@ -57,6 +64,7 @@ include CMakeFiles/linear_inpo_hrir_using_ATD.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linear_inpo_hrir_using_ATD.dir/flags.make
 
+<<<<<<< HEAD
 CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.o: CMakeFiles/linear_inpo_hrir_using_ATD.dir/flags.make
 CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.o: ../linear_inpo_hrir_using_ATD.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.o"
@@ -73,14 +81,39 @@ CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.s: cmake_
 # Object files for target linear_inpo_hrir_using_ATD
 linear_inpo_hrir_using_ATD_OBJECTS = \
 "CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.o"
+=======
+CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.o: CMakeFiles/linear_inpo_hrir_using_ATD.dir/flags.make
+CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.o: ../common/src/linear_inpo_hrir_using_ATD.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.o   -c /Users/tetsu/dev/douki_C_programs/common/src/linear_inpo_hrir_using_ATD.c
+
+CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/common/src/linear_inpo_hrir_using_ATD.c > CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.i
+
+CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/common/src/linear_inpo_hrir_using_ATD.c -o CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.s
+
+# Object files for target linear_inpo_hrir_using_ATD
+linear_inpo_hrir_using_ATD_OBJECTS = \
+"CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.o"
+>>>>>>> feature/dir
 
 # External object files for target linear_inpo_hrir_using_ATD
 linear_inpo_hrir_using_ATD_EXTERNAL_OBJECTS =
 
+<<<<<<< HEAD
 linear_inpo_hrir_using_ATD: CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.o
 linear_inpo_hrir_using_ATD: CMakeFiles/linear_inpo_hrir_using_ATD.dir/build.make
 linear_inpo_hrir_using_ATD: CMakeFiles/linear_inpo_hrir_using_ATD.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable linear_inpo_hrir_using_ATD"
+=======
+linear_inpo_hrir_using_ATD: CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.o
+linear_inpo_hrir_using_ATD: CMakeFiles/linear_inpo_hrir_using_ATD.dir/build.make
+linear_inpo_hrir_using_ATD: CMakeFiles/linear_inpo_hrir_using_ATD.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable linear_inpo_hrir_using_ATD"
+>>>>>>> feature/dir
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/linear_inpo_hrir_using_ATD.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +126,10 @@ CMakeFiles/linear_inpo_hrir_using_ATD.dir/clean:
 .PHONY : CMakeFiles/linear_inpo_hrir_using_ATD.dir/clean
 
 CMakeFiles/linear_inpo_hrir_using_ATD.dir/depend:
+<<<<<<< HEAD
 	cd /Users/tetsu/dev/douki_c_programs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tetsu/dev/douki_c_programs /Users/tetsu/dev/douki_c_programs /Users/tetsu/dev/douki_c_programs/cmake-build-debug /Users/tetsu/dev/douki_c_programs/cmake-build-debug /Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/linear_inpo_hrir_using_ATD.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /Users/tetsu/dev/douki_C_programs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tetsu/dev/douki_C_programs /Users/tetsu/dev/douki_C_programs /Users/tetsu/dev/douki_C_programs/cmake-build-debug /Users/tetsu/dev/douki_C_programs/cmake-build-debug /Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/linear_inpo_hrir_using_ATD.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> feature/dir
 .PHONY : CMakeFiles/linear_inpo_hrir_using_ATD.dir/depend
 

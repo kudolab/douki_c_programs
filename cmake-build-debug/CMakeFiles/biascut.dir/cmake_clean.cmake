@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/biascut.dir/biascut.c.o"
+=======
+  "CMakeFiles/biascut.dir/common/src/biascut.c.o"
+>>>>>>> feature/dir
   "biascut.pdb"
   "biascut"
 )

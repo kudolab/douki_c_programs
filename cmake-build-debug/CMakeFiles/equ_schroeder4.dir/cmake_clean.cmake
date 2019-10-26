@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/equ_schroeder4.dir/equ_schroeder4.c.o"
+=======
+  "CMakeFiles/equ_schroeder4.dir/common/src/equ_schroeder4.c.o"
+>>>>>>> feature/dir
   "equ_schroeder4.pdb"
   "equ_schroeder4"
 )

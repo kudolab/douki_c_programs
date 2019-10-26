@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/make_whitenoise.dir/make_whitenoise.c.o"
+=======
+  "CMakeFiles/make_whitenoise.dir/fftw/src/make_whitenoise.c.o"
+>>>>>>> feature/dir
   "make_whitenoise.pdb"
   "make_whitenoise"
 )

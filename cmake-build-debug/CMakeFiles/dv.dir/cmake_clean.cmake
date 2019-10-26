@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/dv.dir/dv.c.o"
+=======
+  "CMakeFiles/dv.dir/common/src/dv.c.o"
+>>>>>>> feature/dir
   "dv.pdb"
   "dv"
 )

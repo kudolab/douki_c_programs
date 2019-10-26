@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+<<<<<<< HEAD
   "/Users/tetsu/dev/douki_c_programs/equ_schroeder5.c" "/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/equ_schroeder5.dir/equ_schroeder5.c.o"
+=======
+  "/Users/tetsu/dev/douki_C_programs/common/src/equ_schroeder5.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/equ_schroeder5.dir/common/src/equ_schroeder5.c.o"
+>>>>>>> feature/dir
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

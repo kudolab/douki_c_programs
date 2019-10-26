@@ -43,10 +43,17 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/tetsu/dev/douki_c_programs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/tetsu/dev/douki_c_programs/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /Users/tetsu/dev/douki_C_programs
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/tetsu/dev/douki_C_programs/cmake-build-debug
+>>>>>>> feature/dir
 
 # Include any dependencies generated for this target.
 include CMakeFiles/umasig.dir/depend.make
@@ -57,6 +64,7 @@ include CMakeFiles/umasig.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/umasig.dir/flags.make
 
+<<<<<<< HEAD
 CMakeFiles/umasig.dir/umasig/c_vector.c.o: CMakeFiles/umasig.dir/flags.make
 CMakeFiles/umasig.dir/umasig/c_vector.c.o: ../umasig/c_vector.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/umasig.dir/umasig/c_vector.c.o"
@@ -199,10 +207,155 @@ umasig_OBJECTS = \
 "CMakeFiles/umasig.dir/umasig/utils.c.o" \
 "CMakeFiles/umasig.dir/umasig/vector.c.o" \
 "CMakeFiles/umasig.dir/umasig/window.c.o"
+=======
+CMakeFiles/umasig.dir/include/umasig/c_vector.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/c_vector.c.o: ../include/umasig/c_vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/umasig.dir/include/umasig/c_vector.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/c_vector.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/c_vector.c
+
+CMakeFiles/umasig.dir/include/umasig/c_vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/c_vector.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/c_vector.c > CMakeFiles/umasig.dir/include/umasig/c_vector.c.i
+
+CMakeFiles/umasig.dir/include/umasig/c_vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/c_vector.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/c_vector.c -o CMakeFiles/umasig.dir/include/umasig/c_vector.c.s
+
+CMakeFiles/umasig.dir/include/umasig/complex.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/complex.c.o: ../include/umasig/complex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/umasig.dir/include/umasig/complex.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/complex.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/complex.c
+
+CMakeFiles/umasig.dir/include/umasig/complex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/complex.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/complex.c > CMakeFiles/umasig.dir/include/umasig/complex.c.i
+
+CMakeFiles/umasig.dir/include/umasig/complex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/complex.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/complex.c -o CMakeFiles/umasig.dir/include/umasig/complex.c.s
+
+CMakeFiles/umasig.dir/include/umasig/conv.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/conv.c.o: ../include/umasig/conv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/umasig.dir/include/umasig/conv.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/conv.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/conv.c
+
+CMakeFiles/umasig.dir/include/umasig/conv.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/conv.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/conv.c > CMakeFiles/umasig.dir/include/umasig/conv.c.i
+
+CMakeFiles/umasig.dir/include/umasig/conv.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/conv.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/conv.c -o CMakeFiles/umasig.dir/include/umasig/conv.c.s
+
+CMakeFiles/umasig.dir/include/umasig/fft.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/fft.c.o: ../include/umasig/fft.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/umasig.dir/include/umasig/fft.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/fft.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/fft.c
+
+CMakeFiles/umasig.dir/include/umasig/fft.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/fft.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/fft.c > CMakeFiles/umasig.dir/include/umasig/fft.c.i
+
+CMakeFiles/umasig.dir/include/umasig/fft.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/fft.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/fft.c -o CMakeFiles/umasig.dir/include/umasig/fft.c.s
+
+CMakeFiles/umasig.dir/include/umasig/plot.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/plot.c.o: ../include/umasig/plot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/umasig.dir/include/umasig/plot.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/plot.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/plot.c
+
+CMakeFiles/umasig.dir/include/umasig/plot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/plot.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/plot.c > CMakeFiles/umasig.dir/include/umasig/plot.c.i
+
+CMakeFiles/umasig.dir/include/umasig/plot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/plot.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/plot.c -o CMakeFiles/umasig.dir/include/umasig/plot.c.s
+
+CMakeFiles/umasig.dir/include/umasig/random.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/random.c.o: ../include/umasig/random.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/umasig.dir/include/umasig/random.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/random.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/random.c
+
+CMakeFiles/umasig.dir/include/umasig/random.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/random.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/random.c > CMakeFiles/umasig.dir/include/umasig/random.c.i
+
+CMakeFiles/umasig.dir/include/umasig/random.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/random.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/random.c -o CMakeFiles/umasig.dir/include/umasig/random.c.s
+
+CMakeFiles/umasig.dir/include/umasig/speech.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/speech.c.o: ../include/umasig/speech.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/umasig.dir/include/umasig/speech.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/speech.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/speech.c
+
+CMakeFiles/umasig.dir/include/umasig/speech.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/speech.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/speech.c > CMakeFiles/umasig.dir/include/umasig/speech.c.i
+
+CMakeFiles/umasig.dir/include/umasig/speech.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/speech.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/speech.c -o CMakeFiles/umasig.dir/include/umasig/speech.c.s
+
+CMakeFiles/umasig.dir/include/umasig/utils.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/utils.c.o: ../include/umasig/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/umasig.dir/include/umasig/utils.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/utils.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/utils.c
+
+CMakeFiles/umasig.dir/include/umasig/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/utils.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/utils.c > CMakeFiles/umasig.dir/include/umasig/utils.c.i
+
+CMakeFiles/umasig.dir/include/umasig/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/utils.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/utils.c -o CMakeFiles/umasig.dir/include/umasig/utils.c.s
+
+CMakeFiles/umasig.dir/include/umasig/vector.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/vector.c.o: ../include/umasig/vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/umasig.dir/include/umasig/vector.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/vector.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/vector.c
+
+CMakeFiles/umasig.dir/include/umasig/vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/vector.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/vector.c > CMakeFiles/umasig.dir/include/umasig/vector.c.i
+
+CMakeFiles/umasig.dir/include/umasig/vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/vector.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/vector.c -o CMakeFiles/umasig.dir/include/umasig/vector.c.s
+
+CMakeFiles/umasig.dir/include/umasig/window.c.o: CMakeFiles/umasig.dir/flags.make
+CMakeFiles/umasig.dir/include/umasig/window.c.o: ../include/umasig/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/umasig.dir/include/umasig/window.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/umasig.dir/include/umasig/window.c.o   -c /Users/tetsu/dev/douki_C_programs/include/umasig/window.c
+
+CMakeFiles/umasig.dir/include/umasig/window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/umasig.dir/include/umasig/window.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tetsu/dev/douki_C_programs/include/umasig/window.c > CMakeFiles/umasig.dir/include/umasig/window.c.i
+
+CMakeFiles/umasig.dir/include/umasig/window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/umasig.dir/include/umasig/window.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tetsu/dev/douki_C_programs/include/umasig/window.c -o CMakeFiles/umasig.dir/include/umasig/window.c.s
+
+# Object files for target umasig
+umasig_OBJECTS = \
+"CMakeFiles/umasig.dir/include/umasig/c_vector.c.o" \
+"CMakeFiles/umasig.dir/include/umasig/complex.c.o" \
+"CMakeFiles/umasig.dir/include/umasig/conv.c.o" \
+"CMakeFiles/umasig.dir/include/umasig/fft.c.o" \
+"CMakeFiles/umasig.dir/include/umasig/plot.c.o" \
+"CMakeFiles/umasig.dir/include/umasig/random.c.o" \
+"CMakeFiles/umasig.dir/include/umasig/speech.c.o" \
+"CMakeFiles/umasig.dir/include/umasig/utils.c.o" \
+"CMakeFiles/umasig.dir/include/umasig/vector.c.o" \
+"CMakeFiles/umasig.dir/include/umasig/window.c.o"
+>>>>>>> feature/dir
 
 # External object files for target umasig
 umasig_EXTERNAL_OBJECTS =
 
+<<<<<<< HEAD
 libumasig.a: CMakeFiles/umasig.dir/umasig/c_vector.c.o
 libumasig.a: CMakeFiles/umasig.dir/umasig/complex.c.o
 libumasig.a: CMakeFiles/umasig.dir/umasig/conv.c.o
@@ -216,6 +369,21 @@ libumasig.a: CMakeFiles/umasig.dir/umasig/window.c.o
 libumasig.a: CMakeFiles/umasig.dir/build.make
 libumasig.a: CMakeFiles/umasig.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library libumasig.a"
+=======
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/c_vector.c.o
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/complex.c.o
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/conv.c.o
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/fft.c.o
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/plot.c.o
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/random.c.o
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/speech.c.o
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/utils.c.o
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/vector.c.o
+libumasig.a: CMakeFiles/umasig.dir/include/umasig/window.c.o
+libumasig.a: CMakeFiles/umasig.dir/build.make
+libumasig.a: CMakeFiles/umasig.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library libumasig.a"
+>>>>>>> feature/dir
 	$(CMAKE_COMMAND) -P CMakeFiles/umasig.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/umasig.dir/link.txt --verbose=$(VERBOSE)
 
@@ -229,6 +397,10 @@ CMakeFiles/umasig.dir/clean:
 .PHONY : CMakeFiles/umasig.dir/clean
 
 CMakeFiles/umasig.dir/depend:
+<<<<<<< HEAD
 	cd /Users/tetsu/dev/douki_c_programs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tetsu/dev/douki_c_programs /Users/tetsu/dev/douki_c_programs /Users/tetsu/dev/douki_c_programs/cmake-build-debug /Users/tetsu/dev/douki_c_programs/cmake-build-debug /Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/umasig.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /Users/tetsu/dev/douki_C_programs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tetsu/dev/douki_C_programs /Users/tetsu/dev/douki_C_programs /Users/tetsu/dev/douki_C_programs/cmake-build-debug /Users/tetsu/dev/douki_C_programs/cmake-build-debug /Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/umasig.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> feature/dir
 .PHONY : CMakeFiles/umasig.dir/depend
 

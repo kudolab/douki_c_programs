@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+<<<<<<< HEAD
   "/Users/tetsu/dev/douki_c_programs/mono2LR.c" "/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/mono2LR.dir/mono2LR.c.o"
+=======
+  "/Users/tetsu/dev/douki_C_programs/common/src/mono2LR.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/mono2LR.dir/common/src/mono2LR.c.o"
+>>>>>>> feature/dir
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

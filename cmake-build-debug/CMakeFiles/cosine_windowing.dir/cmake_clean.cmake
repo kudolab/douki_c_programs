@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/cosine_windowing.dir/cosine_windowing.c.o"
+=======
+  "CMakeFiles/cosine_windowing.dir/common/src/cosine_windowing.c.o"
+>>>>>>> feature/dir
   "cosine_windowing.pdb"
   "cosine_windowing"
 )

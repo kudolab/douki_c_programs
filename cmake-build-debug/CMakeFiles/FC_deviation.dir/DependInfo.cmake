@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+<<<<<<< HEAD
   "/Users/tetsu/dev/douki_c_programs/FC_deviation.c" "/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/FC_deviation.dir/FC_deviation.c.o"
+=======
+  "/Users/tetsu/dev/douki_C_programs/common/src/FC_deviation.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/FC_deviation.dir/common/src/FC_deviation.c.o"
+>>>>>>> feature/dir
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

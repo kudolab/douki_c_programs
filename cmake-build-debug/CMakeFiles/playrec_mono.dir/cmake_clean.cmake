@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/playrec_mono.dir/playrec_mono.c.o"
+=======
+  "CMakeFiles/playrec_mono.dir/portaudio/src/playrec_mono.c.o"
+>>>>>>> feature/dir
   "playrec_mono.pdb"
   "playrec_mono"
 )

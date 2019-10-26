@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /Users/tetsu/dev/douki_c_programs
+=======
+# Install script for directory: /Users/tetsu/dev/douki_C_programs
+>>>>>>> feature/dir
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,6 +36,24 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+<<<<<<< HEAD
+=======
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/tetsu/dev/douki_C_programs/cmake-build-debug/common/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/tetsu/dev/douki_C_programs/cmake-build-debug/fftw/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/tetsu/dev/douki_C_programs/cmake-build-debug/portaudio/cmake_install.cmake")
+endif()
+
+>>>>>>> feature/dir
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -40,5 +62,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/Users/tetsu/dev/douki_c_programs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> feature/dir
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

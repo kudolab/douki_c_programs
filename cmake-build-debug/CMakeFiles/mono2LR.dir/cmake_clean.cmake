@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/mono2LR.dir/mono2LR.c.o"
+=======
+  "CMakeFiles/mono2LR.dir/common/src/mono2LR.c.o"
+>>>>>>> feature/dir
   "mono2LR.pdb"
   "mono2LR"
 )

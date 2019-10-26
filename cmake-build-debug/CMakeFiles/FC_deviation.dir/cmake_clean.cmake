@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/FC_deviation.dir/FC_deviation.c.o"
+=======
+  "CMakeFiles/FC_deviation.dir/common/src/FC_deviation.c.o"
+>>>>>>> feature/dir
   "FC_deviation.pdb"
   "FC_deviation"
 )

@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/sepach.dir/sepach.c.o"
+=======
+  "CMakeFiles/sepach.dir/common/src/sepach.c.o"
+>>>>>>> feature/dir
   "sepach.pdb"
   "sepach"
 )

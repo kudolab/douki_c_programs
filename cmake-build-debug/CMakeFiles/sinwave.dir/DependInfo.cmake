@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+<<<<<<< HEAD
   "/Users/tetsu/dev/douki_c_programs/sinwave.c" "/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/sinwave.dir/sinwave.c.o"
+=======
+  "/Users/tetsu/dev/douki_C_programs/common/src/sinwave.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/sinwave.dir/common/src/sinwave.c.o"
+>>>>>>> feature/dir
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

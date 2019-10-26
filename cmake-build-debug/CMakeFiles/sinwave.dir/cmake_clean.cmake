@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/sinwave.dir/sinwave.c.o"
+=======
+  "CMakeFiles/sinwave.dir/common/src/sinwave.c.o"
+>>>>>>> feature/dir
   "sinwave.pdb"
   "sinwave"
 )

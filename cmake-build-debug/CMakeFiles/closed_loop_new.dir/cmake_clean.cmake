@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/closed_loop_new.dir/closed_loop_new.c.o"
+=======
+  "CMakeFiles/closed_loop_new.dir/common/src/closed_loop_new.c.o"
+>>>>>>> feature/dir
   "closed_loop_new.pdb"
   "closed_loop_new"
 )

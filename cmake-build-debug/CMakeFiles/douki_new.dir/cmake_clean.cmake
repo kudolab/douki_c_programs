@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/douki_new.dir/douki_new.c.o"
+=======
+  "CMakeFiles/douki_new.dir/common/src/douki_new.c.o"
+>>>>>>> feature/dir
   "douki_new.pdb"
   "douki_new"
 )

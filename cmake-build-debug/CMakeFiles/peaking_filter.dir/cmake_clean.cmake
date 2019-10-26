@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/peaking_filter.dir/peaking_filter.c.o"
+=======
+  "CMakeFiles/peaking_filter.dir/common/src/peaking_filter.c.o"
+>>>>>>> feature/dir
   "peaking_filter.pdb"
   "peaking_filter"
 )

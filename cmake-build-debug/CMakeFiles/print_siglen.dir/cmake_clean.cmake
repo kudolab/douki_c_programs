@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/print_siglen.dir/print_siglen.c.o"
+=======
+  "CMakeFiles/print_siglen.dir/common/src/print_siglen.c.o"
+>>>>>>> feature/dir
   "print_siglen.pdb"
   "print_siglen"
 )

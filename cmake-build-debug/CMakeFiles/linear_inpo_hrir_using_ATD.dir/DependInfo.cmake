@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+<<<<<<< HEAD
   "/Users/tetsu/dev/douki_c_programs/linear_inpo_hrir_using_ATD.c" "/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/linear_inpo_hrir_using_ATD.dir/linear_inpo_hrir_using_ATD.c.o"
+=======
+  "/Users/tetsu/dev/douki_C_programs/common/src/linear_inpo_hrir_using_ATD.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/linear_inpo_hrir_using_ATD.dir/common/src/linear_inpo_hrir_using_ATD.c.o"
+>>>>>>> feature/dir
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

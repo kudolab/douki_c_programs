@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/monorecord.dir/monorecord.c.o"
+=======
+  "CMakeFiles/monorecord.dir/portaudio/src/monorecord.c.o"
+>>>>>>> feature/dir
   "monorecord.pdb"
   "monorecord"
 )

@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/fftout2.dir/fftout2.c.o"
+=======
+  "CMakeFiles/fftout2.dir/fftw/src/fftout2.c.o"
+>>>>>>> feature/dir
   "fftout2.pdb"
   "fftout2"
 )

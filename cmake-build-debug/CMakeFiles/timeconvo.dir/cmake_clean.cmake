@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/timeconvo.dir/timeconvo.c.o"
+=======
+  "CMakeFiles/timeconvo.dir/common/src/timeconvo.c.o"
+>>>>>>> feature/dir
   "timeconvo.pdb"
   "timeconvo"
 )

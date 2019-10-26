@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/IMPmcode.dir/IMPmcode.c.o"
+=======
+  "CMakeFiles/IMPmcode.dir/common/src/IMPmcode.c.o"
+>>>>>>> feature/dir
   "IMPmcode.pdb"
   "IMPmcode"
 )

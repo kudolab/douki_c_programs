@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/fatchdb.dir/fatchdb.c.o"
+=======
+  "CMakeFiles/fatchdb.dir/common/src/fatchdb.c.o"
+>>>>>>> feature/dir
   "fatchdb.pdb"
   "fatchdb"
 )

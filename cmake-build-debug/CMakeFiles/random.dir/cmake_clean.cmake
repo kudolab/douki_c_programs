@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/random.dir/random.c.o"
+=======
+  "CMakeFiles/random.dir/common/src/random.c.o"
+>>>>>>> feature/dir
   "random.pdb"
   "random"
 )

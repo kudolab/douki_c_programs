@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+<<<<<<< HEAD
   "/Users/tetsu/dev/douki_c_programs/fftout3.c" "/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/fftout3.dir/fftout3.c.o"
+=======
+  "/Users/tetsu/dev/douki_C_programs/fftw/src/fftout3.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/fftout3.dir/fftw/src/fftout3.c.o"
+>>>>>>> feature/dir
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

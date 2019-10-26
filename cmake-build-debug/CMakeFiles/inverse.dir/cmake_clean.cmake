@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/inverse.dir/inverse.c.o"
+=======
+  "CMakeFiles/inverse.dir/common/src/inverse.c.o"
+>>>>>>> feature/dir
   "inverse.pdb"
   "inverse"
 )

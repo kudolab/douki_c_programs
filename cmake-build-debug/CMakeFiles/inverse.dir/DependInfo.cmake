@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+<<<<<<< HEAD
   "/Users/tetsu/dev/douki_c_programs/inverse.c" "/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/inverse.dir/inverse.c.o"
+=======
+  "/Users/tetsu/dev/douki_C_programs/common/src/inverse.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/inverse.dir/common/src/inverse.c.o"
+>>>>>>> feature/dir
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

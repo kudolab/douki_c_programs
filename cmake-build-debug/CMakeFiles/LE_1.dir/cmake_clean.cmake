@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/LE_1.dir/LE_1.c.o"
+=======
+  "CMakeFiles/LE_1.dir/common/src/LE_1.c.o"
+>>>>>>> feature/dir
   "LE_1.pdb"
   "LE_1"
 )

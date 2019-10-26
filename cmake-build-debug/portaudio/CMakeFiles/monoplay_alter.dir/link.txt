@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/monoplay_alter.dir/src/monoplay_alter.c.o  -o monoplay_alter /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a 

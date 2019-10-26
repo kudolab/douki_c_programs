@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/henkan.dir/henkan.c.o"
+=======
+  "CMakeFiles/henkan.dir/common/src/henkan.c.o"
+>>>>>>> feature/dir
   "henkan.pdb"
   "henkan"
 )

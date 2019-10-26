@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/zeropad_anyfile.dir/zeropad_anyfile.c.o"
+=======
+  "CMakeFiles/zeropad_anyfile.dir/common/src/zeropad_anyfile.c.o"
+>>>>>>> feature/dir
   "zeropad_anyfile.pdb"
   "zeropad_anyfile"
 )

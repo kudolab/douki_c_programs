@@ -48,10 +48,17 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/tetsu/dev/douki_c_programs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/tetsu/dev/douki_c_programs/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /Users/tetsu/dev/douki_C_programs
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/tetsu/dev/douki_C_programs/cmake-build-debug
+>>>>>>> feature/dir
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +87,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles /Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles /Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles 0
+>>>>>>> feature/dir
 .PHONY : all
 
 # The main clean target
@@ -111,6 +124,7 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named playrec_mono
 
 # Build rule for target.
@@ -213,6 +227,19 @@ fftout4/fast:
 2chplay2/fast:
 	$(MAKE) -f CMakeFiles/2chplay2.dir/build.make CMakeFiles/2chplay2.dir/build
 .PHONY : 2chplay2/fast
+=======
+# Target rules for targets named umasig
+
+# Build rule for target.
+umasig: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 umasig
+.PHONY : umasig
+
+# fast build rule for target.
+umasig/fast:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/build
+.PHONY : umasig/fast
+>>>>>>> feature/dir
 
 #=============================================================================
 # Target rules for targets named zeropad_anyfile
@@ -224,6 +251,7 @@ zeropad_anyfile: cmake_check_build_system
 
 # fast build rule for target.
 zeropad_anyfile/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/zeropad_anyfile.dir/build.make CMakeFiles/zeropad_anyfile.dir/build
 .PHONY : zeropad_anyfile/fast
 
@@ -254,6 +282,12 @@ monoplay/fast:
 .PHONY : monoplay/fast
 
 #=============================================================================
+=======
+	$(MAKE) -f common/CMakeFiles/zeropad_anyfile.dir/build.make common/CMakeFiles/zeropad_anyfile.dir/build
+.PHONY : zeropad_anyfile/fast
+
+#=============================================================================
+>>>>>>> feature/dir
 # Target rules for targets named sinwave
 
 # Build rule for target.
@@ -263,7 +297,11 @@ sinwave: cmake_check_build_system
 
 # fast build rule for target.
 sinwave/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/sinwave.dir/build.make CMakeFiles/sinwave.dir/build
+=======
+	$(MAKE) -f common/CMakeFiles/sinwave.dir/build.make common/CMakeFiles/sinwave.dir/build
+>>>>>>> feature/dir
 .PHONY : sinwave/fast
 
 #=============================================================================
@@ -276,7 +314,11 @@ sepach: cmake_check_build_system
 
 # fast build rule for target.
 sepach/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/sepach.dir/build.make CMakeFiles/sepach.dir/build
+=======
+	$(MAKE) -f common/CMakeFiles/sepach.dir/build.make common/CMakeFiles/sepach.dir/build
+>>>>>>> feature/dir
 .PHONY : sepach/fast
 
 #=============================================================================
@@ -289,6 +331,7 @@ scaling_max_instant_amp: cmake_check_build_system
 
 # fast build rule for target.
 scaling_max_instant_amp/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/scaling_max_instant_amp.dir/build.make CMakeFiles/scaling_max_instant_amp.dir/build
 .PHONY : scaling_max_instant_amp/fast
 
@@ -306,6 +349,12 @@ monorecord/fast:
 .PHONY : monorecord/fast
 
 #=============================================================================
+=======
+	$(MAKE) -f common/CMakeFiles/scaling_max_instant_amp.dir/build.make common/CMakeFiles/scaling_max_instant_amp.dir/build
+.PHONY : scaling_max_instant_amp/fast
+
+#=============================================================================
+>>>>>>> feature/dir
 # Target rules for targets named random
 
 # Build rule for target.
@@ -315,7 +364,11 @@ random: cmake_check_build_system
 
 # fast build rule for target.
 random/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/build
+=======
+	$(MAKE) -f common/CMakeFiles/random.dir/build.make common/CMakeFiles/random.dir/build
+>>>>>>> feature/dir
 .PHONY : random/fast
 
 #=============================================================================
@@ -328,6 +381,7 @@ print_siglen: cmake_check_build_system
 
 # fast build rule for target.
 print_siglen/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/print_siglen.dir/build.make CMakeFiles/print_siglen.dir/build
 .PHONY : print_siglen/fast
 
@@ -343,6 +397,23 @@ IMPmcode: cmake_check_build_system
 IMPmcode/fast:
 	$(MAKE) -f CMakeFiles/IMPmcode.dir/build.make CMakeFiles/IMPmcode.dir/build
 .PHONY : IMPmcode/fast
+=======
+	$(MAKE) -f common/CMakeFiles/print_siglen.dir/build.make common/CMakeFiles/print_siglen.dir/build
+.PHONY : print_siglen/fast
+
+#=============================================================================
+# Target rules for targets named peaking_filter
+
+# Build rule for target.
+peaking_filter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 peaking_filter
+.PHONY : peaking_filter
+
+# fast build rule for target.
+peaking_filter/fast:
+	$(MAKE) -f common/CMakeFiles/peaking_filter.dir/build.make common/CMakeFiles/peaking_filter.dir/build
+.PHONY : peaking_filter/fast
+>>>>>>> feature/dir
 
 #=============================================================================
 # Target rules for targets named mono2LR
@@ -354,6 +425,7 @@ mono2LR: cmake_check_build_system
 
 # fast build rule for target.
 mono2LR/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/mono2LR.dir/build.make CMakeFiles/mono2LR.dir/build
 .PHONY : mono2LR/fast
 
@@ -395,6 +467,62 @@ linear_inpo_hrir_using_ATD: cmake_check_build_system
 linear_inpo_hrir_using_ATD/fast:
 	$(MAKE) -f CMakeFiles/linear_inpo_hrir_using_ATD.dir/build.make CMakeFiles/linear_inpo_hrir_using_ATD.dir/build
 .PHONY : linear_inpo_hrir_using_ATD/fast
+=======
+	$(MAKE) -f common/CMakeFiles/mono2LR.dir/build.make common/CMakeFiles/mono2LR.dir/build
+.PHONY : mono2LR/fast
+
+#=============================================================================
+# Target rules for targets named imp_add_by10
+
+# Build rule for target.
+imp_add_by10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imp_add_by10
+.PHONY : imp_add_by10
+
+# fast build rule for target.
+imp_add_by10/fast:
+	$(MAKE) -f common/CMakeFiles/imp_add_by10.dir/build.make common/CMakeFiles/imp_add_by10.dir/build
+.PHONY : imp_add_by10/fast
+
+#=============================================================================
+# Target rules for targets named imp_add
+
+# Build rule for target.
+imp_add: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imp_add
+.PHONY : imp_add
+
+# fast build rule for target.
+imp_add/fast:
+	$(MAKE) -f common/CMakeFiles/imp_add.dir/build.make common/CMakeFiles/imp_add.dir/build
+.PHONY : imp_add/fast
+
+#=============================================================================
+# Target rules for targets named find_cutpoint
+
+# Build rule for target.
+find_cutpoint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 find_cutpoint
+.PHONY : find_cutpoint
+
+# fast build rule for target.
+find_cutpoint/fast:
+	$(MAKE) -f common/CMakeFiles/find_cutpoint.dir/build.make common/CMakeFiles/find_cutpoint.dir/build
+.PHONY : find_cutpoint/fast
+
+#=============================================================================
+# Target rules for targets named FC_deviation_alter
+
+# Build rule for target.
+FC_deviation_alter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FC_deviation_alter
+.PHONY : FC_deviation_alter
+
+# fast build rule for target.
+FC_deviation_alter/fast:
+	$(MAKE) -f common/CMakeFiles/FC_deviation_alter.dir/build.make common/CMakeFiles/FC_deviation_alter.dir/build
+.PHONY : FC_deviation_alter/fast
+>>>>>>> feature/dir
 
 #=============================================================================
 # Target rules for targets named LE_1
@@ -406,6 +534,7 @@ LE_1: cmake_check_build_system
 
 # fast build rule for target.
 LE_1/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/LE_1.dir/build.make CMakeFiles/LE_1.dir/build
 .PHONY : LE_1/fast
 
@@ -576,6 +705,87 @@ equ_schroeder4: cmake_check_build_system
 # fast build rule for target.
 equ_schroeder4/fast:
 	$(MAKE) -f CMakeFiles/equ_schroeder4.dir/build.make CMakeFiles/equ_schroeder4.dir/build
+=======
+	$(MAKE) -f common/CMakeFiles/LE_1.dir/build.make common/CMakeFiles/LE_1.dir/build
+.PHONY : LE_1/fast
+
+#=============================================================================
+# Target rules for targets named inverse
+
+# Build rule for target.
+inverse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 inverse
+.PHONY : inverse
+
+# fast build rule for target.
+inverse/fast:
+	$(MAKE) -f common/CMakeFiles/inverse.dir/build.make common/CMakeFiles/inverse.dir/build
+.PHONY : inverse/fast
+
+#=============================================================================
+# Target rules for targets named equ_schroeder2
+
+# Build rule for target.
+equ_schroeder2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 equ_schroeder2
+.PHONY : equ_schroeder2
+
+# fast build rule for target.
+equ_schroeder2/fast:
+	$(MAKE) -f common/CMakeFiles/equ_schroeder2.dir/build.make common/CMakeFiles/equ_schroeder2.dir/build
+.PHONY : equ_schroeder2/fast
+
+#=============================================================================
+# Target rules for targets named FC_deviation
+
+# Build rule for target.
+FC_deviation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FC_deviation
+.PHONY : FC_deviation
+
+# fast build rule for target.
+FC_deviation/fast:
+	$(MAKE) -f common/CMakeFiles/FC_deviation.dir/build.make common/CMakeFiles/FC_deviation.dir/build
+.PHONY : FC_deviation/fast
+
+#=============================================================================
+# Target rules for targets named fatchdb
+
+# Build rule for target.
+fatchdb: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fatchdb
+.PHONY : fatchdb
+
+# fast build rule for target.
+fatchdb/fast:
+	$(MAKE) -f common/CMakeFiles/fatchdb.dir/build.make common/CMakeFiles/fatchdb.dir/build
+.PHONY : fatchdb/fast
+
+#=============================================================================
+# Target rules for targets named equ_schroeder5
+
+# Build rule for target.
+equ_schroeder5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 equ_schroeder5
+.PHONY : equ_schroeder5
+
+# fast build rule for target.
+equ_schroeder5/fast:
+	$(MAKE) -f common/CMakeFiles/equ_schroeder5.dir/build.make common/CMakeFiles/equ_schroeder5.dir/build
+.PHONY : equ_schroeder5/fast
+
+#=============================================================================
+# Target rules for targets named equ_schroeder4
+
+# Build rule for target.
+equ_schroeder4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 equ_schroeder4
+.PHONY : equ_schroeder4
+
+# fast build rule for target.
+equ_schroeder4/fast:
+	$(MAKE) -f common/CMakeFiles/equ_schroeder4.dir/build.make common/CMakeFiles/equ_schroeder4.dir/build
+>>>>>>> feature/dir
 .PHONY : equ_schroeder4/fast
 
 #=============================================================================
@@ -588,6 +798,7 @@ equ_schroeder3: cmake_check_build_system
 
 # fast build rule for target.
 equ_schroeder3/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/equ_schroeder3.dir/build.make CMakeFiles/equ_schroeder3.dir/build
 .PHONY : equ_schroeder3/fast
 
@@ -668,6 +879,23 @@ monoplay_alter: cmake_check_build_system
 monoplay_alter/fast:
 	$(MAKE) -f CMakeFiles/monoplay_alter.dir/build.make CMakeFiles/monoplay_alter.dir/build
 .PHONY : monoplay_alter/fast
+=======
+	$(MAKE) -f common/CMakeFiles/equ_schroeder3.dir/build.make common/CMakeFiles/equ_schroeder3.dir/build
+.PHONY : equ_schroeder3/fast
+
+#=============================================================================
+# Target rules for targets named IMPmcode
+
+# Build rule for target.
+IMPmcode: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 IMPmcode
+.PHONY : IMPmcode
+
+# fast build rule for target.
+IMPmcode/fast:
+	$(MAKE) -f common/CMakeFiles/IMPmcode.dir/build.make common/CMakeFiles/IMPmcode.dir/build
+.PHONY : IMPmcode/fast
+>>>>>>> feature/dir
 
 #=============================================================================
 # Target rules for targets named equ_schroeder1
@@ -679,7 +907,11 @@ equ_schroeder1: cmake_check_build_system
 
 # fast build rule for target.
 equ_schroeder1/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/equ_schroeder1.dir/build.make CMakeFiles/equ_schroeder1.dir/build
+=======
+	$(MAKE) -f common/CMakeFiles/equ_schroeder1.dir/build.make common/CMakeFiles/equ_schroeder1.dir/build
+>>>>>>> feature/dir
 .PHONY : equ_schroeder1/fast
 
 #=============================================================================
@@ -692,7 +924,11 @@ douki_new: cmake_check_build_system
 
 # fast build rule for target.
 douki_new/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/douki_new.dir/build.make CMakeFiles/douki_new.dir/build
+=======
+	$(MAKE) -f common/CMakeFiles/douki_new.dir/build.make common/CMakeFiles/douki_new.dir/build
+>>>>>>> feature/dir
 .PHONY : douki_new/fast
 
 #=============================================================================
@@ -705,6 +941,7 @@ cutout_anyfile: cmake_check_build_system
 
 # fast build rule for target.
 cutout_anyfile/fast:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/cutout_anyfile.dir/build.make CMakeFiles/cutout_anyfile.dir/build
 .PHONY : cutout_anyfile/fast
 
@@ -2392,6 +2629,605 @@ zeropad_anyfile.s: zeropad_anyfile.c.s
 zeropad_anyfile.c.s:
 	$(MAKE) -f CMakeFiles/zeropad_anyfile.dir/build.make CMakeFiles/zeropad_anyfile.dir/zeropad_anyfile.c.s
 .PHONY : zeropad_anyfile.c.s
+=======
+	$(MAKE) -f common/CMakeFiles/cutout_anyfile.dir/build.make common/CMakeFiles/cutout_anyfile.dir/build
+.PHONY : cutout_anyfile/fast
+
+#=============================================================================
+# Target rules for targets named timeconvo
+
+# Build rule for target.
+timeconvo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 timeconvo
+.PHONY : timeconvo
+
+# fast build rule for target.
+timeconvo/fast:
+	$(MAKE) -f common/CMakeFiles/timeconvo.dir/build.make common/CMakeFiles/timeconvo.dir/build
+.PHONY : timeconvo/fast
+
+#=============================================================================
+# Target rules for targets named linear_inpo_hrir_using_ATD
+
+# Build rule for target.
+linear_inpo_hrir_using_ATD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linear_inpo_hrir_using_ATD
+.PHONY : linear_inpo_hrir_using_ATD
+
+# fast build rule for target.
+linear_inpo_hrir_using_ATD/fast:
+	$(MAKE) -f common/CMakeFiles/linear_inpo_hrir_using_ATD.dir/build.make common/CMakeFiles/linear_inpo_hrir_using_ATD.dir/build
+.PHONY : linear_inpo_hrir_using_ATD/fast
+
+#=============================================================================
+# Target rules for targets named henkan
+
+# Build rule for target.
+henkan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 henkan
+.PHONY : henkan
+
+# fast build rule for target.
+henkan/fast:
+	$(MAKE) -f common/CMakeFiles/henkan.dir/build.make common/CMakeFiles/henkan.dir/build
+.PHONY : henkan/fast
+
+#=============================================================================
+# Target rules for targets named cutout_anyfile2
+
+# Build rule for target.
+cutout_anyfile2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cutout_anyfile2
+.PHONY : cutout_anyfile2
+
+# fast build rule for target.
+cutout_anyfile2/fast:
+	$(MAKE) -f common/CMakeFiles/cutout_anyfile2.dir/build.make common/CMakeFiles/cutout_anyfile2.dir/build
+.PHONY : cutout_anyfile2/fast
+
+#=============================================================================
+# Target rules for targets named dv
+
+# Build rule for target.
+dv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dv
+.PHONY : dv
+
+# fast build rule for target.
+dv/fast:
+	$(MAKE) -f common/CMakeFiles/dv.dir/build.make common/CMakeFiles/dv.dir/build
+.PHONY : dv/fast
+
+#=============================================================================
+# Target rules for targets named fff
+
+# Build rule for target.
+fff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fff
+.PHONY : fff
+
+# fast build rule for target.
+fff/fast:
+	$(MAKE) -f common/CMakeFiles/fff.dir/build.make common/CMakeFiles/fff.dir/build
+.PHONY : fff/fast
+
+#=============================================================================
+# Target rules for targets named WAVtoDSB_osx
+
+# Build rule for target.
+WAVtoDSB_osx: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WAVtoDSB_osx
+.PHONY : WAVtoDSB_osx
+
+# fast build rule for target.
+WAVtoDSB_osx/fast:
+	$(MAKE) -f common/CMakeFiles/WAVtoDSB_osx.dir/build.make common/CMakeFiles/WAVtoDSB_osx.dir/build
+.PHONY : WAVtoDSB_osx/fast
+
+#=============================================================================
+# Target rules for targets named cosine_windowing
+
+# Build rule for target.
+cosine_windowing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cosine_windowing
+.PHONY : cosine_windowing
+
+# fast build rule for target.
+cosine_windowing/fast:
+	$(MAKE) -f common/CMakeFiles/cosine_windowing.dir/build.make common/CMakeFiles/cosine_windowing.dir/build
+.PHONY : cosine_windowing/fast
+
+#=============================================================================
+# Target rules for targets named biascut
+
+# Build rule for target.
+biascut: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 biascut
+.PHONY : biascut
+
+# fast build rule for target.
+biascut/fast:
+	$(MAKE) -f common/CMakeFiles/biascut.dir/build.make common/CMakeFiles/biascut.dir/build
+.PHONY : biascut/fast
+
+#=============================================================================
+# Target rules for targets named fftout2
+
+# Build rule for target.
+fftout2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fftout2
+.PHONY : fftout2
+
+# fast build rule for target.
+fftout2/fast:
+	$(MAKE) -f fftw/CMakeFiles/fftout2.dir/build.make fftw/CMakeFiles/fftout2.dir/build
+.PHONY : fftout2/fast
+
+#=============================================================================
+# Target rules for targets named make_whitenoise
+
+# Build rule for target.
+make_whitenoise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 make_whitenoise
+.PHONY : make_whitenoise
+
+# fast build rule for target.
+make_whitenoise/fast:
+	$(MAKE) -f fftw/CMakeFiles/make_whitenoise.dir/build.make fftw/CMakeFiles/make_whitenoise.dir/build
+.PHONY : make_whitenoise/fast
+
+#=============================================================================
+# Target rules for targets named fftout4
+
+# Build rule for target.
+fftout4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fftout4
+.PHONY : fftout4
+
+# fast build rule for target.
+fftout4/fast:
+	$(MAKE) -f fftw/CMakeFiles/fftout4.dir/build.make fftw/CMakeFiles/fftout4.dir/build
+.PHONY : fftout4/fast
+
+#=============================================================================
+# Target rules for targets named fftout3
+
+# Build rule for target.
+fftout3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fftout3
+.PHONY : fftout3
+
+# fast build rule for target.
+fftout3/fast:
+	$(MAKE) -f fftw/CMakeFiles/fftout3.dir/build.make fftw/CMakeFiles/fftout3.dir/build
+.PHONY : fftout3/fast
+
+#=============================================================================
+# Target rules for targets named monorecord
+
+# Build rule for target.
+monorecord: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monorecord
+.PHONY : monorecord
+
+# fast build rule for target.
+monorecord/fast:
+	$(MAKE) -f portaudio/CMakeFiles/monorecord.dir/build.make portaudio/CMakeFiles/monorecord.dir/build
+.PHONY : monorecord/fast
+
+#=============================================================================
+# Target rules for targets named monoplay_alter
+
+# Build rule for target.
+monoplay_alter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay_alter
+.PHONY : monoplay_alter
+
+# fast build rule for target.
+monoplay_alter/fast:
+	$(MAKE) -f portaudio/CMakeFiles/monoplay_alter.dir/build.make portaudio/CMakeFiles/monoplay_alter.dir/build
+.PHONY : monoplay_alter/fast
+
+#=============================================================================
+# Target rules for targets named monoplay_8kHz
+
+# Build rule for target.
+monoplay_8kHz: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay_8kHz
+.PHONY : monoplay_8kHz
+
+# fast build rule for target.
+monoplay_8kHz/fast:
+	$(MAKE) -f portaudio/CMakeFiles/monoplay_8kHz.dir/build.make portaudio/CMakeFiles/monoplay_8kHz.dir/build
+.PHONY : monoplay_8kHz/fast
+
+#=============================================================================
+# Target rules for targets named playrec_2ch_new_kai
+
+# Build rule for target.
+playrec_2ch_new_kai: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 playrec_2ch_new_kai
+.PHONY : playrec_2ch_new_kai
+
+# fast build rule for target.
+playrec_2ch_new_kai/fast:
+	$(MAKE) -f portaudio/CMakeFiles/playrec_2ch_new_kai.dir/build.make portaudio/CMakeFiles/playrec_2ch_new_kai.dir/build
+.PHONY : playrec_2ch_new_kai/fast
+
+#=============================================================================
+# Target rules for targets named monoplay_48k
+
+# Build rule for target.
+monoplay_48k: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay_48k
+.PHONY : monoplay_48k
+
+# fast build rule for target.
+monoplay_48k/fast:
+	$(MAKE) -f portaudio/CMakeFiles/monoplay_48k.dir/build.make portaudio/CMakeFiles/monoplay_48k.dir/build
+.PHONY : monoplay_48k/fast
+
+#=============================================================================
+# Target rules for targets named monoplay2
+
+# Build rule for target.
+monoplay2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay2
+.PHONY : monoplay2
+
+# fast build rule for target.
+monoplay2/fast:
+	$(MAKE) -f portaudio/CMakeFiles/monoplay2.dir/build.make portaudio/CMakeFiles/monoplay2.dir/build
+.PHONY : monoplay2/fast
+
+#=============================================================================
+# Target rules for targets named playrec_mono
+
+# Build rule for target.
+playrec_mono: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 playrec_mono
+.PHONY : playrec_mono
+
+# fast build rule for target.
+playrec_mono/fast:
+	$(MAKE) -f portaudio/CMakeFiles/playrec_mono.dir/build.make portaudio/CMakeFiles/playrec_mono.dir/build
+.PHONY : playrec_mono/fast
+
+#=============================================================================
+# Target rules for targets named closed_loop_new
+
+# Build rule for target.
+closed_loop_new: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 closed_loop_new
+.PHONY : closed_loop_new
+
+# fast build rule for target.
+closed_loop_new/fast:
+	$(MAKE) -f portaudio/CMakeFiles/closed_loop_new.dir/build.make portaudio/CMakeFiles/closed_loop_new.dir/build
+.PHONY : closed_loop_new/fast
+
+#=============================================================================
+# Target rules for targets named monoplay
+
+# Build rule for target.
+monoplay: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monoplay
+.PHONY : monoplay
+
+# fast build rule for target.
+monoplay/fast:
+	$(MAKE) -f portaudio/CMakeFiles/monoplay.dir/build.make portaudio/CMakeFiles/monoplay.dir/build
+.PHONY : monoplay/fast
+
+#=============================================================================
+# Target rules for targets named playrec_mono_inPath
+
+# Build rule for target.
+playrec_mono_inPath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 playrec_mono_inPath
+.PHONY : playrec_mono_inPath
+
+# fast build rule for target.
+playrec_mono_inPath/fast:
+	$(MAKE) -f portaudio/CMakeFiles/playrec_mono_inPath.dir/build.make portaudio/CMakeFiles/playrec_mono_inPath.dir/build
+.PHONY : playrec_mono_inPath/fast
+
+#=============================================================================
+# Target rules for targets named 2chplay2
+
+# Build rule for target.
+2chplay2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2chplay2
+.PHONY : 2chplay2
+
+# fast build rule for target.
+2chplay2/fast:
+	$(MAKE) -f portaudio/CMakeFiles/2chplay2.dir/build.make portaudio/CMakeFiles/2chplay2.dir/build
+.PHONY : 2chplay2/fast
+
+#=============================================================================
+# Target rules for targets named 2chplay
+
+# Build rule for target.
+2chplay: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2chplay
+.PHONY : 2chplay
+
+# fast build rule for target.
+2chplay/fast:
+	$(MAKE) -f portaudio/CMakeFiles/2chplay.dir/build.make portaudio/CMakeFiles/2chplay.dir/build
+.PHONY : 2chplay/fast
+
+include/umasig/c_vector.o: include/umasig/c_vector.c.o
+
+.PHONY : include/umasig/c_vector.o
+
+# target to build an object file
+include/umasig/c_vector.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/c_vector.c.o
+.PHONY : include/umasig/c_vector.c.o
+
+include/umasig/c_vector.i: include/umasig/c_vector.c.i
+
+.PHONY : include/umasig/c_vector.i
+
+# target to preprocess a source file
+include/umasig/c_vector.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/c_vector.c.i
+.PHONY : include/umasig/c_vector.c.i
+
+include/umasig/c_vector.s: include/umasig/c_vector.c.s
+
+.PHONY : include/umasig/c_vector.s
+
+# target to generate assembly for a file
+include/umasig/c_vector.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/c_vector.c.s
+.PHONY : include/umasig/c_vector.c.s
+
+include/umasig/complex.o: include/umasig/complex.c.o
+
+.PHONY : include/umasig/complex.o
+
+# target to build an object file
+include/umasig/complex.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/complex.c.o
+.PHONY : include/umasig/complex.c.o
+
+include/umasig/complex.i: include/umasig/complex.c.i
+
+.PHONY : include/umasig/complex.i
+
+# target to preprocess a source file
+include/umasig/complex.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/complex.c.i
+.PHONY : include/umasig/complex.c.i
+
+include/umasig/complex.s: include/umasig/complex.c.s
+
+.PHONY : include/umasig/complex.s
+
+# target to generate assembly for a file
+include/umasig/complex.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/complex.c.s
+.PHONY : include/umasig/complex.c.s
+
+include/umasig/conv.o: include/umasig/conv.c.o
+
+.PHONY : include/umasig/conv.o
+
+# target to build an object file
+include/umasig/conv.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/conv.c.o
+.PHONY : include/umasig/conv.c.o
+
+include/umasig/conv.i: include/umasig/conv.c.i
+
+.PHONY : include/umasig/conv.i
+
+# target to preprocess a source file
+include/umasig/conv.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/conv.c.i
+.PHONY : include/umasig/conv.c.i
+
+include/umasig/conv.s: include/umasig/conv.c.s
+
+.PHONY : include/umasig/conv.s
+
+# target to generate assembly for a file
+include/umasig/conv.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/conv.c.s
+.PHONY : include/umasig/conv.c.s
+
+include/umasig/fft.o: include/umasig/fft.c.o
+
+.PHONY : include/umasig/fft.o
+
+# target to build an object file
+include/umasig/fft.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/fft.c.o
+.PHONY : include/umasig/fft.c.o
+
+include/umasig/fft.i: include/umasig/fft.c.i
+
+.PHONY : include/umasig/fft.i
+
+# target to preprocess a source file
+include/umasig/fft.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/fft.c.i
+.PHONY : include/umasig/fft.c.i
+
+include/umasig/fft.s: include/umasig/fft.c.s
+
+.PHONY : include/umasig/fft.s
+
+# target to generate assembly for a file
+include/umasig/fft.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/fft.c.s
+.PHONY : include/umasig/fft.c.s
+
+include/umasig/plot.o: include/umasig/plot.c.o
+
+.PHONY : include/umasig/plot.o
+
+# target to build an object file
+include/umasig/plot.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/plot.c.o
+.PHONY : include/umasig/plot.c.o
+
+include/umasig/plot.i: include/umasig/plot.c.i
+
+.PHONY : include/umasig/plot.i
+
+# target to preprocess a source file
+include/umasig/plot.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/plot.c.i
+.PHONY : include/umasig/plot.c.i
+
+include/umasig/plot.s: include/umasig/plot.c.s
+
+.PHONY : include/umasig/plot.s
+
+# target to generate assembly for a file
+include/umasig/plot.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/plot.c.s
+.PHONY : include/umasig/plot.c.s
+
+include/umasig/random.o: include/umasig/random.c.o
+
+.PHONY : include/umasig/random.o
+
+# target to build an object file
+include/umasig/random.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/random.c.o
+.PHONY : include/umasig/random.c.o
+
+include/umasig/random.i: include/umasig/random.c.i
+
+.PHONY : include/umasig/random.i
+
+# target to preprocess a source file
+include/umasig/random.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/random.c.i
+.PHONY : include/umasig/random.c.i
+
+include/umasig/random.s: include/umasig/random.c.s
+
+.PHONY : include/umasig/random.s
+
+# target to generate assembly for a file
+include/umasig/random.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/random.c.s
+.PHONY : include/umasig/random.c.s
+
+include/umasig/speech.o: include/umasig/speech.c.o
+
+.PHONY : include/umasig/speech.o
+
+# target to build an object file
+include/umasig/speech.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/speech.c.o
+.PHONY : include/umasig/speech.c.o
+
+include/umasig/speech.i: include/umasig/speech.c.i
+
+.PHONY : include/umasig/speech.i
+
+# target to preprocess a source file
+include/umasig/speech.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/speech.c.i
+.PHONY : include/umasig/speech.c.i
+
+include/umasig/speech.s: include/umasig/speech.c.s
+
+.PHONY : include/umasig/speech.s
+
+# target to generate assembly for a file
+include/umasig/speech.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/speech.c.s
+.PHONY : include/umasig/speech.c.s
+
+include/umasig/utils.o: include/umasig/utils.c.o
+
+.PHONY : include/umasig/utils.o
+
+# target to build an object file
+include/umasig/utils.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/utils.c.o
+.PHONY : include/umasig/utils.c.o
+
+include/umasig/utils.i: include/umasig/utils.c.i
+
+.PHONY : include/umasig/utils.i
+
+# target to preprocess a source file
+include/umasig/utils.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/utils.c.i
+.PHONY : include/umasig/utils.c.i
+
+include/umasig/utils.s: include/umasig/utils.c.s
+
+.PHONY : include/umasig/utils.s
+
+# target to generate assembly for a file
+include/umasig/utils.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/utils.c.s
+.PHONY : include/umasig/utils.c.s
+
+include/umasig/vector.o: include/umasig/vector.c.o
+
+.PHONY : include/umasig/vector.o
+
+# target to build an object file
+include/umasig/vector.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/vector.c.o
+.PHONY : include/umasig/vector.c.o
+
+include/umasig/vector.i: include/umasig/vector.c.i
+
+.PHONY : include/umasig/vector.i
+
+# target to preprocess a source file
+include/umasig/vector.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/vector.c.i
+.PHONY : include/umasig/vector.c.i
+
+include/umasig/vector.s: include/umasig/vector.c.s
+
+.PHONY : include/umasig/vector.s
+
+# target to generate assembly for a file
+include/umasig/vector.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/vector.c.s
+.PHONY : include/umasig/vector.c.s
+
+include/umasig/window.o: include/umasig/window.c.o
+
+.PHONY : include/umasig/window.o
+
+# target to build an object file
+include/umasig/window.c.o:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/window.c.o
+.PHONY : include/umasig/window.c.o
+
+include/umasig/window.i: include/umasig/window.c.i
+
+.PHONY : include/umasig/window.i
+
+# target to preprocess a source file
+include/umasig/window.c.i:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/window.c.i
+.PHONY : include/umasig/window.c.i
+
+include/umasig/window.s: include/umasig/window.c.s
+
+.PHONY : include/umasig/window.s
+
+# target to generate assembly for a file
+include/umasig/window.c.s:
+	$(MAKE) -f CMakeFiles/umasig.dir/build.make CMakeFiles/umasig.dir/include/umasig/window.c.s
+.PHONY : include/umasig/window.c.s
+>>>>>>> feature/dir
 
 # Help Target
 help:
@@ -2400,6 +3236,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+<<<<<<< HEAD
 	@echo "... playrec_mono"
 	@echo "... playrec_2ch_new_kai"
 	@echo "... playrec_2ch_inPath"
@@ -2632,6 +3469,89 @@ help:
 	@echo "... zeropad_anyfile.o"
 	@echo "... zeropad_anyfile.i"
 	@echo "... zeropad_anyfile.s"
+=======
+	@echo "... edit_cache"
+	@echo "... umasig"
+	@echo "... zeropad_anyfile"
+	@echo "... sinwave"
+	@echo "... sepach"
+	@echo "... scaling_max_instant_amp"
+	@echo "... random"
+	@echo "... print_siglen"
+	@echo "... peaking_filter"
+	@echo "... mono2LR"
+	@echo "... imp_add_by10"
+	@echo "... imp_add"
+	@echo "... find_cutpoint"
+	@echo "... FC_deviation_alter"
+	@echo "... LE_1"
+	@echo "... inverse"
+	@echo "... equ_schroeder2"
+	@echo "... FC_deviation"
+	@echo "... fatchdb"
+	@echo "... equ_schroeder5"
+	@echo "... equ_schroeder4"
+	@echo "... equ_schroeder3"
+	@echo "... IMPmcode"
+	@echo "... equ_schroeder1"
+	@echo "... douki_new"
+	@echo "... cutout_anyfile"
+	@echo "... timeconvo"
+	@echo "... linear_inpo_hrir_using_ATD"
+	@echo "... henkan"
+	@echo "... cutout_anyfile2"
+	@echo "... dv"
+	@echo "... fff"
+	@echo "... WAVtoDSB_osx"
+	@echo "... cosine_windowing"
+	@echo "... biascut"
+	@echo "... fftout2"
+	@echo "... make_whitenoise"
+	@echo "... fftout4"
+	@echo "... fftout3"
+	@echo "... monorecord"
+	@echo "... monoplay_alter"
+	@echo "... monoplay_8kHz"
+	@echo "... playrec_2ch_new_kai"
+	@echo "... monoplay_48k"
+	@echo "... monoplay2"
+	@echo "... playrec_mono"
+	@echo "... closed_loop_new"
+	@echo "... monoplay"
+	@echo "... playrec_mono_inPath"
+	@echo "... 2chplay2"
+	@echo "... 2chplay"
+	@echo "... include/umasig/c_vector.o"
+	@echo "... include/umasig/c_vector.i"
+	@echo "... include/umasig/c_vector.s"
+	@echo "... include/umasig/complex.o"
+	@echo "... include/umasig/complex.i"
+	@echo "... include/umasig/complex.s"
+	@echo "... include/umasig/conv.o"
+	@echo "... include/umasig/conv.i"
+	@echo "... include/umasig/conv.s"
+	@echo "... include/umasig/fft.o"
+	@echo "... include/umasig/fft.i"
+	@echo "... include/umasig/fft.s"
+	@echo "... include/umasig/plot.o"
+	@echo "... include/umasig/plot.i"
+	@echo "... include/umasig/plot.s"
+	@echo "... include/umasig/random.o"
+	@echo "... include/umasig/random.i"
+	@echo "... include/umasig/random.s"
+	@echo "... include/umasig/speech.o"
+	@echo "... include/umasig/speech.i"
+	@echo "... include/umasig/speech.s"
+	@echo "... include/umasig/utils.o"
+	@echo "... include/umasig/utils.i"
+	@echo "... include/umasig/utils.s"
+	@echo "... include/umasig/vector.o"
+	@echo "... include/umasig/vector.i"
+	@echo "... include/umasig/vector.s"
+	@echo "... include/umasig/window.o"
+	@echo "... include/umasig/window.i"
+	@echo "... include/umasig/window.s"
+>>>>>>> feature/dir
 .PHONY : help
 
 

@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/scaling_max_instant_amp.dir/scaling_max_instant_amp.c.o"
+=======
+  "CMakeFiles/scaling_max_instant_amp.dir/common/src/scaling_max_instant_amp.c.o"
+>>>>>>> feature/dir
   "scaling_max_instant_amp.pdb"
   "scaling_max_instant_amp"
 )

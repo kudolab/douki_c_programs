@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+<<<<<<< HEAD
   "/Users/tetsu/dev/douki_c_programs/monoplay_8kHz.c" "/Users/tetsu/dev/douki_c_programs/cmake-build-debug/CMakeFiles/monoplay_8kHz.dir/monoplay_8kHz.c.o"
+=======
+  "/Users/tetsu/dev/douki_C_programs/portaudio/src/monoplay_8kHz.c" "/Users/tetsu/dev/douki_C_programs/cmake-build-debug/CMakeFiles/monoplay_8kHz.dir/portaudio/src/monoplay_8kHz.c.o"
+>>>>>>> feature/dir
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
