@@ -1,0 +1,14 @@
+file(REMOVE_RECURSE
+<<<<<<< HEAD
+  "CMakeFiles/biascut.dir/biascut.c.o"
+=======
+  "CMakeFiles/biascut.dir/common/src/biascut.c.o"
+>>>>>>> feature/dir
+  "biascut.pdb"
+  "biascut"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/biascut.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

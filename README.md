@@ -23,6 +23,7 @@ Please execute below
 ## Portaudio
 - 2chplay.c
 - 2chplay2.c
+- closed_loop_new.c
 - monoplay_48k.c
 - monoplay_8kHz.c
 - monoplay_alter.c

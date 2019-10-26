@@ -1,0 +1,666 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/tetsu/dev/douki_c_programs
+-- The C compiler identification is AppleClang 11.0.0.11000033
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+<<<<<<< HEAD
+-- Generating done
+-- Build files have been written to: /Users/tetsu/dev/douki_c_programs/cmake-build-debug
+=======
+CMake Error at common/CMakeLists.txt:118 (add_executable):
+  Cannot find source file:
+
+    common/src/zeropad_anyfile.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:109 (add_executable):
+  Cannot find source file:
+
+    common/src/sinwave.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:106 (add_executable):
+  Cannot find source file:
+
+    common/src/sepach.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:103 (add_executable):
+  Cannot find source file:
+
+    common/src/scaling_max_instant_amp.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:97 (add_executable):
+  Cannot find source file:
+
+    common/src/random.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:94 (add_executable):
+  Cannot find source file:
+
+    common/src/print_siglen.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:88 (add_executable):
+  Cannot find source file:
+
+    common/src/mono2LR.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:112 (add_executable):
+  Cannot find source file:
+
+    common/src/timeconvo.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:85 (add_executable):
+  Cannot find source file:
+
+    common/src/linear_inpo_hrir_using_ATD.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:73 (add_executable):
+  Cannot find source file:
+
+    common/src/imp_add_by10.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:70 (add_executable):
+  Cannot find source file:
+
+    common/src/imp_add.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:49 (add_executable):
+  Cannot find source file:
+
+    common/src/FC_deviation_alter.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:61 (add_executable):
+  Cannot find source file:
+
+    common/src/find_cutpoint.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:82 (add_executable):
+  Cannot find source file:
+
+    common/src/LE_1.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:79 (add_executable):
+  Cannot find source file:
+
+    common/src/inverse.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:31 (add_executable):
+  Cannot find source file:
+
+    common/src/equ_schroeder2.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:46 (add_executable):
+  Cannot find source file:
+
+    common/src/FC_deviation.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:43 (add_executable):
+  Cannot find source file:
+
+    common/src/fatchdb.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:40 (add_executable):
+  Cannot find source file:
+
+    common/src/equ_schroeder5.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:37 (add_executable):
+  Cannot find source file:
+
+    common/src/equ_schroeder4.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:34 (add_executable):
+  Cannot find source file:
+
+    common/src/equ_schroeder3.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:76 (add_executable):
+  Cannot find source file:
+
+    common/src/IMPmcode.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:28 (add_executable):
+  Cannot find source file:
+
+    common/src/equ_schroeder1.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    common/src/douki_new.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:91 (add_executable):
+  Cannot find source file:
+
+    common/src/peaking_filter.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:10 (add_executable):
+  Cannot find source file:
+
+    common/src/closed_loop_new.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:16 (add_executable):
+  Cannot find source file:
+
+    common/src/cutout_anyfile.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:64 (add_executable):
+  Cannot find source file:
+
+    common/src/henkan.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:19 (add_executable):
+  Cannot find source file:
+
+    common/src/cutout_anyfile2.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:25 (add_executable):
+  Cannot find source file:
+
+    common/src/dv.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:52 (add_executable):
+  Cannot find source file:
+
+    common/src/fff.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:115 (add_executable):
+  Cannot find source file:
+
+    common/src/WAVtoDSB_osx.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:13 (add_executable):
+  Cannot find source file:
+
+    common/src/cosine_windowing.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:7 (add_executable):
+  Cannot find source file:
+
+    common/src/biascut.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at fftw/CMakeLists.txt:7 (add_executable):
+  Cannot find source file:
+
+    fftw/src/fftout2.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at fftw/CMakeLists.txt:19 (add_executable):
+  Cannot find source file:
+
+    fftw/src/make_whitenoise.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at fftw/CMakeLists.txt:15 (add_executable):
+  Cannot find source file:
+
+    fftw/src/fftout4.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at fftw/CMakeLists.txt:11 (add_executable):
+  Cannot find source file:
+
+    fftw/src/fftout3.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:41 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/playrec_2ch_inPath.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:37 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/monorecord.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:33 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/monoplay_alter.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:29 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/monoplay_8kHz.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:45 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/playrec_2ch_new_kai.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:25 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/monoplay_48k.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:49 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/playrec_mono.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:21 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/monoplay2.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:17 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/monoplay.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:53 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/playrec_mono_inPath.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:13 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/2chplay2.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at portaudio/CMakeLists.txt:9 (add_executable):
+  Cannot find source file:
+
+    portaudio/src/2chplay.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at common/CMakeLists.txt:118 (add_executable):
+  No SOURCES given to target: zeropad_anyfile
+
+
+CMake Error at common/CMakeLists.txt:109 (add_executable):
+  No SOURCES given to target: sinwave
+
+
+CMake Error at common/CMakeLists.txt:106 (add_executable):
+  No SOURCES given to target: sepach
+
+
+CMake Error at common/CMakeLists.txt:103 (add_executable):
+  No SOURCES given to target: scaling_max_instant_amp
+
+
+CMake Error at common/CMakeLists.txt:97 (add_executable):
+  No SOURCES given to target: random
+
+
+CMake Error at common/CMakeLists.txt:94 (add_executable):
+  No SOURCES given to target: print_siglen
+
+
+CMake Error at common/CMakeLists.txt:88 (add_executable):
+  No SOURCES given to target: mono2LR
+
+
+CMake Error at common/CMakeLists.txt:112 (add_executable):
+  No SOURCES given to target: timeconvo
+
+
+CMake Error at common/CMakeLists.txt:85 (add_executable):
+  No SOURCES given to target: linear_inpo_hrir_using_ATD
+
+
+CMake Error at common/CMakeLists.txt:73 (add_executable):
+  No SOURCES given to target: imp_add_by10
+
+
+CMake Error at common/CMakeLists.txt:70 (add_executable):
+  No SOURCES given to target: imp_add
+
+
+CMake Error at common/CMakeLists.txt:49 (add_executable):
+  No SOURCES given to target: FC_deviation_alter
+
+
+CMake Error at common/CMakeLists.txt:61 (add_executable):
+  No SOURCES given to target: find_cutpoint
+
+
+CMake Error at common/CMakeLists.txt:82 (add_executable):
+  No SOURCES given to target: LE_1
+
+
+CMake Error at common/CMakeLists.txt:79 (add_executable):
+  No SOURCES given to target: inverse
+
+
+CMake Error at common/CMakeLists.txt:31 (add_executable):
+  No SOURCES given to target: equ_schroeder2
+
+
+CMake Error at common/CMakeLists.txt:46 (add_executable):
+  No SOURCES given to target: FC_deviation
+
+
+CMake Error at common/CMakeLists.txt:43 (add_executable):
+  No SOURCES given to target: fatchdb
+
+
+CMake Error at common/CMakeLists.txt:40 (add_executable):
+  No SOURCES given to target: equ_schroeder5
+
+
+CMake Error at common/CMakeLists.txt:37 (add_executable):
+  No SOURCES given to target: equ_schroeder4
+
+
+CMake Error at common/CMakeLists.txt:34 (add_executable):
+  No SOURCES given to target: equ_schroeder3
+
+
+CMake Error at common/CMakeLists.txt:76 (add_executable):
+  No SOURCES given to target: IMPmcode
+
+
+CMake Error at common/CMakeLists.txt:28 (add_executable):
+  No SOURCES given to target: equ_schroeder1
+
+
+CMake Error at common/CMakeLists.txt:22 (add_executable):
+  No SOURCES given to target: douki_new
+
+
+CMake Error at common/CMakeLists.txt:91 (add_executable):
+  No SOURCES given to target: peaking_filter
+
+
+CMake Error at common/CMakeLists.txt:10 (add_executable):
+  No SOURCES given to target: closed_loop_new
+
+
+CMake Error at common/CMakeLists.txt:16 (add_executable):
+  No SOURCES given to target: cutout_anyfile
+
+
+CMake Error at common/CMakeLists.txt:64 (add_executable):
+  No SOURCES given to target: henkan
+
+
+CMake Error at common/CMakeLists.txt:19 (add_executable):
+  No SOURCES given to target: cutout_anyfile2
+
+
+CMake Error at common/CMakeLists.txt:25 (add_executable):
+  No SOURCES given to target: dv
+
+
+CMake Error at common/CMakeLists.txt:52 (add_executable):
+  No SOURCES given to target: fff
+
+
+CMake Error at common/CMakeLists.txt:115 (add_executable):
+  No SOURCES given to target: WAVtoDSB_osx
+
+
+CMake Error at common/CMakeLists.txt:13 (add_executable):
+  No SOURCES given to target: cosine_windowing
+
+
+CMake Error at common/CMakeLists.txt:7 (add_executable):
+  No SOURCES given to target: biascut
+
+
+CMake Error at fftw/CMakeLists.txt:7 (add_executable):
+  No SOURCES given to target: fftout2
+
+
+CMake Error at fftw/CMakeLists.txt:19 (add_executable):
+  No SOURCES given to target: make_whitenoise
+
+
+CMake Error at fftw/CMakeLists.txt:15 (add_executable):
+  No SOURCES given to target: fftout4
+
+
+CMake Error at fftw/CMakeLists.txt:11 (add_executable):
+  No SOURCES given to target: fftout3
+
+
+CMake Error at portaudio/CMakeLists.txt:41 (add_executable):
+  No SOURCES given to target: playrec_2ch_inPath
+
+
+CMake Error at portaudio/CMakeLists.txt:37 (add_executable):
+  No SOURCES given to target: monorecord
+
+
+CMake Error at portaudio/CMakeLists.txt:33 (add_executable):
+  No SOURCES given to target: monoplay_alter
+
+
+CMake Error at portaudio/CMakeLists.txt:29 (add_executable):
+  No SOURCES given to target: monoplay_8kHz
+
+
+CMake Error at portaudio/CMakeLists.txt:45 (add_executable):
+  No SOURCES given to target: playrec_2ch_new_kai
+
+
+CMake Error at portaudio/CMakeLists.txt:25 (add_executable):
+  No SOURCES given to target: monoplay_48k
+
+
+CMake Error at portaudio/CMakeLists.txt:49 (add_executable):
+  No SOURCES given to target: playrec_mono
+
+
+CMake Error at portaudio/CMakeLists.txt:21 (add_executable):
+  No SOURCES given to target: monoplay2
+
+
+CMake Error at portaudio/CMakeLists.txt:17 (add_executable):
+  No SOURCES given to target: monoplay
+
+
+CMake Error at portaudio/CMakeLists.txt:53 (add_executable):
+  No SOURCES given to target: playrec_mono_inPath
+
+
+CMake Error at portaudio/CMakeLists.txt:13 (add_executable):
+  No SOURCES given to target: 2chplay2
+
+
+CMake Error at portaudio/CMakeLists.txt:9 (add_executable):
+  No SOURCES given to target: 2chplay
+
+
+-- Build files have been written to: /Users/tetsu/dev/douki_C_programs/cmake-build-debug
+>>>>>>> feature/dir
+

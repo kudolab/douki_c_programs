@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+/Library/Developer/CommandLineTools/usr/bin/cc -lm /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/equ_schroeder4.dir/equ_schroeder4.c.o  -o equ_schroeder4 
+=======
+/Library/Developer/CommandLineTools/usr/bin/cc -lm /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/equ_schroeder4.dir/common/src/equ_schroeder4.c.o  -o equ_schroeder4 
+>>>>>>> feature/dir

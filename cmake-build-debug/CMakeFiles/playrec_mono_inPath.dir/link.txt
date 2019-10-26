@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+/Library/Developer/CommandLineTools/usr/bin/cc -lm /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/playrec_mono_inPath.dir/playrec_mono_inPath.c.o  -o playrec_mono_inPath 
+=======
+/Library/Developer/CommandLineTools/usr/bin/cc -lm /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/playrec_mono_inPath.dir/portaudio/src/playrec_mono_inPath.c.o  -o playrec_mono_inPath 
+>>>>>>> feature/dir
