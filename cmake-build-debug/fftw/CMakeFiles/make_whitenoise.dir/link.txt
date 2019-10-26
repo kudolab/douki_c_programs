@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/make_whitenoise.dir/src/make_whitenoise.c.o  -o make_whitenoise /usr/local/lib/libfftw3.a 
