@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/playrec_2ch_new_kai.dir/src/playrec_2ch_new_kai.c.o  -o playrec_2ch_new_kai /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a 

@@ -3,6 +3,8 @@ project(douki_c_programs C)
 
 set(CMAKE_C_STANDARD 11)
 
+install()
+
 include_directories(include/umasig)
 
 add_library(umasig
