@@ -3,6 +3,7 @@ project(douki_c_fftw C)
 
 set(CMAKE_C_STANDARD 11)
 
+
 #################################### fftw3 ####################################
 add_executable(fftout2
         src/fftout2.c
@@ -21,3 +22,6 @@ add_executable(make_whitenoise
         )
 target_link_libraries(make_whitenoise /usr/local/lib/libfftw3.a)
 #################################### fftw3 ####################################
+
+set(fftw_bin fftout2 fftout3 fftout4 make_whitenoise)
+INSTALL(TARGETS ${fftw_bin} RUNTIME DESTINATION $HOME/bin)
