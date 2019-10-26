@@ -53,6 +53,8 @@ echo alias l='ls -CF' >> $HOME/.bash_profile
 echo alias c='clear' >> $HOME/.bash_profile
 
 echo set completion-ignore-case on > $HOME/.inputrc
+
+source $HOME/.bash_profile
 # ------------ make path and configure useful aliases ------------#
 
 
