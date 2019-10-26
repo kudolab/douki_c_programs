@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-/Library/Developer/CommandLineTools/usr/bin/cc -lm /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/2chplay2.dir/2chplay2.c.o  -o 2chplay2 /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a 
-=======
-/Library/Developer/CommandLineTools/usr/bin/cc -lm /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/2chplay2.dir/portaudio/src/2chplay2.c.o  -o 2chplay2 /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a 
->>>>>>> feature/dir

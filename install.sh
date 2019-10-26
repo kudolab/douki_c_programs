@@ -8,6 +8,7 @@
 #  DateCreated  : 2019/10/27
 # ==================================================================================================================
 
+
 # ------------ install xcode and homebrew ------------#
 xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -22,37 +23,42 @@ brew install portaudio
 # ------------ install dependency libraries ------------#
 
 
-# ------------ build c programs ------------#
+# ------------ build and install c programs ------------#
+mkdir -p $HOME/local/bin
+mkdir -p $HOME/local/lib
+mkdir -p $HOME/local/include
+
 mkdir -p $HOME/research/douki
 cd $HOME/research/douki
 
 git clone https://github.com/kudolab/douki_c_programs.git
 
-cd douki_c_programs
+cd $HOME/research/douki/douki_c_programs
 mkdir -p $HOME/research/douki/douki_c_programs/build
 cd $HOME/research/douki/douki_c_programs/build
 
 cmake ..
 make
-# ------------ build c programs ------------#
+make install
+# ------------ build and install c programs ------------#
 
-mkdir -p $HOME/bin
-mkdir -p $HOME/lib
-mkdir -p $HOME/include
 
-rsync -av $HOME/research/douki/douki_c_programs/build/* $HOME/bin/ --exclude "CMakeFiles" --exclude "Makefile" --exclude "*.txt" --exclude "*.cmake" --exclude "*.a"
-cp $HOME/research/douki/douki_c_programs/build/*.a $HOME/lib
+# ------------ make path and configure useful aliases ------------#
+echo export PATH=$PATH:$HOME/research/local/bin >> $HOME/.bash_profile
 
-cd $HOME
-
-{ echo alias ll="ls -alF"
-alias la='ls -A'
-alias l='ls -CF'
-export PATH=$PATH:$HOME/bin
-} >> $HOME/.bash_profile
+echo alias ls='ls -GC' >> $HOME/.bash_profile
+echo alias ll="ls -alF" >> $HOME/.bash_profile
+echo alias la='ls -A' >> $HOME/.bash_profile
+echo alias l='ls -CF' >> $HOME/.bash_profile
+echo alias c='clear' >> $HOME/.bash_profile
 
 echo set completion-ignore-case on > $HOME/.inputrc
+# ------------ make path and configure useful aliases ------------#
 
+
+# ------------ end notification ------------#
+cd $HOME
 clear
 
-echo "\n\n end!! \n\n"
+echo \n installation completed!! \n
+# ------------ end notification ------------#

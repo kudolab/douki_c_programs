@@ -5,6 +5,60 @@ Clang programs for research
 Please execute below
 `sh install.sh`
 
+# build include
+- FC_deviation
+- FC_deviation_alter
+- IMPmcode
+- LE_1
+- WAVtoDSB_osx
+- biascut
+- cosine_windowing
+- cutout_anyfile
+- cutout_anyfile2
+- douki_new
+- dv
+- equ_schroeder1
+- equ_schroeder2
+- equ_schroeder3
+- equ_schroeder4
+- equ_schroeder5
+- fatchdb
+- fff
+- find_cutpoint
+- henkan
+- imp_add
+- imp_add_by10
+- inverse
+- linear_inpo_hrir_using_ATD
+- mono2LR
+- peaking_filter
+- print_siglen
+- random
+- scaling_max_instant_amp
+- sepach
+- sinwave
+- timeconvo
+- zeropad_anyfile
+
+- fftout2
+- fftout3
+- fftout4
+- make_whitenoise
+
+- 2chplay
+- 2chplay2
+- closed_loop_new
+- monoplay
+- monoplay2
+- monoplay_48k
+- monoplay_8kHz
+- monoplay_alter
+- monorecord
+- playrec_2ch_inPath
+- playrec_2ch_new_kai
+- playrec_mono
+- playrec_mono_inPath
+
 # requirements
 
 - fftw3
