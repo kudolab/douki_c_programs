@@ -24,4 +24,4 @@ target_link_libraries(make_whitenoise /usr/local/lib/libfftw3.a)
 #################################### fftw3 ####################################
 
 set(fftw_bin fftout2 fftout3 fftout4 make_whitenoise)
-INSTALL(TARGETS ${fftw_bin} RUNTIME DESTINATION $HOME/bin)
+INSTALL(TARGETS ${fftw_bin} RUNTIME DESTINATION bin)

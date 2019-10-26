@@ -62,4 +62,4 @@ add_executable(playrec_mono_inPath
 #################################### portaudio ####################################
 
 set(portaudio_bin 2chplay 2chplay2 closed_loop_new monoplay monoplay2 monoplay_48k monoplay_8kHz monoplay_alter monorecord playrec_2ch_inPath playrec_2ch_new_kai playrec_mono playrec_mono_inPath)
-INSTALL(TARGETS ${portaudio_bin} RUNTIME DESTINATION $HOME/bin)
+INSTALL(TARGETS ${portaudio_bin} RUNTIME DESTINATION bin)
