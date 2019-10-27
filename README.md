@@ -1,6 +1,15 @@
 # douki
 Clang programs for research
 
+# __ Important __
+Before execute `sh install.sh`, ensure below.
+
+- You must to resister to github. Use your own e-mail address.
+- Set up proxy and Media Access Control.
+- Install xcode command line tools
+
+
+
 # Install
 Please execute below
 `sh install.sh`
