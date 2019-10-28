@@ -44,7 +44,7 @@ make install
 
 
 # ------------ make path and configure useful aliases ------------#
-echo export PATH=\$PATH:\$HOME/research/local/bin >> $HOME/.bash_profile
+echo export PATH=\$PATH:\$HOME/local/bin >> $HOME/.bash_profile
 
 echo alias ls=\"ls -GC\" >> $HOME/.bash_profile
 echo alias ll=\"ls -alF\" >> $HOME/.bash_profile
