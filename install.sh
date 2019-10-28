@@ -53,6 +53,8 @@ echo alias l=\"ls -CF\" >> $HOME/.bash_profile
 echo alias c=\"clear\" >> $HOME/.bash_profile
 
 echo set completion-ignore-case on > $HOME/.inputrc
+echo proxy-user=\"kudo:KUD_hakodate_918\" >> $HOME/.curlrc
+echo proxy=http://172.16.1.10:8080 >> $HOME/.curlrc
 
 source $HOME/.bash_profile
 # ------------ make path and configure useful aliases ------------#
