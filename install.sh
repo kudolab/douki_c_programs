@@ -46,11 +46,11 @@ make install
 # ------------ make path and configure useful aliases ------------#
 echo export PATH=\$PATH:\$HOME/research/local/bin >> $HOME/.bash_profile
 
-echo alias ls='ls -GC' >> $HOME/.bash_profile
-echo alias ll="ls -alF" >> $HOME/.bash_profile
-echo alias la='ls -A' >> $HOME/.bash_profile
-echo alias l='ls -CF' >> $HOME/.bash_profile
-echo alias c='clear' >> $HOME/.bash_profile
+echo alias ls=\"ls -GC\" >> $HOME/.bash_profile
+echo alias ll=\"ls -alF\" >> $HOME/.bash_profile
+echo alias la=\"ls -A\" >> $HOME/.bash_profile
+echo alias l=\"ls -CF\" >> $HOME/.bash_profile
+echo alias c=\"clear\" >> $HOME/.bash_profile
 
 echo set completion-ignore-case on > $HOME/.inputrc
 
