@@ -4,7 +4,7 @@ project(douki_c_programs C)
 set(CMAKE_C_STANDARD 11)
 
 if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
-    set(CMAKE_INSTALL_PREFIX $ENV{HOME}/research/local CACHE PATH "..." FORCE)
+    set(CMAKE_INSTALL_PREFIX $ENV{HOME}/local CACHE PATH "..." FORCE)
 endif()
 
 message(${CMAKE_INSTALL_PREFIX})
