@@ -1,0 +1,8 @@
+//
+// Created by Tetsu Takizawa on 2019/11/16.
+//
+
+#ifndef DOUKI_C_PROGRAMS_FILELIB_OSX_H
+#define DOUKI_C_PROGRAMS_FILELIB_OSX_H
+
+#endif //DOUKI_C_PROGRAMS_FILELIB_OSX_H

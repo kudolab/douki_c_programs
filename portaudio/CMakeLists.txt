@@ -8,11 +8,12 @@ if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 endif()
 
 #################################### CHANGE HERE ####################################
+set(portaudio_header "/usr/local/include")
 set(libportaudio "/usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a")
 #################################### CHANGE HERE ####################################
 
 #################################### portaudio ####################################
-set(CMAKE_C_FLAGS "-lm ${libportaudio} -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices")
+set(CMAKE_C_FLAGS "-I ${portaudio_header} -lm ${libportaudio} -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices")
 
 
 add_executable(2chplay
