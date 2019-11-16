@@ -3,6 +3,10 @@ project(douki_c_fftw C)
 
 set(CMAKE_C_STANDARD 11)
 
+if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+    set(CMAKE_INSTALL_PREFIX $ENV{HOME}/local CACHE PATH "..." FORCE)
+endif()
+
 #################################### CHANGE HERE ####################################
 set(libfftw3 "/usr/local/lib/libfftw3.a")
 #################################### CHANGE HERE ####################################
