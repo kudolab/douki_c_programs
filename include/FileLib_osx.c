@@ -1,3 +1,29 @@
+/******* FileLib_osx   ************************ 2019.11.16 *****************
+  This program is included any program for file input and output.
+  (This function return the length that read data from the file.)
+
+  Use FileLib_osx.h. Updated by Tetsu Takizawa on 2019.11.16
+
+  AnyFileRead(file,data,len)  : Any style data to Double
+  AnyFileWrite(file,data,len) : Any style data to Double
+
+  char    file;
+  double  *data;
+  unsigned long  length;
+
+  file:
+  To read  the filename, this style must be character ( char ). and necessary
+  the subscribe, '.dxx' or '.DXX' means data style, the style was decided
+  by Shimada.
+
+  data:
+  To store the address of data. It was declared Double before.
+
+  len:
+  length of data. it is integer.
+
+
+*****************************************************************************/
 /******* FileLib_osx   ************************ 2015.2.12 *****************
   This program is included any program for file input and output.
   (This function return the length that read data from the file.)
@@ -43,9 +69,10 @@
   lehgth of data. it is integer.
 
 *****************************************************************************/
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include "FileLib_osx.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 int AnyFile_error(int n) {
     switch (n) {
