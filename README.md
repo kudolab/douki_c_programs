@@ -1,7 +1,7 @@
 # douki
 Clang programs for research
 
-# __ Important __
+# **Important**
 Before execute `sh install.sh`, ensure below.
 
 - You must to resister to github. Use your own e-mail address.
