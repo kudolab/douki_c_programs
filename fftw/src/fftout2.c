@@ -12,7 +12,7 @@
 #include <math.h>
 #include <string.h>
 #include <complex.h>
-#include "/usr/local/include/fftw3.h"
+#include <fftw3.h>
 
 #include "../../include/FileLib_osx.c"
 

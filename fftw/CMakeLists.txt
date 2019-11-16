@@ -8,10 +8,14 @@ if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 endif()
 
 #################################### CHANGE HERE ####################################
+set(fftw3_header "/usr/local/include")
 set(libfftw3 "/usr/local/lib/libfftw3.a")
 #################################### CHANGE HERE ####################################
 
 #################################### fftw3 ####################################
+set(CMAKE_C_FLAGS "-I ${fftw3_header} -lm ${libfftw3}")
+
+
 add_executable(fftout2
         src/fftout2.c
         )
