@@ -55,4 +55,5 @@ dkms.conf
 # Build directory
 cmake-build-debug/
 build/
+non-use/
 .idea/

@@ -3,6 +3,9 @@ project(douki_c_common C)
 
 set(CMAKE_C_STANDARD 11)
 
+if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+    set(CMAKE_INSTALL_PREFIX $ENV{HOME}/local CACHE PATH "..." FORCE)
+endif()
 
 ##################################### common ####################################
 add_executable(biascut
