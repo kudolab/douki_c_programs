@@ -25,6 +25,10 @@ add_library(umasig
         include/umasig/window.c
         )
 
+add_library(FileLib_osx
+        include/FileLib_osx.c
+        )
+
 add_subdirectory(common)
 add_subdirectory(fftw)
 add_subdirectory(portaudio)
