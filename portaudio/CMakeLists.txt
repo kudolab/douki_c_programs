@@ -67,6 +67,11 @@ target_link_libraries(playrec_mono ${libportaudio})
 add_executable(playrec_mono_inPath
         src/playrec_mono_inPath.c
         )
+target_link_libraries(playrec_mono_inPath ${libportaudio})
+add_executable(playrec_multi
+        src/playrec_multi.c
+        )
+target_link_libraries(playrec_multi ${libportaudio})
 
 #################################### portaudio ####################################
 
