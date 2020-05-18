@@ -25,8 +25,20 @@ int main(int argc, char **argv) {
     N2 = lenfile(argv[2]);
 
     x = (double *)calloc(N1, (size_t)sizeof(double));
+    if (x == NULL) {
+        fprintf(stderr, "memory allocation failed at calloc()\n");
+        exit(EXIT_FAILURE);
+    }
     h = (double *)calloc(N2, (size_t)sizeof(double));
+    if (h == NULL) {
+        fprintf(stderr, "memory allocation failed at calloc()\n");
+        exit(EXIT_FAILURE);
+    }
     y = (double *)calloc(N1 + N2, (size_t)sizeof(double));
+    if (y == NULL) {
+        fprintf(stderr, "memory allocation failed at calloc()\n");
+        exit(EXIT_FAILURE);
+    }
 
     fprintf(stderr, "> calculate convolution...\n");
     fprintf(stderr, "> signal length  %d / %d\n", N1, N2);

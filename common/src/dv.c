@@ -14,8 +14,9 @@ int main(int argc, char *argv[]) {
     }
 
     length = lenfile(argv[1]);
-    x = (double *) malloc(length * sizeof(double));
+    x = (double *)malloc(length * sizeof(double));
     if (x == NULL) {
+        fprintf(stderr, "memory allocation failed at calloc()\n");
         exit(EXIT_FAILURE);
     }
 

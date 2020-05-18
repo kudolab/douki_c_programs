@@ -1,24 +1,22 @@
 /*
   ��ã���ֺ����θ���������䴰ˡ
-  �����ԡ���ƣ���� ��������2004/06/27  
+  �����ԡ���ƣ���� ��������2004/06/27
 */
 
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 #include "../../include/FileLib_osx.c"
-#include "../../include/umasig/umasig.h"
-#include "../../include/umasig/fft.c"
-#include "../../include/umasig/complex.c"
 #include "../../include/umasig/c_vector.c"
-#include "../../include/umasig/vector.c"
-#include "../../include/umasig/utils.c"
+#include "../../include/umasig/complex.c"
 #include "../../include/umasig/conv.c"
-
+#include "../../include/umasig/fft.c"
+#include "../../include/umasig/umasig.h"
+#include "../../include/umasig/utils.c"
+#include "../../include/umasig/vector.c"
 
 int main(int argc, char *argv[]) {
-
     int i;
     int length1, length2, length;
     double *x1, *x2, *y, *inpo;
@@ -39,22 +37,40 @@ int main(int argc, char *argv[]) {
     bai = 32;
     length1 = lenfile(argv[1]);
     length2 = lenfile(argv[2]);
-    if (length1 > length2) length = length1;
-    else length = length2;
+    if (length1 > length2)
+        length = length1;
+    else
+        length = length2;
 
     fft_points = 1;
     while (fft_points < (length1 + length2 - 1)) fft_points *= 2;
-    fft_points_expd = fft_points * bai;/*bai��������Ĺ�򿭤Ф�*/
+    fft_points_expd = fft_points * bai; /*bai��������Ĺ�򿭤Ф�*/
 
     fprintf(stdout, "in1:%s length:%d,", argv[1], length1);
     fprintf(stdout, "in2:%s length:%d,", argv[2], length2);
     fprintf(stdout, "FFT:length:%d,", fft_points);
     fprintf(stdout, "bai:%d,", bai);
 
-    x1 = (double *) calloc(length, (size_t) sizeof(double));
-    x2 = (double *) calloc(length, (size_t) sizeof(double));
-    y = (double *) calloc(fft_points_expd, (size_t) sizeof(double));
-    inpo = (double *) calloc(length, (size_t) sizeof(double));
+    x1 = (double *)calloc(length, (size_t)sizeof(double));
+    if (1 == NULL) {
+        fprintf(stderr, "memory allocation failed at calloc()\n");
+        exit(EXIT_FAILURE);
+    }
+    x2 = (double *)calloc(length, (size_t)sizeof(double));
+    if (x2 == NULL) {
+        fprintf(stderr, "memory allocation failed at calloc()\n");
+        exit(EXIT_FAILURE);
+    }
+    y = (double *)calloc(fft_points_expd, (size_t)sizeof(double));
+    if (y == NULL) {
+        fprintf(stderr, "memory allocation failed at calloc()\n");
+        exit(EXIT_FAILURE);
+    }
+    inpo = (double *)calloc(length, (size_t)sizeof(double));
+    if (inpo == NULL) {
+        fprintf(stderr, "memory allocation failed at calloc()\n");
+        exit(EXIT_FAILURE);
+    }
 
     AnyFileRead(argv[1], x1, length1);
     AnyFileRead(argv[2], x2, length2);
@@ -73,14 +89,14 @@ int main(int argc, char *argv[]) {
     }
 
     /*print the time lag between two impulse responses */
-    //delay=(y_max_i-(double)(fft_points*bai/2))/(double)(bai)+1.0;
-    delay = ((y_max_i - (double) (length * bai)) / (double) (bai) + 1.0);
+    // delay=(y_max_i-(double)(fft_points*bai/2))/(double)(bai)+1.0;
+    delay = ((y_max_i - (double)(length * bai)) / (double)(bai) + 1.0);
     fprintf(stdout, "delay = %lf[sample]\n", delay);
 
     /*Linear interpolation taking into acount the Arrival Time Difference*/
-    fractional_delay_using_linear_phase(x1, length1, fft_points_expd, +delay);/*align the x1 to x2*/
-    for (i = 0; i < length; i++) inpo[i] = r * x1[i] + (1 - r) * x2[i];/*linear interpolation of amplitude*/
-    fractional_delay_using_linear_phase(inpo, length, fft_points_expd, -delay * r);/*linear interpolation of ATD*/
+    fractional_delay_using_linear_phase(x1, length1, fft_points_expd, +delay); /*align the x1 to x2*/
+    for (i = 0; i < length; i++) inpo[i] = r * x1[i] + (1 - r) * x2[i];        /*linear interpolation of amplitude*/
+    fractional_delay_using_linear_phase(inpo, length, fft_points_expd, -delay * r); /*linear interpolation of ATD*/
 
     AnyFileWrite(argv[4], inpo, length);
 }

@@ -36,6 +36,11 @@ int main(int argc, char *argv[]) {
 
     fprintf(stderr, "signal:%s \nsignal length:%d ,window length:%d[sample]\n", argv[1], length, window_len);
     x = (double *)calloc(length, sizeof(double));
+    if (x == NULL) {
+        fprintf(stderr, "memory allocation failed at calloc()\n");
+        exit(EXIT_FAILURE);
+    }
+
     AnyFileRead(argv[1], x, length);
 
     i = start_point;
