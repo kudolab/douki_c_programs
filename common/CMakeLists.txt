@@ -110,6 +110,9 @@ add_executable(sinwave
 add_executable(timeconvo
         src/timeconvo.c
         )
+add_executable(unbias
+        src/unbias.c
+        )
 add_executable(WAVtoDSB_osx
         src/WAVtoDSB_osx.c
         )
@@ -119,5 +122,5 @@ add_executable(zeropad_anyfile
 ##################################### common ####################################
 
 
-set(common_bin FC_deviation FC_deviation_alter IMPmcode LE_1 WAVtoDSB_osx biascut cosine_windowing cutout_anyfile cutout_anyfile2 douki_new dv equ_schroeder1 equ_schroeder2 equ_schroeder3 equ_schroeder4 equ_schroeder5 fatchdb fff find_cutpoint henkan imp_add imp_add_by10 inverse linear_inpo_hrir_using_ATD mono2LR peaking_filter print_siglen random scaling_max_instant_amp sepach sinwave timeconvo zeropad_anyfile)
+set(common_bin FC_deviation FC_deviation_alter IMPmcode LE_1 WAVtoDSB_osx biascut cosine_windowing cutout_anyfile cutout_anyfile2 douki_new dv equ_schroeder1 equ_schroeder2 equ_schroeder3 equ_schroeder4 equ_schroeder5 fatchdb fff find_cutpoint henkan imp_add imp_add_by10 inverse linear_inpo_hrir_using_ATD mono2LR peaking_filter print_siglen random scaling_max_instant_amp sepach sinwave timeconvo unbias zeropad_anyfile)
 INSTALL(TARGETS ${common_bin} RUNTIME DESTINATION bin)
