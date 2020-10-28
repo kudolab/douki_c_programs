@@ -14,6 +14,9 @@ init:
 	@if [ ! -d "bin" ]; then mkdir bin; fi
 	@if [ ! -d "lib" ]; then mkdir lib; fi
 
+install: all
+	install -s ${ALL_PROGRAMS} ${HOME}/local/bin
+
 # no dependencies
 bin/FC_deviation: FC_deviation.c Filelib_osx.c
 	gcc FC_deviation.c Filelib_osx.c -o bin/FC_deviation -I/usr/local/include -lm
