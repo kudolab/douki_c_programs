@@ -3,8 +3,8 @@
 #                 This shellscript installs clang programs for common research in Kudo lab.
 #                 Please see the README.md for details.
 #  Author       : Tetsu Takizawa
-#  E-mail       : tt15219@tomakomai.kosen-ac.jp
-#  LastUpdate   : 2019/10/27
+#  E-mail       : tt20805@tomakomai.kosen-ac.jp
+#  LastUpdate   : 2020/10/28
 #  DateCreated  : 2019/10/27
 # ==================================================================================================================
 
@@ -17,7 +17,6 @@ xcode-select --install
 
 # ------------ install dependency libraries ------------#
 brew install git
-brew install cmake
 brew install fftw
 brew install portaudio
 # ------------ install dependency libraries ------------#
@@ -34,10 +33,7 @@ cd $HOME/research/douki
 git clone https://github.com/kudolab/douki_c_programs.git
 
 cd $HOME/research/douki/douki_c_programs
-mkdir -p $HOME/research/douki/douki_c_programs/build
-cd $HOME/research/douki/douki_c_programs/build
 
-cmake ..
 make
 make install
 # ------------ build and install c programs ------------#
@@ -51,10 +47,7 @@ echo alias ll=\"ls -alF\" >> $HOME/.bash_profile
 echo alias la=\"ls -A\" >> $HOME/.bash_profile
 echo alias l=\"ls -CF\" >> $HOME/.bash_profile
 echo alias c=\"clear\" >> $HOME/.bash_profile
-
 echo set completion-ignore-case on > $HOME/.inputrc
-echo proxy-user=\"kudo:KUD_hakodate_918\" >> $HOME/.curlrc
-echo proxy=http://172.16.1.10:8080 >> $HOME/.curlrc
 
 source $HOME/.bash_profile
 # ------------ make path and configure useful aliases ------------#
