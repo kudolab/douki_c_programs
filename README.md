@@ -5,7 +5,6 @@ Clang programs for research.
 
 - 日本語ドキュメント
 - Documents in English
-- 
 
 # 日本語ドキュメント
 
@@ -13,33 +12,24 @@ Clang programs for research.
 
 以下のライブラリがインストールされているか確認してください。
 
-- cmake 3.14
 - portaudio (brewでインストール)
 - fftw
 
 
 ## インストール
 
-`CMakeLists.txt` と同じディレクトリディレクトリで次のコマンドを実行してください。
-
-生成された実行ファイルは`~/local/bin`にインストールされます。  
-`~/local/bin`にパスを通すことを推奨します。
 
 ```shell script
 mkdir -p ~/local/bin
 mkdir -p ~/local/lib
 mkdir -p ~/local/include
 
-mkdir build
-cd build
-
-cmake ..
 make
 make install
 ```
 
-- サブディレクトリで実行すると、そのディレクトリ以下のソースファイルがコンパイルされます。
-
+生成された実行ファイルは`~/local/bin`にインストールされます。  
+`~/local/bin`にパスを通すことを推奨します。
 
 ## インストール (初期設定)
 
@@ -59,21 +49,19 @@ Macの設定を含めて一括で実行できます。
 以下をターミナルで実行してください。
 
 ```shell script
-sh install.sh
+bash install.sh
 ```
 
 # Documents in English
 
 ## Requirements
 
-- cmake 3.14
 - portaudio
 - fftw
 
 
 ## Install
 
-Please run this in the same directory as `CMakeLists.txt`.
 
 Executable files will be installed to `~/local/bin`. You should make a paht to `~/local/bin`.
 
@@ -83,10 +71,6 @@ mkdir -p ~/local/bin
 mkdir -p ~/local/lib
 mkdir -p ~/local/include
 
-mkdir build
-cd build
-
-cmake ..
 make
 make install
 ```
@@ -103,14 +87,14 @@ Before installment, ensure below.
 ### Run
 
 Please run this
+
 ```shell script
 sh install.sh
 ```
-``
 
 # Programs included in this repo.
 
-- common
+- no dependencies
     - FC_deviation
     - FC_deviation_alter
     - IMPmcode
@@ -128,13 +112,11 @@ sh install.sh
     - equ_schroeder4
     - equ_schroeder5
     - fatchdb
-    - fff
     - find_cutpoint
     - henkan
     - imp_add
     - imp_add_by10
     - inverse
-    - linear_inpo_hrir_using_ATD
     - mono2LR
     - peaking_filter
     - print_siglen
@@ -165,4 +147,8 @@ sh install.sh
     - playrec_2ch_new_kai
     - playrec_mono
     - playrec_mono_inPath
+
+- umasig
+    - fff
+    - linear_inpo_hrir_using_ATD
 

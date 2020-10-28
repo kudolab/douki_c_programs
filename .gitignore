@@ -99,3 +99,5 @@ Temporary Items
 *.code-workspace
 
 .vscode/
+.idea/
+bin/
