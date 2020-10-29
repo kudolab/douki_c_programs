@@ -155,6 +155,8 @@ void gauss_random(double *y, int n);
 
 void lconv(double *y, const double *a, const double *b, int na, int nb);
 
+void fcorr_normalize(double *y, const double *a, const double *b, int na, int nb, int fft_points, int bai);
+
 void auto_correlation(double *r, const double *x, int p, int n);
 
 void parcor_and_lpc(double *k, double *a, double *r, const double *v, int p);

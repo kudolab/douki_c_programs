@@ -1,8 +1,9 @@
-NO_DEPENDENCY_PROGRAMS=bin/FC_deviation bin/FC_deviation_alter bin/IMPmcode bin/LE_1 bin/WAVtoDSB_osx bin/biascut bin/cosine_windowing bin/cutout_anyfile bin/cutout_anyfile2 bin/douki_new bin/dv bin/equ_schroeder1 bin/equ_schroeder2 bin/equ_schroeder3 bin/equ_schroeder4 bin/equ_schroeder5 bin/fatchdb bin/fff bin/find_cutpoint bin/henkan bin/imp_add bin/imp_add_by10 bin/inverse bin/linear_inpo_hrir_using_ATD bin/mono2LR bin/peaking_filter bin/print_siglen bin/random bin/scaling_max_instant_amp bin/sepach bin/sinwave bin/timeconvo bin/unbias bin/zeropad_anyfile
+NO_DEPENDENCY_PROGRAMS=bin/FC_deviation bin/FC_deviation_alter bin/IMPmcode bin/LE_1 bin/WAVtoDSB_osx bin/biascut bin/calc_ILD bin/cosine_windowing bin/cutout_anyfile bin/cutout_anyfile2 bin/douki_new bin/dv bin/equ_schroeder1 bin/equ_schroeder2 bin/equ_schroeder3 bin/equ_schroeder4 bin/equ_schroeder5 bin/fatchdb bin/fff bin/find_cutpoint bin/henkan bin/imp_add bin/imp_add_by10 bin/inverse bin/linear_inpo_hrir_using_ATD bin/mono2LR bin/peaking_filter bin/print_siglen bin/random bin/scaling_max_instant_amp bin/sepach bin/sinwave bin/timeconvo bin/unbias bin/zeropad_anyfile
 PORTAUDIO_PROGRAMS=bin/2chplay bin/2chplay2 bin/closed_loop_new bin/monoplay bin/monoplay2 bin/monoplay_48k bin/monoplay_8kHz bin/monoplay_alter bin/monorecord bin/playrec_2ch_inPath bin/playrec_2ch_new_kai bin/playrec_mono bin/playrec_mono_inPath bin/playrec_multi
 FFTW_PROGRAMS=bin/fftout2 bin/fftout3 bin/fftout4 bin/make_whitenoise
+UMASIG_PROGRAMS=bin/calc_ITD bin/fff bin/linear_inpo_hrir_using_ATD
 
-ALL_PROGRAMS=${NO_DEPENDENCY_PROGRAMS} ${PORTAUDIO_PROGRAMS} ${FFTW_PROGRAMS}
+ALL_PROGRAMS=${NO_DEPENDENCY_PROGRAMS} ${PORTAUDIO_PROGRAMS} ${FFTW_PROGRAMS} ${UMASIG_PROGRAMS}
 
 # if [ ! -d "bin" ]; then mkdir bin; fi
 # if [ ! -d "lib" ]; then mkdir lib; fi
@@ -35,6 +36,9 @@ bin/WAVtoDSB_osx: WAVtoDSB_osx.c Filelib_osx.c
 
 bin/biascut: biascut.c Filelib_osx.c
 	gcc biascut.c Filelib_osx.c -o bin/biascut -I/usr/local/include -lm
+
+bin/calc_ILD: calc_ILD.c Filelib_osx.c
+	gcc calc_ILD.c Filelib_osx.c -o bin/calc_ILD -I/usr/local/include -lm
 
 bin/cosine_windowing: cosine_windowing.c Filelib_osx.c
 	gcc cosine_windowing.c Filelib_osx.c -o bin/cosine_windowing -I/usr/local/include -lm
@@ -180,6 +184,7 @@ bin/make_whitenoise: make_whitenoise.c Filelib_osx.c
 
 # umasig
 
+# libumasig 
 lib/libumasig.a: c_vector.o complex.o conv.o fft.o plot.o random.o speech.o utils.o vector.o window.o
 	ar r lib/libumasig.a c_vector.o complex.o conv.o fft.o plot.o random.o speech.o utils.o vector.o window.o
 
@@ -214,6 +219,10 @@ vector.o: umasig/vector.o
 
 window.o: umasig/window.o
 	gcc -c umasig/window.c -o window.o
+
+# programs using umasig
+bin/calc_ITD: calc_ITD.c Filelib_osx.c lib/libumasig.a
+	gcc calc_ITD.c Filelib_osx.c -o bin/calc_ITD -I/usr/local/include -I./umasig -L./lib -lm -lumasig
 
 bin/fff: fff.c Filelib_osx.c lib/libumasig.a
 	gcc fff.c Filelib_osx.c -o bin/fff -I/usr/local/include -I./umasig -L./lib -lm -lumasig
