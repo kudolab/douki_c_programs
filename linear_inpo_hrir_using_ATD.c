@@ -8,7 +8,7 @@
 #include <stdlib.h>
 
 #include "FileLib_osx.h"
-#include "umasig/umasig.h"
+#include "umasig.h"
 
 int main(int argc, char *argv[]) {
     int i;

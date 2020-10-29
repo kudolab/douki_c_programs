@@ -159,6 +159,8 @@ void fcorr_normalize(double *y, const double *a, const double *b, int na, int nb
 
 void auto_correlation(double *r, const double *x, int p, int n);
 
+void fractional_delay_using_linear_phase(double *x, int n, int fft_points, double delay);
+
 void parcor_and_lpc(double *k, double *a, double *r, const double *v, int p);
 
 /* fftfilt() requires fftw. (http://www.fftw.org) */

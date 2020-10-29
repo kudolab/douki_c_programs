@@ -15,7 +15,7 @@
 #include <math.h>
 
 #include "FileLib_osx.h"
-#include "umasig/umasig.h"
+#include "umasig.h"
 
 #define a0 ((1.0+sqrt(2.0))/4.0)
 #define a1 (0.25+0.25*sqrt((5.0-2.0*sqrt(2.0))/2.0))
