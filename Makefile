@@ -1,5 +1,5 @@
 NO_DEPENDENCY_PROGRAMS=bin/FC_deviation bin/FC_deviation_alter bin/IMPmcode bin/LE_1 bin/WAVtoDSB_osx bin/biascut bin/calc_ILD bin/cosine_windowing bin/cutout_anyfile bin/cutout_anyfile2 bin/douki_new bin/dv bin/equ_schroeder1 bin/equ_schroeder2 bin/equ_schroeder3 bin/equ_schroeder4 bin/equ_schroeder5 bin/fatchdb bin/fff bin/find_cutpoint bin/henkan bin/imp_add bin/imp_add_by10 bin/inverse bin/linear_inpo_hrir_using_ATD bin/mono2LR bin/peaking_filter bin/print_siglen bin/random bin/scaling_max_instant_amp bin/sepach bin/sinwave bin/timeconvo bin/unbias bin/zeropad_anyfile
-PORTAUDIO_PROGRAMS=bin/2chplay bin/2chplay2 bin/closed_loop_new bin/monoplay bin/monoplay2 bin/monoplay_48k bin/monoplay_8kHz bin/monoplay_alter bin/monorecord bin/playrec_2ch_inPath bin/playrec_2ch_new_kai bin/playrec_mono bin/playrec_mono_inPath bin/playrec_multi
+PORTAUDIO_PROGRAMS=bin/2chplay bin/closed_loop_new bin/monoplay bin/monoplay2 bin/monoplay_48k bin/monoplay_8kHz bin/monoplay_alter bin/monorecord bin/playrec_2ch_inPath bin/playrec_2ch_new_kai bin/playrec_mono bin/playrec_mono_inPath bin/playrec_multi
 FFTW_PROGRAMS=bin/fftout2 bin/fftout3 bin/fftout4 bin/make_whitenoise
 UMASIG_PROGRAMS=bin/calc_ITD bin/fff bin/linear_inpo_hrir_using_ATD
 
@@ -126,11 +126,9 @@ bin/zeropad_anyfile: zeropad_anyfile.c Filelib_osx.c
 
 
 # portaudio
+
 bin/2chplay: 2chplay.c Filelib_osx.c
 	gcc 2chplay.c Filelib_osx.c -o bin/2chplay -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
-
-bin/2chplay2: 2chplay2.c Filelib_osx.c
-	gcc 2chplay2.c Filelib_osx.c -o bin/2chplay2 -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/closed_loop_new: closed_loop_new.c Filelib_osx.c
 	gcc closed_loop_new.c Filelib_osx.c -o bin/closed_loop_new -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
