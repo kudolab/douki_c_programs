@@ -1,6 +1,4 @@
-/* monoplay.c */
-
-// clang 2chplay.c -o 2chplay /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+// clang 2chplay2.c -o 2chplay /usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,7 +9,7 @@
 
 /* #define SAMPLE_RATE  (17932) // Test failure to open with this value. */
 #define SAMPLE_RATE  (48000)
-#define FRAMES_PER_BUFFER (256)
+#define FRAMES_PER_BUFFER (1024)
 #define NUM_CHANNELS    (2)
 /* #define DITHER_FLAG     (paDitherOff)  */
 #define DITHER_FLAG     (0) /**/
@@ -84,7 +82,7 @@ int main(int argc, char *argv[]) {
     filename = argv[1];
 
     fprintf(stderr, "PROGRAM START.\n");
-    fflush(stdout);
+    fflush(stderr);
 
     write_buffer = (short int *) malloc(sizeof(short int) * FRAMES_PER_BUFFER * NUM_CHANNELS);
     if (write_buffer == NULL) exit(-1);
@@ -104,7 +102,7 @@ int main(int argc, char *argv[]) {
     for (n = 0; n < len; n++) data[n] = (short int) ddata[n];
 
     fprintf(stderr, "Initializing portaudio...\n");
-    fflush(stdout);
+    fflush(stderr);
     err = Pa_Initialize();
     if (err != paNoError) goto error;
 
@@ -133,10 +131,12 @@ int main(int argc, char *argv[]) {
     err = Pa_StartStream(stream);
     if (err != paNoError) goto error;
 
-    for (n = 0; n < len / 2; n++) {
-        write_buffer[0] = data[2 * n];
-        write_buffer[1] = data[2 * n + 1];
-        err = Pa_WriteStream(stream, write_buffer, FRAMES_PER_BUFFER);
+    for (n = 0; n < (int) (len / FRAMES_PER_BUFFER); n++) {
+        for (i = 0; i < FRAMES_PER_BUFFER; i++) {
+            write_buffer[2 * i] = data[2 * i + n * FRAMES_PER_BUFFER];
+            write_buffer[2 * i + 1] = data[2 * i + 1 + n * FRAMES_PER_BUFFER];
+        }
+        err = Pa_WriteStream(stream, write_buffer, FRAMES_PER_BUFFER / NUM_CHANNELS);
         if (err && CHECK_UNDERFLOW) goto xrun;
     }
 
@@ -171,3 +171,4 @@ int main(int argc, char *argv[]) {
     fprintf(stderr, "Error message: %s\n", Pa_GetErrorText(err));
     return -1;
 }
+
