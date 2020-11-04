@@ -13,6 +13,7 @@
 /* stdlib.h を include しないと Linux での atof の返り値は不確定になる */
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 #include "FileLib_osx.h"
 
 

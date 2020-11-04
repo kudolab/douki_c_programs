@@ -1,5 +1,6 @@
 #include "umasig.h"
 #include <math.h>
+#include <time.h>
 
 #define IA 16807
 #define IM 2147483647
