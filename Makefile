@@ -80,6 +80,9 @@ install: all
 clean:
 	rm -rf bin lib
 
+lint:
+	cppcheck --enable=all .
+
 # no dependencies
 bin/FC_deviation: FC_deviation.c Filelib_osx.c
 	gcc FC_deviation.c Filelib_osx.c -o bin/FC_deviation -I/usr/local/include -lm
