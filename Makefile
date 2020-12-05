@@ -24,6 +24,7 @@ bin/imp_add \
 bin/imp_add_by10 \
 bin/inverse \
 bin/linear_inpo_hrir_using_ATD \
+bin/overlap_add \
 bin/mono2LR \
 bin/peaking_filter \
 bin/print_siglen \
@@ -161,6 +162,9 @@ bin/inverse: inverse.c Filelib_osx.c
 
 bin/mono2LR: mono2LR.c Filelib_osx.c
 	gcc mono2LR.c Filelib_osx.c -o bin/mono2LR -I/usr/local/include -lm
+
+bin/overlap_add: overlap_add.c Filelib_osx.c
+	gcc overlap_add.c Filelib_osx.c -o bin/overlap_add -I/usr/local/include -lm
 
 bin/peaking_filter: peaking_filter.c Filelib_osx.c
 	gcc peaking_filter.c Filelib_osx.c -o bin/peaking_filter -I/usr/local/include -lm
