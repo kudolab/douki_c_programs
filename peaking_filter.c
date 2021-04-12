@@ -12,6 +12,7 @@
 #define samplerate 48000                    // サンプリング周波数
 
 int main(int argc, char *argv[]) {
+    (void)argc;
     double *input;                        // 入力信号の格納されたバッファ
     double *output;                        // フィルタ処理後の出力信号の格納されたバッファ
     double in1 = 0.0, in2 = 0.0, out1 = 0.0, out2 = 0.0;        // フィルタ計算用のバッファ変数

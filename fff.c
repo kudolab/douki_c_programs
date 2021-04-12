@@ -31,8 +31,8 @@ int main(argc, argv)
     double **filter;
     double *in, *in_h, *out_h, *filter_one;
     int i, j, K;
-    int leng_in, w_leng, m, leng_h, leng_out, leng_fil, leng_out_h, leng_in_h;
-    int fil_number, loop_times, switch_times, switch_times_limit, end_angle, move_angle;
+    int leng_in, leng_h, leng_out, leng_fil, leng_out_h, leng_in_h;
+    int fil_number, switch_times, switch_times_limit, end_angle, move_angle;
     double *Out, **out;
     double f, theta;
     int dur_time, overlap_time;

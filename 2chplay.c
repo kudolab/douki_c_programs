@@ -59,20 +59,16 @@
 
 /*******************************************************************/
 int main(int argc, char *argv[]) {
-    PaStreamParameters inputParameters, outputParameters;
+    PaStreamParameters outputParameters;
     PaStream *stream = NULL;
     PaError err;
     int i, n;
 
     short int *write_buffer;
     short int *data;
-    unsigned int len;
-    double *rec_raw_data;
+    int len;
     double *ddata;
-    int NUM_REPETITION;
-    int DOUKI_START;
     char *filename;
-    FILE *fp;
 
     if (argc != 2) {
         fprintf(stderr, "lack of arguments.\n");

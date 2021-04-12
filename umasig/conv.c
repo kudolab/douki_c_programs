@@ -47,7 +47,6 @@ void lconv(double *y, const double *a, const double *b, int na, int nb) {
 void fcorr_normalize(double *y, const double *a, const double *b, int na, int nb, int fft_points, int bai) {
 
     int j, fft_points_expd;
-    double real, imag;
     complex *A, *B, *Y;
     complex *A_expd, *B_expd;
     double AA_expd, BB_expd;

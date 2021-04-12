@@ -21,8 +21,8 @@ int main(int argc, char **argv) {
     double **filter;
     double *in, *in_h, *out_h, *filter_one;
     int i, j, l, K;
-    int leng_in, w_leng, m, leng_h, leng_out, leng_fil, leng_out_h, leng_in_h;
-    int fil_number, out_arg, loop_times, switch_times, switch_times_limit;
+    int leng_in, leng_h, leng_out, leng_fil, leng_out_h, leng_in_h;
+    int fil_number, out_arg, switch_times, switch_times_limit;
     double *Out, **out;
     double f, theta;
     int dur_time;

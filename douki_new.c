@@ -4,7 +4,6 @@
 
 int main(int argc, char *argv[]) {
 
-    FILE *fp;
     int i, j, n, DOUKI_START, mcode_len, len, NUM_OF_REPETITION;
     double *douki_data, *rec_data;
 

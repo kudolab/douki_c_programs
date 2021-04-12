@@ -91,7 +91,7 @@ int overlap_add(char *subject, char *sound_name, int move_width, int move_veloci
     double *y = (double *)malloc(sizeof(double) * conv_len);
     char *out_name = (char *)malloc(sizeof(char) * 100);
 
-    int i, j, angle, n, m;
+    int i, j, angle, n;
     for (i = 0; i < NUM_DIRECTION; i++) {
         for (j = 0; j < NUM_CHANNEL; j++) {
             for (angle = 0; angle < move_width; angle++) {
@@ -134,7 +134,6 @@ int overlap_add(char *subject, char *sound_name, int move_width, int move_veloci
 }
 
 int linear_convolution(double *y, const double *x1, int x1_len, const double *x2, int x2_len) {
-    int y_len = x1_len + x2_len - 1;
     for (int i = 0; i < x1_len; i++) {
         for (int j = i; j < x2_len + i; j++) {
             y[j] += x1[i] * x2[j - i];

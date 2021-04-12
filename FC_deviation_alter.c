@@ -50,7 +50,6 @@ int main(int argc, char *argv[]) {
     double *in_ave;        // 読み込みファイルの各サンプルにおける平均
     double *in_sum_difsquare;// 二乗誤差の総和
     double *standard_div;    // 標準偏差の出力変数
-    FILE *fp_dev;        // 算出した特性偏差の出力ファイルポインタ変数
     FILE *fp_linecnt;    // 読み込みファイルの行数カウント用
     FILE *fp_extra;        // 読み込みファイルのデータ抽出用
     FILE *fp_out;        // 書き出し用ファイルポインタ

@@ -64,14 +64,13 @@ int main(int argc, char *argv[]) {
     PaStream *stream = NULL;
     PaError err;
     char *sampleBlock;
-    int i, j, k, n;
-    int numBytes;
+    int j, n;
 
     short int *read_buffer;
     short int *write_buffer;
     short int *mcode_data;
-    FILE *fp, *fp2;
-    unsigned int len, mcode_len;
+    FILE *fp;
+    int mcode_len;
     double *rec_raw_data;
     double *mcode_ddata;
     int NUM_REPETITION;
@@ -210,7 +209,6 @@ int main(int argc, char *argv[]) {
         Pa_AbortStream(stream);
         Pa_CloseStream(stream);
     }
-    free(sampleBlock);
     Pa_Terminate();
     fprintf(stderr, "An error occured while using the portaudio stream\n");
     fprintf(stderr, "Error number: %d\n", err);

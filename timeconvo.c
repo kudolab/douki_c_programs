@@ -12,7 +12,7 @@ void help(void) {
 }
 
 int main(int argc, char **argv) {
-    int n, p, i;
+    int n, p;
     int N1, N2;
     double *x, *h, *y;
 

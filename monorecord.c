@@ -60,15 +60,13 @@
 
 /*******************************************************************/
 int main(int argc, char *argv[]) {
-    PaStreamParameters inputParameters, outputParameters;
+    PaStreamParameters inputParameters;
     PaStream *stream = NULL;
     PaError err;
     int n;
 
     short int *read_buffer;
-    double *rec_raw_data;
     FILE *fp;
-    unsigned int len;
     char *filename;
     long int record_sample;
 

@@ -16,8 +16,6 @@ int main(int argc, char *argv[])
     short int *in1, *in2;
     int in1_len, in2_len;
     FILE *fp1, *fp2, *fp3;
-    int hantei;
-    char *sp;
 
     if (argc != 4) {
         fprintf(stderr, "lack of argument!!\n");

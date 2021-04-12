@@ -23,10 +23,10 @@
 
 void plot(const double *x, int n) {
     FILE *command, *data;
-    char *temp_name = NULL;
+    char *temp_name = "/tmp/tmpXXXXXX";
     int i;
 
-    if ((temp_name = tmpnam((char *) 0)) == 0) PANIC("tmpnam failed");
+    if (mkstemp(temp_name) == -1) PANIC("mkstemp failed");
     if (mkfifo(temp_name, S_IRUSR | S_IWUSR) != 0) PANIC("mkfifo failed");
     command = popen("gnuplot", "w");
     fprintf(command, "plot \"%s\" with lines\n", temp_name);
@@ -46,10 +46,10 @@ void plot(const double *x, int n) {
 
 void c_plot(const complex *x, int n, char part) {
     FILE *command, *data;
-    char *temp_name = NULL;
+    char *temp_name = "/tmp/tmpXXXXXX";
     int i;
 
-    if ((temp_name = tmpnam((char *) 0)) == 0) PANIC("tmpnam failed");
+    if (mkstemp(temp_name) == -1) PANIC("mkstemp failed");
     if (mkfifo(temp_name, S_IRUSR | S_IWUSR) != 0) PANIC("mkfifo failed");
     command = popen("gnuplot", "w");
     fprintf(command, "plot \"%s\" with lines\n", temp_name);

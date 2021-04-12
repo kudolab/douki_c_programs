@@ -12,15 +12,13 @@
 #include "umasig.h"
 
 int main(int argc, char *argv[]) {
-    int i, j;
+    int i;
     int length1, length2, length;
     double sampling_freq;
     double *x1, *x2, *y;
     int fft_points, fft_points_expd, bai;
     double y_max;
     int y_max_i;
-
-    complex *X;
 
     if (argc != 5) {
         fprintf(stderr, "������­��ޤ���\n");

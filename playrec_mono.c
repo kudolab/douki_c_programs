@@ -65,14 +65,13 @@ int main(int argc, char *argv[]) {
     PaStreamParameters inputParameters, outputParameters;
     PaStream *stream = NULL;
     PaError err;
-    char *sampleBlock;
-    int i, j, k, n;
+    int j, n;
 
     short int *read_buffer;
     short int *write_buffer;
     short int *mcode_data;
     FILE *fp;
-    unsigned int len, mcode_len;
+    int mcode_len;
     double *mcode_ddata;
     int NUM_REPETITION;
     int DOUKI_START;
@@ -176,7 +175,6 @@ int main(int argc, char *argv[]) {
     if (fp == NULL) exit(EXIT_FAILURE);
     fscanf(fp, "%d\n", &DOUKI_START);
     fclose(fp);
-    DOUKI_START = DOUKI_START;//Shift the origin of time
 
     rec_raw_data = (double *) malloc(sizeof(double) * (NUM_REPETITION + 1) * mcode_len);
     if (rec_raw_data == NULL) exit(EXIT_FAILURE);
@@ -194,7 +192,6 @@ int main(int argc, char *argv[]) {
         Pa_AbortStream(stream);
         Pa_CloseStream(stream);
     }
-    free(sampleBlock);
     Pa_Terminate();
     if (err & paInputOverflow)
         fprintf(stderr, "Input Overflow.\n");
@@ -207,7 +204,6 @@ int main(int argc, char *argv[]) {
         Pa_AbortStream(stream);
         Pa_CloseStream(stream);
     }
-    free(sampleBlock);
     Pa_Terminate();
     fprintf(stderr, "An error occured while using the portaudio stream\n");
     fprintf(stderr, "Error number: %d\n", err);

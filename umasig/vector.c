@@ -35,7 +35,6 @@ double *vec_new(int size) {
 }
 
 double *vec_new_from_vec(const double *vec, int size) {
-    int i;
     double *buf;
 
     buf = vec_new(size);

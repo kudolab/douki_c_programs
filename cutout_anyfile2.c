@@ -15,10 +15,7 @@
 
 int main(int argc, char *argv[]) {
 
-    FILE *fp_in;
-    FILE *fp_out;
     FILE *fp_point;
-    int i, j;
     int length;
     int st_point;
     int width;
