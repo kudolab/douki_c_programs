@@ -1,98 +1,28 @@
 # douki
-Clang programs for research.
 
-# Table of contents
-
-- 日本語ドキュメント
-- Documents in English
-
-# 日本語ドキュメント
+研究用プログラム
 
 ## 依存ライブラリ
 
-以下のライブラリがインストールされているか確認してください。
+以下のライブラリがインストールされているか確認してください。(brewでインストール)
 
-- portaudio (brewでインストール)
+- portaudio 
 - fftw
-
 
 ## インストール
 
-
 ```shell script
-mkdir -p ~/local/bin
-mkdir -p ~/local/lib
-mkdir -p ~/local/include
-
 make
-make install
+sudo make install
 ```
 
-生成された実行ファイルは`~/local/bin`にインストールされます。  
-`~/local/bin`にパスを通すことを推奨します。
-
-## インストール (初期設定)
-
-Macの初期設定をするときに実行すると便利です。 
-
-Macの設定を含めて一括で実行できます。
-
-### <重要> 
-
-インストールの前に下記を確認してください。
-
-- githubに登録してください。メールアドレスは個人のもので大丈夫です。
-- プロキシとrouterのメディアアクセス制御の設定を行い、googleなどにアクセスできることを確認してください。
-
-### 実行
-
-以下をターミナルで実行してください。
+## アンインストール
 
 ```shell script
-bash install.sh
+make uninstall
 ```
 
-# Documents in English
-
-## Requirements
-
-- portaudio
-- fftw
-
-
-## Install
-
-
-Executable files will be installed to `~/local/bin`. You should make a paht to `~/local/bin`.
-
-
-```shell script
-mkdir -p ~/local/bin
-mkdir -p ~/local/lib
-mkdir -p ~/local/include
-
-make
-make install
-```
-
-
-## Install (First setup)
-
-### **Important**
-Before installment, ensure below.
-
-- You must to resister to github. Use your own e-mail address.
-- Set up proxy and Media Access Control.
-
-### Run
-
-Please run this
-
-```shell script
-sh install.sh
-```
-
-# Programs included in this repo.
+# 含まれるプログラム
 
 - no dependencies
     - FC_deviation
