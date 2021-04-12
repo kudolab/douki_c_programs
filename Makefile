@@ -65,9 +65,6 @@ bin/fadein_fadeout_fourier
 
 ALL_PROGRAMS=${NO_DEPENDENCY_PROGRAMS} ${PORTAUDIO_PROGRAMS} ${FFTW_PROGRAMS} ${UMASIG_PROGRAMS}
 
-# if [ ! -d "bin" ]; then mkdir bin; fi
-# if [ ! -d "lib" ]; then mkdir lib; fi
-
 .PHONY: all clean
 all: init ${ALL_PROGRAMS}
 
@@ -76,7 +73,10 @@ init:
 	@if [ ! -d "lib" ]; then mkdir lib; fi
 
 install: all
-	install -s ${ALL_PROGRAMS} ${HOME}/local/bin
+	install -s ${ALL_PROGRAMS} /usr/local/bin
+
+uninstall:
+	bash -c 'ALL_PROGRAMS="${ALL_PROGRAMS}"; for PROGRAM in $${ALL_PROGRAMS[@]}; do rm -f /usr/local/$${PROGRAM}; done'
 
 clean:
 	rm -rf bin lib
