@@ -11,7 +11,6 @@
 #include <math.h>
 #include <string.h>
 //#include <complex.h>
-#pragma jis
 //#include "FileLib_osx.c"
 
 #define PI 3.141592654
@@ -23,7 +22,6 @@ int main(int argc, char *argv[]) {
     int k;            // �J�E���^�ϐ�	(**in�̍s(�e�T���v���̒l)���Ǘ�)
     int linecnt;        // �s���J�E���^�ϐ�
     int c;            // �t�@�C���ǂݍ��݃J�E���^�ϐ�
-    int l;            // �̈�m�ۗp�J�E���^�ϐ�
     int *m;        // �O��딻��J�E���^
     int a = 0;
 
@@ -40,7 +38,6 @@ int main(int argc, char *argv[]) {
     double *in_err;    // �A���O���ƃA���T�[�̑��Ό덷[%]
     double in_ave = 0;        // �ǂݍ��݃t�@�C���̊e�T���v���ɂ����镽��
     double in_sum = 0;        // �ǂݍ��݃t�@�C���̑��a
-    FILE *fp_dev;        // �Z�o���������΍��̏o�̓t�@�C���|�C���^�ϐ�
     FILE *fp_linecnt;    // �ǂݍ��݃t�@�C���̍s���J�E���g�p
     FILE *fp_extra;        // �ǂݍ��݃t�@�C���̃f�[�^���o�p
     FILE *fp_out;        // �����o���p�t�@�C���|�C���^
@@ -83,7 +80,7 @@ int main(int argc, char *argv[]) {
     fp_extra = fopen(name, "r");
     if (fp_extra) {
         while ((c = getc(fp_extra)) != EOF) {
-            fscanf(fp_extra, "%s %d %s %s %d", gomi1, &in_ang[k], gomi2, &in_ans[k]);
+            fscanf(fp_extra, "%s %d %s %d", gomi1, &in_ang[k], gomi2, &in_ans[k]);
             fprintf(stderr, "gomi1 = %s  in_ang =  %d  gomi2 =  %s in_ans =  %d\n", gomi1, in_ang[k], gomi2, in_ans[k]);
             k++;
         }

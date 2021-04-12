@@ -11,7 +11,7 @@
 #include "FileLib_osx.h"
 
 int main(int argc, char *argv[]) {
-    FILE *fp_input_files, *fp_signal;
+    FILE *fp_input_files;
     int i, j;
     int file_num;
     double *x;

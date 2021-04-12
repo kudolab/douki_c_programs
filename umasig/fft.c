@@ -94,7 +94,6 @@ void amp_spect(double *y, const double *x, int n) {
 
 void amp_spect_dB(double *y, const double *x, int n) {
     int i;
-    double max_val;
     power_spect(y, x, n);
     //for (i = 0; i <= n/2; ++i)
     for (i = 0; i <= n / 2; i++)

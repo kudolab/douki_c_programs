@@ -135,7 +135,7 @@ int McodeAdamaCreat(char *ifile, double *p) {
 }
 
 int McodeAdamaConv(double *p, char *ofile, char *impfile) {
-    int i, j, k, m;
+    int i, j, k;
     double a, b, is, *x;
     int ix1, ix2, id, jd;
     double *h, coef;
@@ -178,18 +178,17 @@ int McodeAdamaConv(double *p, char *ofile, char *impfile) {
 
 /*******************************************************************/
 int main(int argc, char *argv[]) {
+    (void)argv;
     PaStreamParameters inputParameters, outputParameters;
     PaStream *stream = NULL;
     PaError err;
-    char *sampleBlock;
     int i, j, k, n;
-    int numBytes;
 
     short int *read_buffer;
     short int *write_buffer;
     short int *mcode_data;
     FILE *fp;
-    unsigned int len, mcode_len;
+    int len, mcode_len;
     double *rec_data;
     double *madamacode;
     double *mcode_ddata;
@@ -324,7 +323,6 @@ int main(int argc, char *argv[]) {
         Pa_AbortStream(stream);
         Pa_CloseStream(stream);
     }
-    free(sampleBlock);
     Pa_Terminate();
     if (err & paInputOverflow)
         fprintf(stderr, "Input Overflow.\n");
@@ -337,7 +335,6 @@ int main(int argc, char *argv[]) {
         Pa_AbortStream(stream);
         Pa_CloseStream(stream);
     }
-    free(sampleBlock);
     Pa_Terminate();
     fprintf(stderr, "An error occured while using the portaudio stream\n");
     fprintf(stderr, "Error number: %d\n", err);

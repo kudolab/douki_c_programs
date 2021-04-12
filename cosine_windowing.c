@@ -13,14 +13,11 @@
 #define PI 3.141592654
 
 int main(int argc, char *argv[]) {
-    FILE *fp_in, *fp_out;
-    int i, j;
+    int i;
     double *x;
     int length;
     double sampling_freq;
     int start_point;
-    int width;
-    int end_point;
     int window_len;
 
     if (argc != 6) {

@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
     fprintf(stdout, "bai:%d,", bai);
 
     x1 = (double *)calloc(length, (size_t)sizeof(double));
-    if (1 == NULL) {
+    if (x1 == NULL) {
         fprintf(stderr, "memory allocation failed at calloc()\n");
         exit(EXIT_FAILURE);
     }

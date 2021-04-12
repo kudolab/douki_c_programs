@@ -25,7 +25,6 @@ int main(int argc, char *argv[]) {
     int angle = 0;            // カウンタ(角度)
     int completion = 0;        // カウンタ(左右判定)
 
-    double pow_rate = 0.0;        // 要求割合
     double all_pow = 0.0;        // 全エネルギー
     double dust_pow = 0.0;        // 残響エネルギー
     double dust_par = 0.0;        // 残響エネルギー比率

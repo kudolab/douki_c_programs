@@ -21,7 +21,6 @@ int main(int argc, char *argv[]) {
     int i = 0;            // カウンタ
     int length = 0;            // 信号長
 
-    double pow_rate = 0.0;        // 要求割合
     double all_pow = 0.0;        // 全エネルギー
     double dust_pow = 0.0;        // 残響エネルギー
     double dust_par = 0.0;        // 残響エネルギー比率

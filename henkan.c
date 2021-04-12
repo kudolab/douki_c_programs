@@ -3,6 +3,7 @@
 #include "FileLib_osx.h"
 
 int main(int argc, char *argv[]) {
+    (void)argc;
     int len;
     double *data;
 

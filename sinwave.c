@@ -4,6 +4,8 @@
 #include "FileLib_osx.h"
 
 int main(int argc, char *argv[]) {
+    (void)argc;
+    (void)argv;
     FILE *fpw;
     double *pbuffer;
     int samplingfreq = 48000;

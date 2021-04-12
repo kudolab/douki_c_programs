@@ -21,7 +21,6 @@ int main(int argc, char *argv[]) {
     int i = 0;            // カウンタ
     int k = 0;            // カウンタ
     int length = 0;            // 信号長
-    int range = 256;            // 切り出し幅(256[sample])
 
     double threshold = 0.0;        // 閾値
     double average;            // 平均値

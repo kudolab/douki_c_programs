@@ -4,18 +4,9 @@
 
 int main(int argc, char *argv[]) {
 
-    int len, i, m, n;
-    int NUM_OF_CHANNELS, amari;
+    int len, i;
     double point, average;
     double *data_all;
-
-    struct {
-        char *fname;
-        char tmp[256];
-        char *fext;
-        char fname_all[256];
-        char num[2];
-    } moji;
 
     if (argc != 3) {
         fprintf(stderr, "separate each channel from xch file\n");

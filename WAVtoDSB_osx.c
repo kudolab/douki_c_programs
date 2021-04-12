@@ -89,13 +89,11 @@ int main(int argc, char *argv[]) {
 
     FILE *rFILE, *wFILE_ch1, *wFILE_ch2;
 
-    int ret;                     /* 戻り値 */
     int freq = 0;                /* サンプリング周波数 */
     int bitno = 0;               /* サンプリングビット数 */
     int kind = 0;                /* データ種別 */
     int pcmsz = 0;               /* PCMデータサイズ */
     int pcmstart = 44;           /* PCMデータ相対開始位置 */
-    int rdsz;                    /* 読み込んだデータサイズ */
 
     int i, j, k, len_441, len_480;
     short int *data, *x_441_ch1, *x_441_ch2, buff_ch1, buff_ch2;

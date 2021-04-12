@@ -71,7 +71,7 @@ int McodeAdamaCreat(char *ifile, double *p) {
 }
 
 int McodeAdamaConv(double *p, char *ofile, char *impfile) {
-    int i, j, k, m;
+    int i, j, k;
     double a, b, is, *x;
     int ix1, ix2, id, jd;
     double *h, coef;

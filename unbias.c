@@ -7,8 +7,8 @@
 
 int main(int argc, char *argv[]) {
     double *dat, *idat, sum, sumx, sumy, sumxx, sumxy, ai, dnsize, a, b;
-    long i, j, n;
-    char file1[15], file2[15], cndat;
+    long i, n;
+    char file1[15], file2[15];
 
     if (argc < 2) {
         printf(" unbias file1 file2\n");

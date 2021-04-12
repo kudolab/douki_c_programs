@@ -19,13 +19,11 @@
 int main(int argc, char *argv[]) {
     int n = 0;                // カウンタ
     int length = 0;            // 信号長
-    int start = 0;            // 切り出し開始点
     int end = 0;            // 切り出し終了点
 
     double all_pow = 0.0;        // 全エネルギー
     double dust_zero = 0.0;        // 廃棄エネルギー(前半)
     double dust_pow = 0.0;        // 廃棄エネルギー(総合)
-    double dust_par = 0.0;        // 廃棄エネルギー比率
     double energy_rate = 0.0;        // 切り出しエネルギー比率
 
     double *data;            // 入力データ

@@ -19,7 +19,6 @@
 int main(int argc, char *argv[]) {
     int n = 0;            // カウンタ
     int length = 0;            // 信号長
-    int start = 0;            // 切り出し開始点
     int end = 0;            // 切り出し終了点
 
     double pow_rate = 0.0;        // 要求割合

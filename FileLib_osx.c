@@ -109,9 +109,8 @@ int style(char *name) {
 
 int lenfile(char *name) {
     FILE *fp;
-    unsigned long i, j, k;
-    double data, data2;
-    short datas;
+    unsigned long i, j;
+    double data;
     static char da[4][10] = {"%d", "%e", "%le", "%le %le"};
     static int db[3] = {2, 4, 8};
 
@@ -172,9 +171,8 @@ int read_DDAfile(char *name, double *data, int len) {
 
 int read_DSBfile(char *name, double *data, int len) {
     FILE *fin;
-    int n, i, size;
+    int n;
     short data_int;
-    char *data_char, tmp;
     if ((fin = fopen(name, "rb")) == NULL)
         AnyFile_error(1);
     n = 0;
@@ -187,9 +185,8 @@ int read_DSBfile(char *name, double *data, int len) {
 
 int read_DFBfile(char *name, double *data, int len) {
     FILE *fin;
-    int n, i, size;
+    int n;
     float data_float;
-    char *data_char, tmp;
     if ((fin = fopen(name, "rb")) == NULL)
         AnyFile_error(1);
     n = 0;
@@ -202,9 +199,8 @@ int read_DFBfile(char *name, double *data, int len) {
 
 int read_DDBfile(char *name, double *data, int len) {
     FILE *fin;
-    int m, n, i, size;
+    int n;
     double data_double;
-    char *data_char, tmp;
     if ((fin = fopen(name, "rb")) == NULL) AnyFile_error(1);
     n = 0;
     while ((fread(&data_double, sizeof(double), 1, fin)) == 1 && n - 1 < len) {
@@ -335,9 +331,8 @@ int write_DDAfile(char *name, double *data, int len) {
 
 int write_DSBfile(char *name, double *data, int len) {
     FILE *fout;
-    int n, i, j, size;
+    int n;
     short *data_int;
-    char *data_char, tmp;
 
     data_int = (short *) malloc(sizeof(short) * len);
     if ((fout = fopen(name, "wb")) == NULL) AnyFile_error(1);
@@ -351,9 +346,8 @@ int write_DSBfile(char *name, double *data, int len) {
 
 int write_DFBfile(char *name, double *data, int len) {
     FILE *fout;
-    int n, i, j, size;
+    int n;
     float *data_float;
-    char *data_char, tmp;
 
     data_float = (float *) malloc(sizeof(float) * len);
     if ((fout = fopen(name, "wb")) == NULL) AnyFile_error(1);
@@ -367,8 +361,7 @@ int write_DFBfile(char *name, double *data, int len) {
 
 int write_DDBfile(char *name, double *data, int len) {
     FILE *fout;
-    int n, i, j, size;
-    char *data_char, tmp;
+    int n;
     double *data_double;
 
     data_double = (double *) malloc(sizeof(double) * len);
