@@ -197,43 +197,43 @@ bin/zeropad_anyfile: zeropad_anyfile.c Filelib_osx.c
 # portaudio
 
 bin/2chplay: 2chplay.c Filelib_osx.c
-	gcc 2chplay.c Filelib_osx.c -O2 -Wall -W -o bin/2chplay -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc 2chplay.c Filelib_osx.c -O2 -Wall -W -o bin/2chplay -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/closed_loop_new: closed_loop_new.c Filelib_osx.c
-	gcc closed_loop_new.c Filelib_osx.c -O2 -Wall -W -o bin/closed_loop_new -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc closed_loop_new.c Filelib_osx.c -O2 -Wall -W -o bin/closed_loop_new -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/monoplay: monoplay.c Filelib_osx.c
-	gcc monoplay.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc monoplay.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/monoplay2: monoplay2.c Filelib_osx.c
-	gcc monoplay2.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay2 -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc monoplay2.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay2 -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/monoplay_48k: monoplay_48k.c Filelib_osx.c
-	gcc monoplay_48k.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay_48k -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc monoplay_48k.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay_48k -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/monoplay_8kHz: monoplay_8kHz.c Filelib_osx.c
-	gcc monoplay_8kHz.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay_8kHz -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc monoplay_8kHz.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay_8kHz -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/monoplay_alter: monoplay_alter.c Filelib_osx.c
-	gcc monoplay_alter.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay_alter -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc monoplay_alter.c Filelib_osx.c -O2 -Wall -W -o bin/monoplay_alter -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/monorecord: monorecord.c Filelib_osx.c
-	gcc monorecord.c Filelib_osx.c -O2 -Wall -W -o bin/monorecord -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc monorecord.c Filelib_osx.c -O2 -Wall -W -o bin/monorecord -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/playrec_2ch_inPath: playrec_2ch_inPath.c Filelib_osx.c
-	gcc playrec_2ch_inPath.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_2ch_inPath -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc playrec_2ch_inPath.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_2ch_inPath -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/playrec_2ch_new_kai: playrec_2ch_new_kai.c Filelib_osx.c
-	gcc playrec_2ch_new_kai.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_2ch_new_kai -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc playrec_2ch_new_kai.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_2ch_new_kai -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/playrec_mono: playrec_mono.c Filelib_osx.c
-	gcc playrec_mono.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_mono -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc playrec_mono.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_mono -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/playrec_mono_inPath: playrec_mono_inPath.c Filelib_osx.c
-	gcc playrec_mono_inPath.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_mono_inPath -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc playrec_mono_inPath.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_mono_inPath -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 bin/playrec_multi: playrec_multi.c Filelib_osx.c
-	gcc playrec_multi.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_multi -I/usr/local/include -L/usr/local/Cellar/portaudio/19.6.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
+	gcc playrec_multi.c Filelib_osx.c -O2 -Wall -W -o bin/playrec_multi -I/usr/local/include -L/usr/local/Cellar/portaudio/19.7.0/lib -lportaudio -lm -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework CoreServices
 
 
 # fftw
